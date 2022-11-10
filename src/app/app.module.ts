@@ -8,6 +8,7 @@ import { SearchNavComponent } from './search-nav/search-nav.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { MainComponent } from './main/main.component';
 import { OfferboxComponent } from './offerbox/offerbox.component';
+import { IconpartComponent } from './iconpart/iconpart.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { OfferboxComponent } from './offerbox/offerbox.component';
     SearchNavComponent,
     NavbarComponent,
     MainComponent,
-    OfferboxComponent
+    OfferboxComponent,
+    IconpartComponent
   ],
   imports: [
     BrowserModule,

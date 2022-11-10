@@ -16,6 +16,10 @@
     background-color: #B70000!important;
     
 }
+input placeholder{
+    font-family: Lato,sans-serif;
+    font-size: 12px;
+}
 .search button {
     border: none;
     background-color: #FFC300 !important;
