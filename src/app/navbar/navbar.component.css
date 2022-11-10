@@ -1,4 +1,39 @@
 nav{
     background-color: #FFC300 !important ;
     padding: 15px 30px;
+    line-height: 30px;
+    font-family: Lato,sans-serif;
+}
+nav a{
+    display: inline-block;
+}
+.nav-item {
+    font-weight: bold;
+    color: black;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: Lato,sans-serif;
+}
+.nav-item:hover{
+    
+    border-bottom: 2px solid #fff;
+}
+.navbar-toggler{
+    outline: none !important;
+    border: none !important;
+}
+.menu_bar{
+    color: crimson;
+    font-size: 26px;
+}
+.robort{
+    color: black;
+    font-size: 30px;
+
+}
+@media only screen and(max-width: 1000px){
+    .nav-item:hover{
+        border-bottom: none;
+    }
 }
