@@ -9,6 +9,9 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { MainComponent } from './main/main.component';
 import { OfferboxComponent } from './offerbox/offerbox.component';
 import { IconpartComponent } from './iconpart/iconpart.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
+import { FavoritesComponent } from './favorites/favorites.component';
+
 
 
 @NgModule({
@@ -18,12 +21,14 @@ import { IconpartComponent } from './iconpart/iconpart.component';
     NavbarComponent,
     MainComponent,
     OfferboxComponent,
-    IconpartComponent
+    IconpartComponent,
+    FavoritesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
