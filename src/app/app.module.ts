@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { CarouselModule } from 'ngx-owl-carousel-o';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -9,8 +10,11 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { MainComponent } from './main/main.component';
 import { OfferboxComponent } from './offerbox/offerbox.component';
 import { IconpartComponent } from './iconpart/iconpart.component';
-import { CarouselModule } from 'ngx-owl-carousel-o';
-import { FavoritesComponent } from './favorites/favorites.component';
+import { FavoriteComponent } from './favorite/favorite.component';
+import { VersoFeatureComponent } from './verso-feature/verso-feature.component';
+import { CardSectionComponent } from './card-section/card-section.component';
+
+
 
 
 
@@ -22,13 +26,17 @@ import { FavoritesComponent } from './favorites/favorites.component';
     MainComponent,
     OfferboxComponent,
     IconpartComponent,
-    FavoritesComponent
+    FavoriteComponent,
+    VersoFeatureComponent,
+    CardSectionComponent,
+    
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    CarouselModule
+   CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
