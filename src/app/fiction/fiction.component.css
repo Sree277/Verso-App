@@ -20,7 +20,7 @@ img{
     font-size: 15px;
     padding-bottom: 10px;
 }
-.overlay
+.bookicones
 {
     display: block;
     opacity: 0;
@@ -30,14 +30,14 @@ img{
     width: 70px;
 
 }
-.product-top:hover .overlay
+.product-top:hover .bookicones
 {
      opacity: 1;
      margin-left: 5%;
      transition: 0.5s;
 
 }
-.overlay.fa
+.bookicones.fa
 {
    cursor: pointer;
    background-color: #fff;
