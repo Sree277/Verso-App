@@ -13,6 +13,10 @@ import { IconpartComponent } from './iconpart/iconpart.component';
 import { FavoriteComponent } from './favorite/favorite.component';
 import { VersoFeatureComponent } from './verso-feature/verso-feature.component';
 import { CardSectionComponent } from './card-section/card-section.component';
+import { NewArrivalComponent } from './new-arrival/new-arrival.component';
+import { FictionComponent } from './fiction/fiction.component';
+import { SubPart1Component } from './sub-part1/sub-part1.component';
+import { DiscountComponent } from './discount/discount.component';
 
 
 
@@ -29,6 +33,10 @@ import { CardSectionComponent } from './card-section/card-section.component';
     FavoriteComponent,
     VersoFeatureComponent,
     CardSectionComponent,
+    NewArrivalComponent,
+    FictionComponent,
+    SubPart1Component,
+    DiscountComponent,
     
     
   ],
