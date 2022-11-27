@@ -1,7 +1,3 @@
-body{
-    font-family: sans-serif;
-}
-
 .container{
     border: 1px solid lightgray;
 }
@@ -9,45 +5,28 @@ img{
     width: 100%;
     height: 200px;
 }
-.product-bottom .fa
+.fa
 {
     color: #ffc300;
     font-size: 10px;
-    
 }
-.product-bottom h3
+ h3
 {
-    font-size: 20px;
+    font-size: 17px;
     font-weight: bold;
 }
-.product-bottom h5
+h5
 {
     font-size: 15px;
     padding-bottom: 10px;
+ }
+ .space{
+    margin-right: 3px;
 }
-.overlay
-{
-    display: block;
-    opacity: 0;
-    position: absolute;
-    top: 10%;
-    margin-left: 0;
-    width: 70px;
-
+.bookicones{
+   margin-top: 5px;
 }
-.product-top:hover .overlay
-{
-     opacity: 1;
-     margin-left: 5%;
-     transition: 0.5s;
-
-}
-.overlay.fa
-{
-   cursor: pointer;
-   background-color: #fff;
-   color: #000;
-   height: 35px;
-   width: 35px;
-   font-size: 20px;
+.bookicones:hover{
+   
+    color: #ffc300;
 }

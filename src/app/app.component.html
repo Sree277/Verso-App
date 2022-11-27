@@ -4,21 +4,81 @@
       <app-search-nav></app-search-nav>
       
     </div>
-    <div class="col-md-12">
+    <!-- <div class="col-md-12">
       <app-navbar></app-navbar>
-    </div>
-    
+    </div> -->
+   
+    <section >
+      <nav class="navbar navbar-expand-lg navbar-light bg-light header-nav ">
+        <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid menu_bar fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item active text-dark ">
+              <a class="nav-link "  [routerLink]="'NewArrivals'">New Arrivals</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link"  [routerLink]="'Rentbook'">Rent a Book</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">New Arrivals</a>
+            </li> -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle"  role="button" id="navbarDropdown" data-toggle="dropdown" aria-expanded="false"    [routerLink]="'fiction_section'">
+                Books catogory
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"  [routerLink]="'Usedbook'">Used Books</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  [routerLink]="'RareCollections'">Rare Collections</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false"  [routerLink]="'fiction_section'">
+                  Dropdown link
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">ChildrenStory</a>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link" [routerLink]="'fiction'"> Fiction</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  [routerLink]="'Storybook'">StoryBook</a>
+              </li>
+              <li class="nav-item">
+                <i class="fa-solid robort fa-robot"></i>
+              </li>
+          </ul>
+        </div>
+       </div>
+     </nav>
+    </section>
+    <!-- ..........................................navbar end.................................. -->
+
+
+<!--     
     <div class="col-md-12">
       <app-offerbox></app-offerbox>
-    </div>
+    </div> -->
     <div class="col-md-12">
       <app-main></app-main>
     </div>
-    <!-- <div class="col-md-12">
-      <app-iconpart></app-iconpart>
-    </div> -->
-    
-     <div class="col-md-12">
+     <!-- <div class="col-md-12">
       <app-verso-feature></app-verso-feature>
     </div>
     <div class="col-md-12">
@@ -39,9 +99,19 @@
     </div>
     <div class="col-md-12">
       <app-discount></app-discount>
-  </div>
- 
+    </div>
+     <div class="col-md-12">
+        <app-category></app-category>
+     </div>
+     <div class="col-md-12">
     
+     </div> -->
+     <div class="col-md-12">
+        <app-footer></app-footer>
+    </div>
+
  
+  
  </div>
 </div>
+<router-outlet></router-outlet>

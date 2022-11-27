@@ -20,7 +20,7 @@ img{
     font-size: 15px;
     padding-bottom: 10px;
 }
-.bookicones
+/* .bookicones
 {
     display: block;
     opacity: 0;
@@ -45,4 +45,10 @@ img{
    height: 35px;
    width: 35px;
    font-size: 20px;
+} */
+.space{
+    margin-right: 3px;
 }
+.bookicones{
+    margin-top: 5px;
+ }

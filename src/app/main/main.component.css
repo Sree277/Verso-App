@@ -1,3 +1,12 @@
+.sectn{
+    background-image: linear-gradient(to right, black , #B70000);
+}
+.offfer-b{
+    width: 100%;
+   
+}
+
+
 .carousel-item{
     /* height: 100vh;
     min-height: 300px; */
@@ -46,3 +55,188 @@
     border: 1px solid #FFC300;
 
 } 
+/* .................verso feature........................... */
+
+
+.sectn-feature{
+    display: flex;
+    width: 100%;
+    min-height: 50vh;
+    align-items: center;
+
+}
+.about-us-section{
+
+
+    padding: calc(5% + 30px) 0px !important;
+}
+.img-head{
+    position: relative;
+}
+.img-head img{
+    width: 100%;
+    height: 110%;
+}
+ .img-head::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right botttom,  #19456b,#16c79a);
+    position: absolute;
+    left: 0;
+    right: 0;
+    opacity: .5;
+}
+.text-head{
+    color: black; 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    font-family: "Mier bold"!important;
+    margin: 0px;
+    padding: 0px;
+}
+/* .backgrnd{
+    background-color: #fff;   
+} */
+.box{
+    /* background-color:  #FFC300; */
+    font-family: "Mier bold"!important;
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #FFC300;
+    /* font-size: 17px; */
+}
+.box i {
+    font-size: 14px;
+}
+.box p{
+    font-size: 10px;
+    color: black;
+}
+/* .box::after,
+.box::before {
+   content: "";
+   position: absolute;
+   width: 70px;
+   height: 70px;
+   background-color: #fff5;
+   border-radius: 50%;
+   transition: transform .3s;
+}
+.box::after{
+    left: -40px;
+    top: -40px;
+}
+.box::before{
+    right: -40px;
+    bottom: -40px;
+} */
+/* ...........card section...................................................... */
+.btn{
+    background-color: #FFC300!important;
+}
+/* ............................new arrivals............................................... */
+
+.arrival-cont{
+    border: 1px solid lightgray;
+}
+.card-img-top{
+    width: 100%;
+    height: 200px;
+}
+.product-bottom .fa
+{
+    color: rgb(20, 20, 20);
+    font-size: 10px;
+}
+.product-bottom .fa:hover{
+    color: #FFC300;
+}
+h3
+{
+    font-size: 17px;
+    font-weight: bold;
+}
+h5
+{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+/* .bookicones
+{
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 10%;
+    margin-left: 0;
+    width: 70px;
+
+}
+.product-top:hover .bookicones
+{
+     opacity: 1;
+     margin-left: 5%;
+     transition: 0.5s;
+
+}
+.bookicones.fa
+{
+   cursor: pointer;
+   background-color: #fff;
+   color: #000;
+   height: 35px;
+   width: 35px;
+   font-size: 20px;
+} */
+.space{
+    margin-right: 3px;
+}
+.bookicones{
+    margin-top: 5px;
+ }
+ /* ............................category............................................. */
+.cat-section{
+    background-color: #ffc300;
+}
+.cat{
+    border-right: 1px solid #fff;
+}
+/* ......................................discount.......................... */
+.cont{
+    border: 1px solid lightgray;
+}
+.card-img-top{
+    width: 100%;
+    height: 200px;
+}
+.fa
+{
+    color: #ffc300;
+    font-size: 10px;
+}
+ h3
+{
+    font-size: 17px;
+    font-weight: bold;
+}
+h5
+{
+    font-size: 15px;
+    padding-bottom: 10px;
+ }
+ .space{
+    margin-right: 3px;
+}
+.bookicones{
+   margin-top: 5px;
+}
+.bookicones:hover{
+   
+    color: #ffc300;
+}
+
+ 

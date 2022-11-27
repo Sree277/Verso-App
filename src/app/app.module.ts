@@ -17,6 +17,10 @@ import { NewArrivalComponent } from './new-arrival/new-arrival.component';
 import { FictionComponent } from './fiction/fiction.component';
 import { SubPart1Component } from './sub-part1/sub-part1.component';
 import { DiscountComponent } from './discount/discount.component';
+import { CategoryComponent } from './category/category.component';
+import { FooterComponent } from './footer/footer.component';
+import { RentSectionComponent } from './rent-section/rent-section.component';
+import { UsedBookComponent } from './used-book/used-book.component';
 
 
 
@@ -37,6 +41,10 @@ import { DiscountComponent } from './discount/discount.component';
     FictionComponent,
     SubPart1Component,
     DiscountComponent,
+    CategoryComponent,
+    FooterComponent,
+    RentSectionComponent,
+    UsedBookComponent,
     
     
   ],
