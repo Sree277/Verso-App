@@ -8,20 +8,21 @@ import { RentSectionComponent } from './rent-section/rent-section.component';
 import { UsedBookComponent } from './used-book/used-book.component';
 
 const routes: Routes = [
-  
-  {path:'admin',loadChildren:()=>import ('./admin/admin.module')
-  .then(mod=>mod.AdminModule)
+
+  {
+    path: 'admin', loadChildren: () => import('./admin/admin.module')
+      .then(mod => mod.AdminModule)
   },
 
-  {path:'',redirectTo:'home',pathMatch:'full'},
-  {path:'Home',component:MainComponent},
-  {path:'NewArrivals',component:NewArrivalComponent},
-  {path:'Rentbook',component:RentSectionComponent},
+  { path: '', redirectTo: 'Home', pathMatch: 'full' },
+  { path: 'Home', component: MainComponent },
+  { path: 'NewArrivals', component: NewArrivalComponent },
+  { path: 'Rentbook', component: RentSectionComponent },
   // {path:'Catogary',component:},
-  {path:'Usedbook',component:UsedBookComponent},
-  {path:'RareCollections',component:FavoriteComponent},
-  {path:'fiction',component:FictionComponent},
-  {path:'Story book',component:MainComponent},
+  { path: 'Usedbook', component: UsedBookComponent },
+  { path: 'RareCollections', component: FavoriteComponent },
+  { path: 'fiction', component: FictionComponent },
+  { path: 'Story book', component: MainComponent },
 
 ];
 

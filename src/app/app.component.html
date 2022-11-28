@@ -4,23 +4,29 @@
       <section _ngcontent-epc-c17="" class="bg-light ">
         <div _ngcontent-epc-c17="" class="container">
           <div _ngcontent-epc-c17="" _ngcontent-lfe-c17="" class="row d-flex top-bar">
-            <div _ngcontent-epc-c17="" _ngcontent-lfe-c17="" class="col-2 col-md-1 d-block mt-2 "><a _ngcontent-epc-c17=""
-                _ngcontent-lfe-c17="" href="#" class="navbar-brand" style="height: unset; width: 100%;"><img
-                  _ngcontent-epc-c17="" _ngcontent-lfe-c17="" src="assets/images/verso-logo.png" alt=""
-                  class="align-items-center justify-content-center logo" style="height: 85%; width: 110%; margin-left: -8;"></a></div>
+            <div _ngcontent-epc-c17="" _ngcontent-lfe-c17="" class="col-2 col-md-1 d-block mt-2 "><a
+                _ngcontent-epc-c17="" _ngcontent-lfe-c17="" [routerLink]="''" class="navbar-brand"
+                style="height: unset; width: 100%;"><img _ngcontent-epc-c17="" _ngcontent-lfe-c17=""
+                  src="assets/images/verso-logo.png" alt="" class="align-items-center justify-content-center logo"
+                  style="height: 85%; width: 110%; margin-left: -8;"></a></div>
             <div class="col-3 col-md-2 mt-md-4 mt-2 mb-2 ">
-              <a _ngcontent-epc-c104="" href="#" class="navbar-brand" >
-                <h1 _ngcontent-epc-c104="" style="font-weight: bold;font-family: Lato,sans-serif;color: #ffc300;">VERSO</h1>
-              </a></div>
+              <a _ngcontent-epc-c104="" [routerLink]="''" class="navbar-brand">
+                <h1 _ngcontent-epc-c104="" style="font-weight: bold;font-family: Lato,sans-serif;color: #ffc300;">VERSO
+                </h1>
+              </a>
+            </div>
             <div _ngcontent-epc-c17="" _ngcontent-lfe-c17="" class="ml-3 col-md-5 col-7 mt-2 mb-2 mt-md-4">
               <div _ngcontent-epc-c17="" _ngcontent-lfe-c17="" class="searchcomponent form-inline my-lg-0 d-flex">
-                <input type="text" style=" font-family: Lato,sans-serif;font-size:15px;" name="" id="inputbar" placeholder="Search by Title, Author, Content.." maxlength="250" autocomplete="off"
+                <input type="text" style=" font-family: Lato,sans-serif;font-size:15px;" name="" id="inputbar"
+                  placeholder="Search by Title, Author, Content.." maxlength="250" autocomplete="off"
                   class="inputbar d-flex form-control mt-1 mr-sm-2"><span _ngcontent-epc-c17="" _ngcontent-lfe-c17=""
                   class="search"><button _ngcontent-epc-c17="" _ngcontent-lfe-c17="" type="button" id="btnTopSearch"
                     class="btn pb-1 sprite mt-1 search-btn justify-content-center"><i _ngcontent-epc-c17=""
-                      _ngcontent-lfe-c17="" class="bi bi-search"></i></button></span></div>
+                      _ngcontent-lfe-c17="" class="bi bi-search"></i></button></span>
+              </div>
             </div>
-            <div _ngcontent-epc-c17="" _ngcontent-lfe-c17="" class="col-md-3 d-md-block d-none d-lg-block d-xl-block icon">
+            <div _ngcontent-epc-c17="" _ngcontent-lfe-c17=""
+              class="col-md-3 d-md-block d-none d-lg-block d-xl-block icon">
               <ul _ngcontent-epc-c17="" _ngcontent-lfe-c17="" class="list-inline ml-5 signreflink position-relative">
                 <li _ngcontent-epc-c17="" _ngcontent-lfe-c17=""
                   class="list-inline-item text-center loginpopupwrapper mt-2 ml-5 mr-4"><i _ngcontent-epc-c17=""
@@ -39,48 +45,51 @@
           </div>
         </div>
       </section>
-      
-      
+
+
     </div>
     <!-- <div class="col-md-12">
       <app-navbar></app-navbar>
     </div> -->
-   
-    <section >
+
+    <section>
       <nav class="navbar navbar-expand-lg navbar-light bg-light header-nav ">
         <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fa-solid menu_bar fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav me-auto">
-            <li class="nav-item active text-dark ">
-              <a class="nav-link "  [routerLink]="'NewArrivals'">New Arrivals</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link"  [routerLink]="'Rentbook'">Rent a Book</a>
-            </li>
-            <!-- <li class="nav-item">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid menu_bar fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item active text-dark ">
+                <a class="nav-link " [routerLink]="'NewArrivals'">New Arrivals</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" [routerLink]="'Rentbook'">Rent a Book</a>
+              </li>
+              <!-- <li class="nav-item">
               <a class="nav-link" href="#">New Arrivals</a>
             </li> -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle"  role="button" id="navbarDropdown" data-toggle="dropdown" aria-expanded="false"    [routerLink]="'fiction_section'">
-                Books catogory
-              </a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link"  [routerLink]="'Usedbook'">Used Books</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" role="button" id="navbarDropdown" data-toggle="dropdown"
+                  aria-expanded="false" [routerLink]="'fiction_section'">
+                  Books catogory
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link"  [routerLink]="'RareCollections'">Rare Collections</a>
+                <a class="nav-link" [routerLink]="'Usedbook'">Used Books</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" [routerLink]="'RareCollections'">Rare Collections</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false"  [routerLink]="'fiction_section'">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false"
+                  [routerLink]="'fiction_section'">
                   Dropdown link
                 </a>
                 <div class="dropdown-menu">
@@ -96,62 +105,22 @@
                 <a class="nav-link" [routerLink]="'fiction'"> Fiction</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link"  [routerLink]="'Storybook'">StoryBook</a>
+                <a class="nav-link" [routerLink]="'Storybook'">StoryBook</a>
               </li>
               <li class="nav-item">
                 <i class="fa-solid robort fa-robot"></i>
               </li>
-          </ul>
+            </ul>
+          </div>
         </div>
-       </div>
-     </nav>
+      </nav>
     </section>
     <!-- ..........................................navbar end.................................. -->
-
-
-<!--     
     <div class="col-md-12">
-      <app-offerbox></app-offerbox>
-    </div> -->
-    <div class="col-md-12">
-      <app-main></app-main>
-    </div>
-     <!-- <div class="col-md-12">
-      <app-verso-feature></app-verso-feature>
+      <router-outlet></router-outlet>
     </div>
     <div class="col-md-12">
-       <app-card-section></app-card-section>
+      <app-footer></app-footer>
     </div>
-   
-    <div class="col-md-12">
-      <app-new-arrival></app-new-arrival>
-    </div>
-    <div class="col-md-12">
-      <app-favorite></app-favorite>
-    </div>
-    <div class="col-md-12">
-      <app-fiction></app-fiction>
-    </div>
-    <div class="col-md-12">
-        <app-subpart1></app-subpart1>
-    </div>
-    <div class="col-md-12">
-      <app-discount></app-discount>
-    </div>
-     <div class="col-md-12">
-        <app-category></app-category>
-     </div>
-     <div class="col-md-12">
-    
-     </div> -->
-     <div class="col-md-12">
-        <app-footer></app-footer>
-    </div>
-    <div class="col-md-12">
-     <app-rent-section></app-rent-section>
-    </div>
-
-  
- </div>
+  </div>
 </div>
-<router-outlet></router-outlet>
