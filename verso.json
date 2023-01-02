@@ -9,12 +9,66 @@
     {
         "name":"book2",
         "author":"author2",
-        "bookImage":"book1.jpg"   
+        "bookImage":"book2.jpg"   
   
       },
       {
         "name":"book3",
         "author":"author3",
-        "bookImage":"book1.jpg"
+        "bookImage":"book3.jpg"
+      },
+      {
+        "name":"book4",
+        "author":"author4",
+        "bookImage":"book4.jpg"   
+  
+      },
+      {
+        "name":"book5",
+        "author":"author5",
+        "bookImage":"book5.jpg"   
+  
+      },
+      {
+        "name":"book6",
+        "author":"author6",
+        "bookImage":"book6.jpg"   
+  
+      },
+      {
+        "name":"book2",
+        "author":"author2",
+        "bookImage":"book2.jpg"   
+  
+      },
+      {
+        "name":"book2",
+        "author":"author2",
+        "bookImage":"book2.jpg"   
+  
+      },
+      {
+        "name":"book2",
+        "author":"author2",
+        "bookImage":"book2.jpg"   
+  
+      },
+      {
+        "name":"book2",
+        "author":"author2",
+        "bookImage":"book2.jpg"   
+  
+      },
+      {
+        "name":"book2",
+        "author":"author2",
+        "bookImage":"book2.jpg"   
+  
+      },
+      {
+        "name":"book2",
+        "author":"author2",
+        "bookImage":"book2.jpg"   
+  
       }
 ]

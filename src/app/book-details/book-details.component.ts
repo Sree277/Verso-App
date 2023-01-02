@@ -11,5 +11,6 @@ export class BookDetailsComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  bookDetails: any = window.history.state.book;
 
 }
