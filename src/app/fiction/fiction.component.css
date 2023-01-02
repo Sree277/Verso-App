@@ -52,3 +52,9 @@ img{
 .bookicones{
     margin-top: 5px;
  }
+.backg{
+    background: #1b234A;
+}
+.sidebar{
+    border-right: 1px solid #1b234A;
+}

@@ -1,0 +1,20 @@
+[
+    {
+      "name":"book1",
+      "author":"author1",
+      "bookImage":"book1.jpg"
+     
+
+    },
+    {
+        "name":"book2",
+        "author":"author2",
+        "bookImage":"book1.jpg"   
+  
+      },
+      {
+        "name":"book3",
+        "author":"author3",
+        "bookImage":"book1.jpg"
+      }
+]

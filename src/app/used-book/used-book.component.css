@@ -1,0 +1,60 @@
+.backg{
+    background: #1b234A;
+}
+.sidebar{
+    border-right: 1px solid #1b234A;
+}
+p{
+    font-size: 26px;
+}
+img{
+    width: 100%;
+    height: 200px;
+}
+.product-bottom .fa
+{
+    color: #ffc300;
+    font-size: 10px;
+}
+h3
+{
+    font-size: 17px;
+    font-weight: bold;
+}
+h5
+{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+/* .bookicones
+{
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 10%;
+    margin-left: 0;
+    width: 70px;
+
+}
+.product-top:hover .bookicones
+{
+     opacity: 1;
+     margin-left: 5%;
+     transition: 0.5s;
+
+}
+.bookicones.fa
+{
+   cursor: pointer;
+   background-color: #fff;
+   color: #000;
+   height: 35px;
+   width: 35px;
+   font-size: 20px;
+} */
+.space{
+    margin-right: 3px;
+}
+.bookicones{
+    margin-top: 5px;
+ }

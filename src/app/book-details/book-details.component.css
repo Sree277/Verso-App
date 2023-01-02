@@ -1,0 +1,31 @@
+.bodr-img{
+    border:1px solid rgb(24, 21, 21);
+}
+.bodr-img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: bold;
+    font-size: 40px;
+    color: #d51912;
+}
+.text6{
+    font-size: 21px;
+    font-weight: bold;
+}
+.textt-color{
+    color: #d51912;
+}
+.star{
+    color:#FFC300;
+    font-size: 24px;
+}
+.texabt{
+    color: #d51912;
+    font-size: 19px;
+    font-weight: bold;
+}
+.btnd{
+    background-color: #d51912 !important;
+}
+.btnw{
+    background-color: #FFC300 !important;
+}

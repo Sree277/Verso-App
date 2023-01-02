@@ -10,7 +10,7 @@
     border-radius: 5px 0 0 5px;
     max-width: 100% !important;
     padding: 6px;
-    border: 1px solid #FFC300;
+    border: 1px solid #C21807;
     padding: 5px 15px;
     box-shadow: none;
     height: 38px;
@@ -18,8 +18,8 @@
     outline: 0;
 }
 
-.btn-danger{
-    background-color: #B70000!important;
+.btn-warning{
+    background-color: #FFC300!important;
     
 }
 input placeholder{
@@ -28,7 +28,7 @@ input placeholder{
 }
 .search button {
     border: none;
-    background-color: #FFC300 !important;
+    background-color: #C21807 !important;
     
     background-size: 20px 19px !important;
     position: relative;
@@ -40,6 +40,7 @@ input placeholder{
     text-align: center;
     justify-content: center;
 }
+
 .btn {
     display: inline-block;
     font-weight: 400;
@@ -58,7 +59,7 @@ input placeholder{
     margin-top: 10px;
 }
 .person{
-    color: #FFC300;
+    color:#C21807;
     font-size: 32px;
     margin-top: 10px !important;
 }
@@ -75,21 +76,26 @@ input placeholder{
     
 }
 nav{
-    background-color: #FFC300 !important ;
+    background-color: #C21807!important ;
     padding: 13px 25px;
     /* line-height: 30px; */
     font-family: Lato,sans-serif;
 }
 nav a{
     display: inline-block;
-}
-.nav-item {
+    color: #fff;
+    font-size: 14px;
     font-weight: bold;
-    color: black;
-    font-size: 13px;
+    font-family: Lato,sans-serif;
+    line-height: 1;
     margin-right: 10px;
     margin-left: 10px;
-    font-family: Lato,sans-serif;
+  
+}
+
+.nav-item {
+    font-weight: bold;
+    color: white!important;   
 }
 .nav-item:hover{
     
@@ -104,7 +110,7 @@ nav a{
     font-size: 26px;
 }
 .robort{
-    color: black;
+    color: white;
     font-size: 30px;
 
 }

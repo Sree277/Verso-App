@@ -21,6 +21,10 @@ import { CategoryComponent } from './category/category.component';
 import { FooterComponent } from './footer/footer.component';
 import { RentSectionComponent } from './rent-section/rent-section.component';
 import { UsedBookComponent } from './used-book/used-book.component';
+import { StoryChildrensComponent } from './story-childrens/story-childrens.component';
+import { BookDetailsComponent } from './book-details/book-details.component';
+import { AddCartComponent } from './add-cart/add-cart.component';
+import { BuyProductComponent } from './buy-product/buy-product.component';
 
 
 
@@ -45,6 +49,10 @@ import { UsedBookComponent } from './used-book/used-book.component';
     FooterComponent,
     RentSectionComponent,
     UsedBookComponent,
+    StoryChildrensComponent,
+    BookDetailsComponent,
+    AddCartComponent,
+    BuyProductComponent,
     
     
   ],

@@ -1,0 +1,25 @@
+.col-box{
+    background-color: #fff;
+    
+}
+.cart-box{
+    border-radius: 0%;
+    border: 1px solid lightgray;
+    font-weight: bold;
+    font-size: 21px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+.cart-h{
+    font-weight: bold;
+    font-size: 16px!important;
+}
+.btn-dlvry{
+    border: 2px solid #FFC300;
+}
+.prizehd{
+    color: grey;
+    font-weight: bold;
+    font-size: 20px!important;
+
+}

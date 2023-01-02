@@ -5,7 +5,11 @@ import { FictionComponent } from './fiction/fiction.component';
 import { MainComponent } from './main/main.component';
 import { NewArrivalComponent } from './new-arrival/new-arrival.component';
 import { RentSectionComponent } from './rent-section/rent-section.component';
+import { StoryChildrensComponent } from './story-childrens/story-childrens.component';
 import { UsedBookComponent } from './used-book/used-book.component';
+import {BookDetailsComponent} from './book-details/book-details.component';
+import { AddCartComponent } from './add-cart/add-cart.component';
+import { BuyProductComponent } from './buy-product/buy-product.component';
 
 const routes: Routes = [
 
@@ -22,7 +26,11 @@ const routes: Routes = [
   { path: 'Usedbook', component: UsedBookComponent },
   { path: 'RareCollections', component: FavoriteComponent },
   { path: 'fiction', component: FictionComponent },
-  { path: 'Story book', component: MainComponent },
+  { path: 'childrensStory', component: StoryChildrensComponent },
+  { path:  'bookDetails' , component: BookDetailsComponent},
+  { path:  'addtoCart' , component:AddCartComponent},
+  { path:  'buyProduct' , component:BuyProductComponent}
+
 
 ];
 
