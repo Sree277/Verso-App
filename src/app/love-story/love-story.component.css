@@ -1,0 +1,70 @@
+.container{
+    border: 1px solid lightgray;
+}
+img{
+    width: 100%;
+    height: 200px;
+}
+.product-bottom .fa
+{
+    color: #ffc300;
+    font-size: 10px;
+}
+h3
+{
+    font-size: 17px;
+    font-weight: bold;
+}
+h5
+{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+/* .bookicones
+{
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 10%;
+    margin-left: 0;
+    width: 70px;
+
+}
+.product-top:hover .bookicones
+{
+     opacity: 1;
+     margin-left: 5%;
+     transition: 0.5s;
+
+}
+.bookicones.fa
+{
+   cursor: pointer;
+   background-color: #fff;
+   color: #000;
+   height: 35px;
+   width: 35px;
+   font-size: 20px;
+} */
+.space{
+    margin-right: 3px;
+}
+.bookicones{
+    margin-top: 5px;
+    display: flex;
+ }
+.backg{
+    background: #C21807;
+}
+.sidebar{
+    border-right: 0px;
+}
+.cardss{
+    border: 1px solid grey;
+ }
+ .cardss:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+ .sidenav-bar{
+    background:  #C21807;
+ }

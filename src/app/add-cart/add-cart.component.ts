@@ -11,5 +11,6 @@ export class AddCartComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  addCart: any = window.history.state.book;
 
 }

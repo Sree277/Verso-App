@@ -2,12 +2,52 @@
   <div class="container-fluid">
       <div class="row">
           <div class="col-md-12 backg">
-              <img src="assets/images/design2.webp" width="100%" height="100%" alt="">
+              <img src="assets/images/arrivals.webp" width="100%" height="100%" alt="">
               <br><br>
           </div>
           <div class="row ">
-              <div class="col-md-3 bg-light" style="border: 1px solid #1B234A;">
-                  <div class="vertical-nav bg-white" id="sidebar" >
+              <div class="col-md-3 sidenav-bar">
+                <div class="row " style="background-color: black;" >
+                    <div class="col-12 py-1">
+                        <img src="assets/images/new.gif" width="100%" height="100%" alt="">
+                    </div>
+                </div>
+                <div class="row py-3">
+                    <div class="col-12 py-4">
+                        <img src="assets/images/booo17.webp " width="100%" height="100%" alt="">
+                    </div>
+                </div>
+                
+                
+                <div class="row " >
+                    <div class="col-12 my-1 py-1">
+                
+                        <img src="assets/images/boook2.jpeg" width="100%" height="100%" alt="">
+                    </div>
+                </div>
+                <div class="row " >
+                    <div class="col-2"></div>
+                    <div class="col-10">
+                        <img src="assets/images/offer4.gif" width="100%" height="100%" alt="">
+                    </div>
+                </div>
+                <div class="row " style="border-radius: 100%;">
+                    <div class="col-12 py-5">
+                        <img src="assets/images/combo9.jpg" width="100%" height="100%" alt="">
+                    </div>
+                </div>
+                <div class="row " style="border-radius: 100%;">
+                    <div class="col-12 py-4">
+                        <img src="assets/images/bok.gif" width="100%" height="100%" alt="">
+                    </div>
+                </div>
+                <div class="row py-2">
+                    <div class="col-12 py-4">
+                        <img src="assets/images/boook17.webp" width="100%" height="100%" alt="">
+                    </div>
+                </div>
+                
+                  <!-- <div class="vertical-nav bg-white" id="sidebar" >
                       <div class="py-4 px-4 mb-4 bg-light" >
                           <div class="media d-flex align-items-center">
                               <div class="media-body">
@@ -36,34 +76,12 @@
                               <a href="" class="nav-link text-dark">about</a>
                           </li>
                       </ul>
-                  </div>
+                  </div> -->
               </div>
               <div class="col-md-9 mt-5 ml-1 bg-white">
-                    <div class="row ">
-                      <div class="col-md-2 mt-5" *ngFor="let book of books">
-                          <div class="card">
-                              <div class="product-top" [routerLink]="'/bookDetails'" [state]="{book}">
-                                  <img src="assets/images/{{book.bookImage}}" width="100%" height="100%" alt="">
-                                    <div class="bookicones">
-                                    <button type="button" class="btn btn-secondary space" title="Quick Shop"><i class="bi bi-eye-fill"></i></button>
-                                    <button type="button" class="btn btn-secondary space" title="Add to Wishlist"><i class="bi bi-heart"></i></button>
-                                    <button type="button" class="btn btn-secondary space" title="Add to Cart"><i class="bi bi-cart-fill"></i></button>
-                                     </div>
-                                </div>
-                   
-                                <div class="product-bottom text-center">
-                                 <i class="bi bi-star-fill"></i>
-                                 <i class="bi bi-star-fill"></i>
-                                   <i class="bi bi-star-fill"></i>
-                                  <i class="bi bi-star-half"></i>
-                                 <i class="bi bi-star"></i>
-                                 <h3>{{book.name}}</h3>
-                                  <h5>$400</h5>
-                                </div>
-                            </div>
-                          </div>
-                        </div>
-                    </div>
+
+                  <app-book-list [books]="books"></app-book-list>
+                </div>
               </div>
           </div>
       </div>

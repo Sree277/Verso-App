@@ -2,12 +2,37 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 backg">
-                <img src="assets/images/sub1.webp" width="100%" height="100%" alt="">
+                <img src="assets/images/cm.jpeg" width="100%" height="100%" alt="">
                 <br><br>
             </div>
             <div class="row ">
-                <div class="col-md-3 bg-light" style="border: 1px solid #1B234A;">
-                    <div class="vertical-nav bg-white" id="sidebar" >
+                <div class="col-md-3 sidenav-bar" >
+                    <div class="row">
+                        <div class="col-12 my-4"><img src="assets/images/oc.gif" width="100%" height="100%" alt=""></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 my-4"><img src="assets/images/frnd.gif" width="100%" height="100%" alt=""></div>
+                    </div>
+                    <!-- <div class="row">
+                        <div class="col-12 mt-4"><img src="assets/images/offer1.gif" width="100%" height="100%" alt=""></div>
+                    </div> -->
+                    <div class="row my-2">
+                        <div class="col-2"></div>
+                        <div class="col-8 my-4"><img src="assets/images/chidren.jpg" width="100%" height="100%" alt=""></div>
+                         <div class="col-2"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 my-4"><img src="assets/images/penguin.jpg" width="100%" height="100%" alt=""></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2"></div>
+                        <div class="col-8 my-4"><img src="assets/images/frnd.gif" width="100%" height="100%" alt=""></div>
+                    </div>
+                    
+
+
+                    
+                    <!-- <div class="vertical-nav bg-white" id="sidebar" >
                         <div class="py-4 px-4 mb-4 bg-light" >
                             <div class="media d-flex align-items-center">
                                 <div class="media-body">
@@ -36,14 +61,14 @@
                                 <a href="" class="nav-link text-dark">about</a>
                             </li>
                         </ul>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="col-md-9 mt-5 ml-1 bg-white">
                       <div class="row ">
-                        <div class="col-md-2 ">
-                            <div class="card">
-                                <div class="product-top">
-                                    <img src="assets/images/book82.webp" width="100%" height="100%" alt="">
+                        <div class="col-md-2 my-2 " *ngFor="let book of books">
+                            <div class="card cardss my-3">
+                                <div class="product-top" [routerLink]="'/bookDetails'" [state]="{book}">
+                                    <img src="assets/images/{{book.bookImage}}" width="100%" height="100%" alt="">
                                       <div class="bookicones">
                                       <button type="button" class="btn btn-secondary space" title="Quick Shop"><i class="bi bi-eye-fill"></i></button>
                                       <button type="button" class="btn btn-secondary space" title="Add to Wishlist"><i class="bi bi-heart"></i></button>
@@ -57,544 +82,12 @@
                                      <i class="bi bi-star-fill"></i>
                                     <i class="bi bi-star-half"></i>
                                    <i class="bi bi-star"></i>
-                                   <h3>Fitss vfdsa</h3>
-                                    <h5>$400</h5>
+                                   <h3>{{book.name}}</h3>
+                                    <h5>{{book.bookPrize}}</h5>
                                   </div>
                               </div>
                         </div>
-                        <div class="col-md-2">
-                            <div class="card">
-                                <div class="product-top">
-                                    <img src="assets/images/book83.webp" width="100%" height="100%" alt="">
-                                      <div class="bookicones">
-                                      <button type="button" class="btn btn-secondary space" title="Quick Shop"><i class="bi bi-eye-fill"></i></button>
-                                      <button type="button" class="btn btn-secondary space" title="Add to Wishlist"><i class="bi bi-heart"></i></button>
-                                      <button type="button" class="btn btn-secondary space" title="Add to Cart"><i class="bi bi-cart-fill"></i></button>
-                                       </div>
-                                  </div>
-                     
-                                  <div class="product-bottom text-center">
-                                   <i class="bi bi-star-fill"></i>
-                                   <i class="bi bi-star-fill"></i>
-                                     <i class="bi bi-star-fill"></i>
-                                    <i class="bi bi-star-half"></i>
-                                   <i class="bi bi-star"></i>
-                                   <h3>Fitss vfdsa</h3>
-                                    <h5>$400</h5>
-                                  </div>
-                              </div>
-                        </div>
-
-                        <div class="col-md-2">
-                            <div class="card">
-                                <div class="product-top">
-                                    <img src="assets/images/book84.webp" width="100%" height="100%" alt="">
-                                      <div class="bookicones">
-                                      <button type="button" class="btn btn-secondary space" title="Quick Shop"><i class="bi bi-eye-fill"></i></button>
-                                      <button type="button" class="btn btn-secondary space" title="Add to Wishlist"><i class="bi bi-heart"></i></button>
-                                      <button type="button" class="btn btn-secondary space" title="Add to Cart"><i class="bi bi-cart-fill"></i></button>
-                                       </div>
-                                  </div>
-                     
-                                  <div class="product-bottom text-center">
-                                   <i class="bi bi-star-fill"></i>
-                                   <i class="bi bi-star-fill"></i>
-                                     <i class="bi bi-star-fill"></i>
-                                    <i class="bi bi-star-half"></i>
-                                   <i class="bi bi-star"></i>
-                                   <h3>Fitss vfdsa</h3>
-                                    <h5>$400</h5>
-                                  </div>
-                              </div>
-                        </div>
-
-                        <div class="col-md-2">
-                            <div class="card">
-                                <div class="product-top">
-                                    <img src="assets/images/book85webp.webp" width="100%" height="100%" alt="">
-                                      <div class="bookicones">
-                                      <button type="button" class="btn btn-secondary space" title="Quick Shop"><i class="bi bi-eye-fill"></i></button>
-                                      <button type="button" class="btn btn-secondary space" title="Add to Wishlist"><i class="bi bi-heart"></i></button>
-                                      <button type="button" class="btn btn-secondary space" title="Add to Cart"><i class="bi bi-cart-fill"></i></button>
-                                       </div>
-                                  </div>
-                     
-                                  <div class="product-bottom text-center">
-                                   <i class="bi bi-star-fill"></i>
-                                   <i class="bi bi-star-fill"></i>
-                                     <i class="bi bi-star-fill"></i>
-                                    <i class="bi bi-star-half"></i>
-                                   <i class="bi bi-star"></i>
-                                   <h3>Fitss vfdsa</h3>
-                                    <h5>$400</h5>
-                                  </div>
-                              </div>
-                        </div>
-
-                        <div class="col-md-2">
-                            <div class="card">
-                                <div class="product-top">
-                                    <img src="assets/images/book86.webp" width="100%" height="100%" alt="">
-                                      <div class="bookicones">
-                                      <button type="button" class="btn btn-secondary space" title="Quick Shop"><i class="bi bi-eye-fill"></i></button>
-                                      <button type="button" class="btn btn-secondary space" title="Add to Wishlist"><i class="bi bi-heart"></i></button>
-                                      <button type="button" class="btn btn-secondary space" title="Add to Cart"><i class="bi bi-cart-fill"></i></button>
-                                       </div>
-                                  </div>
-                     
-                                  <div class="product-bottom text-center">
-                                   <i class="bi bi-star-fill"></i>
-                                   <i class="bi bi-star-fill"></i>
-                                     <i class="bi bi-star-fill"></i>
-                                    <i class="bi bi-star-half"></i>
-                                   <i class="bi bi-star"></i>
-                                   <h3>Fitss vfdsa</h3>
-                                    <h5>$400</h5>
-                                  </div>
-                              </div>
-                        </div>
-
-                        <div class="col-md-2">
-                            <div class="card">
-                                <div class="product-top">
-                                    <img src="assets/images/book87.webp" width="100%" height="100%" alt="">
-                                      <div class="bookicones">
-                                      <button type="button" class="btn btn-secondary space" title="Quick Shop"><i class="bi bi-eye-fill"></i></button>
-                                      <button type="button" class="btn btn-secondary space" title="Add to Wishlist"><i class="bi bi-heart"></i></button>
-                                      <button type="button" class="btn btn-secondary space" title="Add to Cart"><i class="bi bi-cart-fill"></i></button>
-                                       </div>
-                                  </div>
-                     
-                                  <div class="product-bottom text-center">
-                                   <i class="bi bi-star-fill"></i>
-                                   <i class="bi bi-star-fill"></i>
-                                     <i class="bi bi-star-fill"></i>
-                                    <i class="bi bi-star-half"></i>
-                                   <i class="bi bi-star"></i>
-                                   <h3>Fitss vfdsa</h3>
-                                    <h5>$400</h5>
-                                  </div>
-                              </div>
-                        </div>
-
-                        <div class="row mt-5">
-                            <div class="col-md-2 ">
-                                <div class="card">
-                                    <div class="product-top">
-                                        <img src="assets/images/book88.webp" width="100%" height="100%" alt="">
-                                          <div class="bookicones">
-                                          <button type="button" class="btn btn-secondary space" title="Quick Shop"><i class="bi bi-eye-fill"></i></button>
-                                          <button type="button" class="btn btn-secondary space" title="Add to Wishlist"><i class="bi bi-heart"></i></button>
-                                          <button type="button" class="btn btn-secondary space" title="Add to Cart"><i class="bi bi-cart-fill"></i></button>
-                                           </div>
-                                      </div>
-                         
-                                      <div class="product-bottom text-center">
-                                       <i class="bi bi-star-fill"></i>
-                                       <i class="bi bi-star-fill"></i>
-                                         <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-half"></i>
-                                       <i class="bi bi-star"></i>
-                                       <h3>Fitss vfdsa</h3>
-                                        <h5>$400</h5>
-                                      </div>
-                                  </div>
-                            </div>
-                            <div class="col-md-2">
-                                <div class="card">
-                                    <div class="product-top">
-                                        <img src="assets/images/book89.webp" width="100%" height="100%" alt="">
-                                          <div class="bookicones">
-                                          <button type="button" class="btn btn-secondary space" title="Quick Shop"><i class="bi bi-eye-fill"></i></button>
-                                          <button type="button" class="btn btn-secondary space" title="Add to Wishlist"><i class="bi bi-heart"></i></button>
-                                          <button type="button" class="btn btn-secondary space" title="Add to Cart"><i class="bi bi-cart-fill"></i></button>
-                                           </div>
-                                      </div>
-                         
-                                      <div class="product-bottom text-center">
-                                       <i class="bi bi-star-fill"></i>
-                                       <i class="bi bi-star-fill"></i>
-                                         <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-half"></i>
-                                       <i class="bi bi-star"></i>
-                                       <h3>Fitss vfdsa</h3>
-                                        <h5>$400</h5>
-                                      </div>
-                                  </div>
-                            </div>
-    
-                            <div class="col-md-2">
-                                <div class="card">
-                                    <div class="product-top">
-                                        <img src="assets/images/book90.webp" width="100%" height="100%" alt="">
-                                          <div class="bookicones">
-                                          <button type="button" class="btn btn-secondary space" title="Quick Shop"><i class="bi bi-eye-fill"></i></button>
-                                          <button type="button" class="btn btn-secondary space" title="Add to Wishlist"><i class="bi bi-heart"></i></button>
-                                          <button type="button" class="btn btn-secondary space" title="Add to Cart"><i class="bi bi-cart-fill"></i></button>
-                                           </div>
-                                      </div>
-                         
-                                      <div class="product-bottom text-center">
-                                       <i class="bi bi-star-fill"></i>
-                                       <i class="bi bi-star-fill"></i>
-                                         <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-half"></i>
-                                       <i class="bi bi-star"></i>
-                                       <h3>Fitss vfdsa</h3>
-                                        <h5>$400</h5>
-                                      </div>
-                                  </div>
-                            </div>
-    
-                            <div class="col-md-2">
-                                <div class="card">
-                                    <div class="product-top">
-                                        <img src="assets/images/book91.webp" width="100%" height="100%" alt="">
-                                          <div class="bookicones">
-                                          <button type="button" class="btn btn-secondary space" title="Quick Shop"><i class="bi bi-eye-fill"></i></button>
-                                          <button type="button" class="btn btn-secondary space" title="Add to Wishlist"><i class="bi bi-heart"></i></button>
-                                          <button type="button" class="btn btn-secondary space" title="Add to Cart"><i class="bi bi-cart-fill"></i></button>
-                                           </div>
-                                      </div>
-                         
-                                      <div class="product-bottom text-center">
-                                       <i class="bi bi-star-fill"></i>
-                                       <i class="bi bi-star-fill"></i>
-                                         <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-half"></i>
-                                       <i class="bi bi-star"></i>
-                                       <h3>Fitss vfdsa</h3>
-                                        <h5>$400</h5>
-                                      </div>
-                                  </div>
-                            </div>
-    
-                            <div class="col-md-2">
-                                <div class="card">
-                                    <div class="product-top">
-                                        <img src="assets/images/book92.webp" width="100%" height="100%" alt="">
-                                          <div class="bookicones">
-                                          <button type="button" class="btn btn-secondary space" title="Quick Shop"><i class="bi bi-eye-fill"></i></button>
-                                          <button type="button" class="btn btn-secondary space" title="Add to Wishlist"><i class="bi bi-heart"></i></button>
-                                          <button type="button" class="btn btn-secondary space" title="Add to Cart"><i class="bi bi-cart-fill"></i></button>
-                                           </div>
-                                      </div>
-                         
-                                      <div class="product-bottom text-center">
-                                       <i class="bi bi-star-fill"></i>
-                                       <i class="bi bi-star-fill"></i>
-                                         <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-half"></i>
-                                       <i class="bi bi-star"></i>
-                                       <h3>Fitss vfdsa</h3>
-                                        <h5>$400</h5>
-                                      </div>
-                                  </div>
-                            </div>
-    
-                            <div class="col-md-2">
-                                <div class="card">
-                                    <div class="product-top">
-                                        <img src="assets/images/book93.webp" width="100%" height="100%" alt="">
-                                          <div class="bookicones">
-                                          <button type="button" class="btn btn-secondary space" title="Quick Shop"><i class="bi bi-eye-fill"></i></button>
-                                          <button type="button" class="btn btn-secondary space" title="Add to Wishlist"><i class="bi bi-heart"></i></button>
-                                          <button type="button" class="btn btn-secondary space" title="Add to Cart"><i class="bi bi-cart-fill"></i></button>
-                                           </div>
-                                      </div>
-                         
-                                      <div class="product-bottom text-center">
-                                       <i class="bi bi-star-fill"></i>
-                                       <i class="bi bi-star-fill"></i>
-                                         <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-half"></i>
-                                       <i class="bi bi-star"></i>
-                                       <h3>Fitss vfdsa</h3>
-                                        <h5>$400</h5>
-                                      </div>
-                                  </div>
-                            </div>
-                          </div>
-
-                          <div class="row mt-5">
-                            <div class="col-md-2 ">
-                                <div class="card">
-                                    <div class="product-top">
-                                        <img src="assets/images/book94.webp" width="100%" height="100%" alt="">
-                                          <div class="bookicones">
-                                          <button type="button" class="btn btn-secondary space" title="Quick Shop"><i class="bi bi-eye-fill"></i></button>
-                                          <button type="button" class="btn btn-secondary space" title="Add to Wishlist"><i class="bi bi-heart"></i></button>
-                                          <button type="button" class="btn btn-secondary space" title="Add to Cart"><i class="bi bi-cart-fill"></i></button>
-                                           </div>
-                                      </div>
-                         
-                                      <div class="product-bottom text-center">
-                                       <i class="bi bi-star-fill"></i>
-                                       <i class="bi bi-star-fill"></i>
-                                         <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-half"></i>
-                                       <i class="bi bi-star"></i>
-                                       <h3>Fitss vfdsa</h3>
-                                        <h5>$400</h5>
-                                      </div>
-                                  </div>
-                            </div>
-                            <div class="col-md-2">
-                                <div class="card">
-                                    <div class="product-top">
-                                        <img src="assets/images/book95.webp" width="100%" height="100%" alt="">
-                                          <div class="bookicones">
-                                          <button type="button" class="btn btn-secondary space" title="Quick Shop"><i class="bi bi-eye-fill"></i></button>
-                                          <button type="button" class="btn btn-secondary space" title="Add to Wishlist"><i class="bi bi-heart"></i></button>
-                                          <button type="button" class="btn btn-secondary space" title="Add to Cart"><i class="bi bi-cart-fill"></i></button>
-                                           </div>
-                                      </div>
-                         
-                                      <div class="product-bottom text-center">
-                                       <i class="bi bi-star-fill"></i>
-                                       <i class="bi bi-star-fill"></i>
-                                         <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-half"></i>
-                                       <i class="bi bi-star"></i>
-                                       <h3>Fitss vfdsa</h3>
-                                        <h5>$400</h5>
-                                      </div>
-                                  </div>
-                            </div>
-    
-                            <div class="col-md-2">
-                                <div class="card">
-                                    <div class="product-top">
-                                        <img src="assets/images/book96.webp" width="100%" height="100%" alt="">
-                                          <div class="bookicones">
-                                          <button type="button" class="btn btn-secondary space" title="Quick Shop"><i class="bi bi-eye-fill"></i></button>
-                                          <button type="button" class="btn btn-secondary space" title="Add to Wishlist"><i class="bi bi-heart"></i></button>
-                                          <button type="button" class="btn btn-secondary space" title="Add to Cart"><i class="bi bi-cart-fill"></i></button>
-                                           </div>
-                                      </div>
-                         
-                                      <div class="product-bottom text-center">
-                                       <i class="bi bi-star-fill"></i>
-                                       <i class="bi bi-star-fill"></i>
-                                         <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-half"></i>
-                                       <i class="bi bi-star"></i>
-                                       <h3>Fitss vfdsa</h3>
-                                        <h5>$400</h5>
-                                      </div>
-                                  </div>
-                            </div>
-    
-                            <div class="col-md-2">
-                                <div class="card">
-                                    <div class="product-top">
-                                        <img src="assets/images/book97.webp" width="100%" height="100%" alt="">
-                                          <div class="bookicones">
-                                          <button type="button" class="btn btn-secondary space" title="Quick Shop"><i class="bi bi-eye-fill"></i></button>
-                                          <button type="button" class="btn btn-secondary space" title="Add to Wishlist"><i class="bi bi-heart"></i></button>
-                                          <button type="button" class="btn btn-secondary space" title="Add to Cart"><i class="bi bi-cart-fill"></i></button>
-                                           </div>
-                                      </div>
-                         
-                                      <div class="product-bottom text-center">
-                                       <i class="bi bi-star-fill"></i>
-                                       <i class="bi bi-star-fill"></i>
-                                         <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-half"></i>
-                                       <i class="bi bi-star"></i>
-                                       <h3>Fitss vfdsa</h3>
-                                        <h5>$400</h5>
-                                      </div>
-                                  </div>
-                            </div>
-    
-                            <div class="col-md-2">
-                                <div class="card">
-                                    <div class="product-top">
-                                        <img src="assets/images/book98.webp" width="100%" height="100%" alt="">
-                                          <div class="bookicones">
-                                          <button type="button" class="btn btn-secondary space" title="Quick Shop"><i class="bi bi-eye-fill"></i></button>
-                                          <button type="button" class="btn btn-secondary space" title="Add to Wishlist"><i class="bi bi-heart"></i></button>
-                                          <button type="button" class="btn btn-secondary space" title="Add to Cart"><i class="bi bi-cart-fill"></i></button>
-                                           </div>
-                                      </div>
-                         
-                                      <div class="product-bottom text-center">
-                                       <i class="bi bi-star-fill"></i>
-                                       <i class="bi bi-star-fill"></i>
-                                         <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-half"></i>
-                                       <i class="bi bi-star"></i>
-                                       <h3>Fitss vfdsa</h3>
-                                        <h5>$400</h5>
-                                      </div>
-                                  </div>
-                            </div>
-    
-                            <div class="col-md-2">
-                                <div class="card">
-                                    <div class="product-top">
-                                        <img src="assets/images/book99.webp" width="100%" height="100%" alt="">
-                                          <div class="bookicones">
-                                          <button type="button" class="btn btn-secondary space" title="Quick Shop"><i class="bi bi-eye-fill"></i></button>
-                                          <button type="button" class="btn btn-secondary space" title="Add to Wishlist"><i class="bi bi-heart"></i></button>
-                                          <button type="button" class="btn btn-secondary space" title="Add to Cart"><i class="bi bi-cart-fill"></i></button>
-                                           </div>
-                                      </div>
-                         
-                                      <div class="product-bottom text-center">
-                                       <i class="bi bi-star-fill"></i>
-                                       <i class="bi bi-star-fill"></i>
-                                         <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-half"></i>
-                                       <i class="bi bi-star"></i>
-                                       <h3>Fitss vfdsa</h3>
-                                        <h5>$400</h5>
-                                      </div>
-                                  </div>
-                            </div>
-                          </div>
-
-                          <div class="row my-5">
-                            <div class="col-md-2 ">
-                                <div class="card">
-                                    <div class="product-top">
-                                        <img src="assets/images/book100.webp" width="100%" height="100%" alt="">
-                                          <div class="bookicones">
-                                          <button type="button" class="btn btn-secondary space" title="Quick Shop"><i class="bi bi-eye-fill"></i></button>
-                                          <button type="button" class="btn btn-secondary space" title="Add to Wishlist"><i class="bi bi-heart"></i></button>
-                                          <button type="button" class="btn btn-secondary space" title="Add to Cart"><i class="bi bi-cart-fill"></i></button>
-                                           </div>
-                                      </div>
-                         
-                                      <div class="product-bottom text-center">
-                                       <i class="bi bi-star-fill"></i>
-                                       <i class="bi bi-star-fill"></i>
-                                         <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-half"></i>
-                                       <i class="bi bi-star"></i>
-                                       <h3>Fitss vfdsa</h3>
-                                        <h5>$400</h5>
-                                      </div>
-                                  </div>
-                            </div>
-                            <div class="col-md-2">
-                                <div class="card">
-                                    <div class="product-top">
-                                        <img src="assets/images/book101.webp" width="100%" height="100%" alt="">
-                                          <div class="bookicones">
-                                          <button type="button" class="btn btn-secondary space" title="Quick Shop"><i class="bi bi-eye-fill"></i></button>
-                                          <button type="button" class="btn btn-secondary space" title="Add to Wishlist"><i class="bi bi-heart"></i></button>
-                                          <button type="button" class="btn btn-secondary space" title="Add to Cart"><i class="bi bi-cart-fill"></i></button>
-                                           </div>
-                                      </div>
-                         
-                                      <div class="product-bottom text-center">
-                                       <i class="bi bi-star-fill"></i>
-                                       <i class="bi bi-star-fill"></i>
-                                         <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-half"></i>
-                                       <i class="bi bi-star"></i>
-                                       <h3>Fitss vfdsa</h3>
-                                        <h5>$400</h5>
-                                      </div>
-                                  </div>
-                            </div>
-    
-                            <div class="col-md-2">
-                                <div class="card">
-                                    <div class="product-top">
-                                        <img src="assets/images/book102.webp" width="100%" height="100%" alt="">
-                                          <div class="bookicones">
-                                          <button type="button" class="btn btn-secondary space" title="Quick Shop"><i class="bi bi-eye-fill"></i></button>
-                                          <button type="button" class="btn btn-secondary space" title="Add to Wishlist"><i class="bi bi-heart"></i></button>
-                                          <button type="button" class="btn btn-secondary space" title="Add to Cart"><i class="bi bi-cart-fill"></i></button>
-                                           </div>
-                                      </div>
-                         
-                                      <div class="product-bottom text-center">
-                                       <i class="bi bi-star-fill"></i>
-                                       <i class="bi bi-star-fill"></i>
-                                         <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-half"></i>
-                                       <i class="bi bi-star"></i>
-                                       <h3>Fitss vfdsa</h3>
-                                        <h5>$400</h5>
-                                      </div>
-                                  </div>
-                            </div>
-    
-                            <div class="col-md-2">
-                                <div class="card">
-                                    <div class="product-top">
-                                        <img src="assets/images/book103.webp" width="100%" height="100%" alt="">
-                                          <div class="bookicones">
-                                          <button type="button" class="btn btn-secondary space" title="Quick Shop"><i class="bi bi-eye-fill"></i></button>
-                                          <button type="button" class="btn btn-secondary space" title="Add to Wishlist"><i class="bi bi-heart"></i></button>
-                                          <button type="button" class="btn btn-secondary space" title="Add to Cart"><i class="bi bi-cart-fill"></i></button>
-                                           </div>
-                                      </div>
-                         
-                                      <div class="product-bottom text-center">
-                                       <i class="bi bi-star-fill"></i>
-                                       <i class="bi bi-star-fill"></i>
-                                         <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-half"></i>
-                                       <i class="bi bi-star"></i>
-                                       <h3>Fitss vfdsa</h3>
-                                        <h5>$400</h5>
-                                      </div>
-                                  </div>
-                            </div>
-    
-                            <div class="col-md-2">
-                                <div class="card">
-                                    <div class="product-top">
-                                        <img src="assets/images/book104.webp" width="100%" height="100%" alt="">
-                                          <div class="bookicones">
-                                          <button type="button" class="btn btn-secondary space" title="Quick Shop"><i class="bi bi-eye-fill"></i></button>
-                                          <button type="button" class="btn btn-secondary space" title="Add to Wishlist"><i class="bi bi-heart"></i></button>
-                                          <button type="button" class="btn btn-secondary space" title="Add to Cart"><i class="bi bi-cart-fill"></i></button>
-                                           </div>
-                                      </div>
-                         
-                                      <div class="product-bottom text-center">
-                                       <i class="bi bi-star-fill"></i>
-                                       <i class="bi bi-star-fill"></i>
-                                         <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-half"></i>
-                                       <i class="bi bi-star"></i>
-                                       <h3>Fitss vfdsa</h3>
-                                        <h5>$400</h5>
-                                      </div>
-                                  </div>
-                            </div>
-    
-                            <div class="col-md-2">
-                                <div class="card">
-                                    <div class="product-top">
-                                        <img src="assets/images/book105.webp" width="100%" height="100%" alt="">
-                                          <div class="bookicones">
-                                          <button type="button" class="btn btn-secondary space" title="Quick Shop"><i class="bi bi-eye-fill"></i></button>
-                                          <button type="button" class="btn btn-secondary space" title="Add to Wishlist"><i class="bi bi-heart"></i></button>
-                                          <button type="button" class="btn btn-secondary space" title="Add to Cart"><i class="bi bi-cart-fill"></i></button>
-                                           </div>
-                                      </div>
-                         
-                                      <div class="product-bottom text-center">
-                                       <i class="bi bi-star-fill"></i>
-                                       <i class="bi bi-star-fill"></i>
-                                         <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-half"></i>
-                                       <i class="bi bi-star"></i>
-                                       <h3>Fitss vfdsa</h3>
-                                        <h5>$400</h5>
-                                      </div>
-                                  </div>
-                            </div>
-    
-    
-    
+                       
                           </div>
 
 
@@ -602,5 +95,5 @@
                 </div>
             </div>
         </div>
-    </div>
+    
 </section>

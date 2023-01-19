@@ -1,0 +1,69 @@
+.backg{
+    background: rgb(18,9,1);
+    background: linear-gradient(90deg, rgba(18,9,1,1) 1%,rgb(83, 28, 3) 62%, rgba(73,37,6,1) 6%,rgba(128,50,5,1) 38%, rgba(128,50,5,1) 28%, rgba(83,38,3,1) 58%, rgb(83, 28, 3) 62%, rgba(7,1,9,1) 100%);
+}
+.sidebar{
+    border-right: 1px solid #1b234A;
+}
+img{
+    width: 100%;
+    height: 200px;
+}
+.product-bottom .fa
+{
+    color: #ffc300;
+    font-size: 10px;
+}
+h3
+{
+    font-size: 17px;
+    font-weight: bold;
+}
+h5
+{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+/* .bookicones
+{
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 10%;
+    margin-left: 0;
+    width: 70px;
+
+}
+.product-top:hover .bookicones
+{
+     opacity: 1;
+     margin-left: 5%;
+     transition: 0.5s;
+
+}
+.bookicones.fa
+{
+   cursor: pointer;
+   background-color: #fff;
+   color: #000;
+   height: 35px;
+   width: 35px;
+   font-size: 20px;
+} */
+.space{
+    margin-right: 3px;
+}
+.bookicones{
+    margin-top: 5px;
+    display: flex;
+ }
+ .cardss{
+    border: 1px solid grey;
+ }
+ .cardss:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+ .sidenav-bar{
+    background: rgb(18,9,1);
+    background: linear-gradient(90deg, rgba(18,9,1,1) 1%,rgb(83, 28, 3) 62%, rgba(73,37,6,1) 6%,rgba(128,50,5,1) 38%, rgba(128,50,5,1) 28%, rgba(83,38,3,1) 58%, rgb(83, 28, 3) 62%, rgba(7,1,9,1) 100%);
+ }

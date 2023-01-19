@@ -3,39 +3,120 @@
         <div class="text-danger"><h4 style="font-weight: bold;">1.  Enter a new shipping address</h4></div>
     </div>
     <div class="row my-3">
-        <div class="border p-4" style="border: 1px solid grey;">
+        <div class="border p-4">
                  <h3 style="font-weight: bold;">Add a new address</h3>
 
-                 <form class="my-3">
-                    <div class="form-group">
-                      <label for="full_name">Full name:</label>
-                      <input type="text" class="form-control" id="email">
+                 <form class="my-3" #productForm="ngForm" (ngSubmit)="productForm.value&&onsubmit()">
+
+                  <label class="my-1 lb">Country/Region</label>
+                  <select class="form-control my-2"  name="country" required #country="ngModel" [(ngModel)]="data.country">
+                    <option>choose...</option>
+                    <option >Afghanistan</option>
+                    <option >Albania</option>
+                    <option >Argentina</option>
+                    <option >Armenia</option>
+                    <option >Australia</option>
+                    <option >Bahrain</option>
+                    <option >Bangladesh</option>
+                    <option >Belgium</option>
+                    <option >Brazil</option>
+                    <option >Cambodia</option>
+                    <option >Canada</option>
+                    <option >India</option>
+                  </select>
+                  <label class="text-danger"  *ngIf="!country.valid && country.touched">Full name is required</label>
+
+
+
+                    <div class="form-group ">
+                      <label for="full_name" class="lb">Full name:</label>
+                      <input type="text" class="form-control" id="email" name="fullName" required #fullName="ngModel" [(ngModel)]="data.fullName">
+                      <label class="text-danger"  *ngIf="!fullName.valid && fullName.touched">Full name is required</label>
                     </div>
                     <div class="form-group">
-                      <label for="mb_number">Mobile number</label>
-                      <input type="number" class="form-control" id="mb_number">
+                      <label for="mb_number"  class="lb">Mobile number</label>
+                      <input type="number" class="form-control" id="mb_number"  name="mobNumber" required #mobNumber="ngModel" [(ngModel)]="data.mobNumber" pattern="^((\\+91-?)|0)?[0-9]{10}$">
+                      <label class="text-danger"  *ngIf="!mobNumber.valid && mobNumber.touched">Mobile Number is required</label>
+                      <label class="text-danger" *ngIf="productForm.submitted && mobNumber.errors?.['pattern']">Invalid phone number</label>
                     </div>
                     <div class="form-group">
-                      <label for="pin_code">Pin code</label>
-                      <input type="number" class="form-control" id="pin_code">
+                      <label for="pin_code"  class="lb">Pin code</label>
+                      <input type="number" class="form-control" id="pin_code"  name="pinCode" required #pinCode="ngModel" [(ngModel)]="data.pinCode">
+                      <label class="text-danger"  *ngIf="!pinCode.valid && pinCode.touched">Full name is required</label>
+
                     </div>
                     <div class="form-group">
-                      <label for="building">Flat,House no.,Building,Company,Apartment</label>
-                      <input type="text" class="form-control" id="building">
+                      <label for="building"  class="lb">Flat,House no.,Building,Company,Apartment</label>
+                      <input type="text" class="form-control" id="building"  name="address1" required #address1="ngModel" [(ngModel)]="data.address1">
+                      <label class="text-danger"  *ngIf="!address1.valid && address1.touched">Full name is required</label>
+
                     </div>
                     <div class="form-group my-2">
-                      <label for="building">Area,Street,Sector,Village </label>
-                      <input type="text" class="form-control" id="building">
+                      <label for="building"  class="lb">Area,Street,Sector,Village </label>
+                      <input type="text" class="form-control" id="building"  name="address2" required #address2="ngModel" [(ngModel)]="data.address2">
+                      <label class="text-danger"  *ngIf="!address2.valid && address2.touched">Full name is required</label>
+
                     </div>
                     <div class="form-group my-2">
-                      <label for="landmark">Landmark</label>
-                      <input type="text" class="form-control" id="landmark" placeholder="E.g. near apollo hospital">
+                      <label for="landmark" class="lb">Landmark</label>
+                      <input type="text" class="form-control" id="landmark" placeholder="E.g. near apollo hospital"  name="landmark" required #landmark="ngModel" [(ngModel)]="data.landmark">
+                      <label class="text-danger"  *ngIf="!landmark.valid && landmark.touched">Full name is required</label>
+
                     </div>
-                    <div class="checkbox">
-                      <label><input type="checkbox"> Remember me</label>
+                    <div class="row">
+                      <div class="col">
+                        <label for="town"  class="lb">Town/City</label>
+                        <input type="text" class="form-control" placeholder="City name"  name="cityName" required #cityName="ngModel" [(ngModel)]="data.cityName">
+                        <label class="text-danger"  *ngIf="!cityName.valid && cityName.touched">Full name is required</label>
+
+                      </div>
+                      <div class="col">
+                        <label for="state"  class="lb">State</label>
+                        <select id="inputState" class="form-control"  name="state" required #state="ngModel" [(ngModel)]="data.state">
+                          <option selected>Choose...</option>
+                          <option>Kerala</option>
+                          <option>Karnadaka</option>
+                          <option >Thamilnadu</option>
+                          <option >Andrapradesh</option>
+                          <option >Thelungana</option>
+                          <option >Madhya pradesh</option>
+                          <option >Gujarath</option>
+                          <option >Goa</option>
+                          <option >Uthar pradhesh</option>
+                          <option >JammuKashmeer</option>
+                          <option >Himajal Predesh</option>
+                          <option >Arunajal Pradesh</option>
+                          <option >Sikkim</option>
+                          <option >Chhattisgarh</option>
+                          <option>Biihar</option>
+                          <option>Assam</option>
+
+
+                        </select>
+                        <label class="text-danger"  *ngIf="!state.valid && state.touched">Full name is required</label>
+
+                      </div>
                     </div>
-                    <button type="submit" class="btn btn-default">Submit</button>
+                    <div class="checkbox my-3">
+                      <label ><input type="checkbox"> Make this my default address</label>
+                    </div>
+                    <label for="" class="mt-2 lb">Add delivery instructions</label>
+                    <p>Preferences are used to plan your delivery. However, shipments can sometimes arrive early or later than planned.</p>
+
+                    <label for="address_type"  class="lb">Address Type</label>
+                    <select class="form-control form-control-lg">
+                      <option>Select an Address Type</option>
+                      <option value="">Home (7am -5 pm  delivery)</option>
+                      <option value="">Office (10am -5 pm delivery)</option>
+                    </select>
+                    <button type="submit" class="btn btn-warning mt-4 lb" [disabled]="productForm.invalid">Use This Address</button>
                   </form>
         </div>
     </div>
+    <div class="row my-4">
+      <div class="text-danger"><h4 style="font-weight: bold;">2.Payment Methord</h4></div>
+  </div>
+  <div class="row my-3">
+    <div class="text-danger"><h4 style="font-weight: bold;">3.Items and Delivery</h4></div>
+</div>
 </div>

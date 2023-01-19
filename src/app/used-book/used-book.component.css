@@ -1,8 +1,11 @@
 .backg{
-    background: #1b234A;
+    background: rgb(253,171,159);
+background: linear-gradient(90deg, rgba(253,171,159,1) 0%, rgba(253,171,159,1) 21%, rgba(249,189,181,1) 31%, rgba(253,207,200,1) 48%, rgba(253,171,159,1) 70%, rgba(253,171,159,1) 79%, rgba(253,171,159,1) 96%);
+    /* background: rgb(242,210,226);
+background: radial-gradient(circle, rgba(242,210,226,1) 0%, rgba(237,166,192,1) 100%); */
 }
 .sidebar{
-    border-right: 1px solid #1b234A;
+    border-right: 0px ;
 }
 p{
     font-size: 26px;
@@ -26,6 +29,12 @@ h5
     font-size: 15px;
     padding-bottom: 10px;
 }
+.cardss{
+    border: 1px solid grey;
+ }
+ .cardss:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
 /* .bookicones
 {
     display: block;
@@ -57,4 +66,11 @@ h5
 }
 .bookicones{
     margin-top: 5px;
+    display: flex;
  }
+ .sidenav-bar{
+    background: #fdab9f;
+    /* background: rgb(242,210,226); */
+    /* background: radial-gradient(circle, rgba(242,210,226,1) 0%, rgba(237,166,192,1) 100%); */
+ }
+ /* #ff0000 */

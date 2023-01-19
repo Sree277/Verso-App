@@ -25,6 +25,15 @@ import { StoryChildrensComponent } from './story-childrens/story-childrens.compo
 import { BookDetailsComponent } from './book-details/book-details.component';
 import { AddCartComponent } from './add-cart/add-cart.component';
 import { BuyProductComponent } from './buy-product/buy-product.component';
+import { LoveStoryComponent } from './love-story/love-story.component';
+import { PoetryComponent } from './poetry/poetry.component';
+import { CookingComponent } from './cooking/cooking.component';
+import { ClassicComponent } from './classic/classic.component';
+import {FormsModule}  from '@angular/forms';
+import { LoginSectionComponent } from './login-section/login-section.component';
+import { SignupSectionComponent } from './signup-section/signup-section.component';
+import { BookListComponent } from './book-list/book-list.component';
+import { DiscountofferSectionComponent } from './discountoffer-section/discountoffer-section.component'
 
 
 
@@ -53,6 +62,14 @@ import { BuyProductComponent } from './buy-product/buy-product.component';
     BookDetailsComponent,
     AddCartComponent,
     BuyProductComponent,
+    LoveStoryComponent,
+    PoetryComponent,
+    CookingComponent,
+    ClassicComponent,
+    LoginSectionComponent,
+    SignupSectionComponent,
+    BookListComponent,
+    DiscountofferSectionComponent,
     
     
   ],
@@ -60,7 +77,8 @@ import { BuyProductComponent } from './buy-product/buy-product.component';
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-   CarouselModule
+    CarouselModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
