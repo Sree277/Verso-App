@@ -15,7 +15,7 @@ import { PoetryComponent } from './poetry/poetry.component';
 import { CookingComponent } from './cooking/cooking.component';
 import { ClassicComponent } from './classic/classic.component';
 import { DiscountofferSectionComponent } from './discountoffer-section/discountoffer-section.component';
-import { Main2Component } from './main2/main2.component';
+import { MainComponent } from './main/main.component';
 
 const mainRoutes: Routes = [
 
@@ -57,7 +57,7 @@ const routes: Routes = [
       .then(mod => mod.AdminModule)
   },
 
-  { path: '', component: Main2Component, children: mainRoutes }
+  { path: '', component: MainComponent, children: mainRoutes }
 
 
 ];

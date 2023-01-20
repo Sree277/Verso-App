@@ -32,7 +32,7 @@ import { ClassicComponent } from './classic/classic.component';
 import { FormsModule } from '@angular/forms';
 import { BookListComponent } from './book-list/book-list.component';
 import { DiscountofferSectionComponent } from './discountoffer-section/discountoffer-section.component'
-import { Main2Component } from './main2/main2.component';
+import { MainComponent } from './main/main.component';
 
 
 
@@ -67,7 +67,7 @@ import { Main2Component } from './main2/main2.component';
     ClassicComponent,
     BookListComponent,
     DiscountofferSectionComponent,
-    Main2Component
+    MainComponent
 
 
   ],
