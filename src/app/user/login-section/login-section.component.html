@@ -1,43 +1,52 @@
-<section class="ls"  style="padding-top: 1px;height: 100vh;">
+<section class="ls" style="padding-top: 1px;height: 100vh;">
     <div class="container">
         <div class="row ctent">
             <div class="col-md-6 mb-3">
-                   <img src="assets/images/human1.png" alt="" class="img-fluid">  
+                <img src="assets/images/human1.png" alt="" class="img-fluid">
             </div>
 
             <div class="col-md-6">
                 <h3 class="signin-text mb-3">Log In</h3>
-                <form #loginForm="ngForm" (ngSubmit)="loginForm.valid&&onSubmit()"> 
+                <form #loginForm="ngForm" (ngSubmit)="loginForm.valid&&onSubmit()">
 
                     <div class="form-group">
                         <label for="email">Email</label>
-                        <input type="email" name="cntrolEmail" id="email" class="form-control" #cntrolEmail="ngModel" ngModel required [(ngModel)]="data.cntrolEmail" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
-                        
-                        <div class="text-warning" *ngIf="loginForm.touched&&loginForm.submitted&&cntrolEmail.invalid && cntrolEmail.touched">
-                            <span *ngIf="cntrolEmail.touched&&cntrolEmail?.errors?.['required']"> Email is required</span>
+                        <input type="email" name="cntrolEmail" id="email" class="form-control" #cntrolEmail="ngModel"
+                            ngModel required [(ngModel)]="data.cntrolEmail"
+                            pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+
+                        <div class="text-warning"
+                            *ngIf="loginForm.touched&&loginForm.submitted&&cntrolEmail.invalid && cntrolEmail.touched">
+                            <span *ngIf="cntrolEmail.touched&&cntrolEmail?.errors?.['required']"> Email is
+                                required</span>
                             <span *ngIf="cntrolEmail.touched&&cntrolEmail?.errors?.['pattern']"> invalid email</span>
-                         </div>
+                        </div>
                     </div>
 
                     <div class="form-group ">
                         <label for="password" class="mt-3">Password</label>
-                        <input type="password" name="controlPassword" id="" class="form-control" #controlPassword="ngModel" ngModel required  [(ngModel)]="data.controlPassword" minlength="4">
+                        <input type="password" name="controlPassword" id="" class="form-control"
+                            #controlPassword="ngModel" ngModel required [(ngModel)]="data.controlPassword"
+                            minlength="4">
 
-                        <span class="text-warning" *ngIf="controlPassword.invalid && controlPassword.touched">Please enter a Valid input </span>
+                        <span class="text-warning" *ngIf="controlPassword.invalid && controlPassword.touched">Please
+                            enter a Valid input </span>
 
 
                     </div>
                     <div class="form-group form-check my-2">
-                        <input type="checkbox" name="checkbox" id="" class="form-check-input" id="checkbox" ngModel required>
+                        <input type="checkbox" name="checkbox" id="" class="form-check-input" id="checkbox" ngModel
+                            required>
                         <label for="checkbox" class="form-check-label">Remember Me</label>
                     </div>
-                    <button class="btn btn-outline-danger btn-class my-3" >Login Now</button>
+                    <button class="btn btn-outline-danger btn-class my-3">Login Now</button>
 
-                    <div>Don't have an account? <span class="text-danger" [routerLink]="'/signup'">Signup</span></div>
+                    <div>Don't have an account? <a class="text-danger" [routerLink]="'/user/signup'">Signup</a>
+                    </div>
 
                 </form>
             </div>
-            </div>
+        </div>
 
-       </div>
-    </section> 
+    </div>
+</section>
