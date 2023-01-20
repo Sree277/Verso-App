@@ -35,7 +35,7 @@
                         <span class="text-danger" *ngIf="remember.invalid && remember.touched">Please fill </span>
 
                     </div>
-                    <button class="btn btn-outline-danger btn-class my-3">Signup Now</button>
+                    <button class="btn btn-outline-danger btn-class my-3" [routerLink]="'/'">Signup Now</button>
                     <div>Already have an account? <a class="text-warning" [routerLink]="'/user/login'">Login </a>
                     </div>
 
