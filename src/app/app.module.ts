@@ -29,11 +29,10 @@ import { LoveStoryComponent } from './love-story/love-story.component';
 import { PoetryComponent } from './poetry/poetry.component';
 import { CookingComponent } from './cooking/cooking.component';
 import { ClassicComponent } from './classic/classic.component';
-import {FormsModule}  from '@angular/forms';
-import { LoginSectionComponent } from './login-section/login-section.component';
-import { SignupSectionComponent } from './signup-section/signup-section.component';
+import { FormsModule } from '@angular/forms';
 import { BookListComponent } from './book-list/book-list.component';
 import { DiscountofferSectionComponent } from './discountoffer-section/discountoffer-section.component'
+import { Main2Component } from './main2/main2.component';
 
 
 
@@ -66,12 +65,11 @@ import { DiscountofferSectionComponent } from './discountoffer-section/discounto
     PoetryComponent,
     CookingComponent,
     ClassicComponent,
-    LoginSectionComponent,
-    SignupSectionComponent,
     BookListComponent,
     DiscountofferSectionComponent,
-    
-    
+    Main2Component
+
+
   ],
   imports: [
     BrowserModule,

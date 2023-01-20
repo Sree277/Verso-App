@@ -1,31 +1,36 @@
-<section class="ls" style="background-color: yellow;">
-    <div class="container" >
+<section class="ls" style="background-color: yellow;padding-top: 1px;height: 100vh;">
+    <div class="container">
         <div class="row ctent">
             <div class="col-md-6 mb-3">
-                   <img src="assets/images/human3.png" alt="" class="img-fluid">  
+                <img src="assets/images/human3.png" alt="" class="img-fluid">
             </div>
 
             <div class="col-md-6">
                 <h3 class="signin-text mb-3">Sign Up</h3>
-                <form #signupForm="ngForm" (ngSubmit)="signupForm.valid&&onSubmit()"> 
+                <form #signupForm="ngForm" (ngSubmit)="signupForm.valid&&onSubmit()">
 
                     <div class="form-group">
                         <label for="email">Email</label>
-                        <input type="email" name="sEmail" id="email" class="form-control" required  ngModel #sEmail="ngModel" [(ngModel)]="data.sEmail" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                        <input type="email" name="sEmail" id="email" class="form-control" required ngModel
+                            #sEmail="ngModel" [(ngModel)]="data.sEmail"
+                            pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
                         <div class="text-danger" *ngIf="signupForm.submitted&&sEmail.invalid && sEmail.touched">
                             <span *ngIf="sEmail?.errors?.['required']"> Email is required</span>
                             <span *ngIf="sEmail?.errors?.['pattern']"> invalid email</span>
-                         </div>
+                        </div>
                     </div>
 
                     <div class="form-group ">
                         <label for="password" class="mt-3">Password</label>
-                        <input type="password" name="spassword" id="" class="form-control" #spassword="ngModel" ngModel required [(ngModel)]="data.spassword" minlength="4" >
-                        <span class="text-danger" *ngIf="spassword.invalid && spassword.touched">Password is required </span>
+                        <input type="password" name="spassword" id="" class="form-control" #spassword="ngModel" ngModel
+                            required [(ngModel)]="data.spassword" minlength="4">
+                        <span class="text-danger" *ngIf="spassword.invalid && spassword.touched">Password is required
+                        </span>
 
                     </div>
                     <div class="form-group form-check my-2">
-                        <input type="checkbox" name="remember" id="" class="form-check-input" id="checkbox" ngModel required #remember="ngModel">
+                        <input type="checkbox" name="remember" id="" class="form-check-input" id="checkbox" ngModel
+                            required #remember="ngModel">
                         <label for="checkbox" class="form-check-label">Remember Me</label>
                         <span class="text-danger" *ngIf="remember.invalid && remember.touched">Please fill </span>
 
@@ -35,7 +40,7 @@
 
                 </form>
             </div>
-            </div>
+        </div>
 
-       </div>
-    </section> 
+    </div>
+</section>
