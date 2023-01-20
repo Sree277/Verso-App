@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SearchNavComponent } from './search-nav/search-nav.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { MainComponent } from './main/main.component';
+import { HomeComponent } from './home/home.component';
 import { OfferboxComponent } from './offerbox/offerbox.component';
 import { IconpartComponent } from './iconpart/iconpart.component';
 import { FavoriteComponent } from './favorite/favorite.component';
@@ -44,7 +44,7 @@ import { DiscountofferSectionComponent } from './discountoffer-section/discounto
     AppComponent,
     SearchNavComponent,
     NavbarComponent,
-    MainComponent,
+    HomeComponent,
     OfferboxComponent,
     IconpartComponent,
     FavoriteComponent,
