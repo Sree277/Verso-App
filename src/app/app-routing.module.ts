@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { FavoriteComponent } from './favorite/favorite.component';
 import { FictionComponent } from './fiction/fiction.component';
-import { MainComponent } from './main/main.component';
+import { HomeComponent } from './home/home.component';
 import { NewArrivalComponent } from './new-arrival/new-arrival.component';
 import { RentSectionComponent } from './rent-section/rent-section.component';
 import { StoryChildrensComponent } from './story-childrens/story-childrens.component';
@@ -25,7 +25,7 @@ const mainRoutes: Routes = [
   },
 
   { path: '', redirectTo: 'Home', pathMatch: 'full' },
-  { path: 'Home', component: MainComponent },
+  { path: 'Home', component: HomeComponent },
   { path: 'NewArrivals', component: NewArrivalComponent },
   { path: 'Rentbook', component: RentSectionComponent },
   // {path:'Catogary',component:},
