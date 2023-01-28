@@ -12,9 +12,9 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  newArrivals: Array<any> = this.bookService.getNewArrivals();
-
-  favorite: Array<any> = this.bookService.getFavorite();
+  newArrivals: Array<any> = this.bookService.getNewArrivals(false);
+  
+  favorite: Array<any> = this.bookService.getFavorite(false);
 
   //   {
   //     "name":"Looking for Alaska",
