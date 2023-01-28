@@ -33,6 +33,7 @@ import { FormsModule } from '@angular/forms';
 import { BookListComponent } from './book-list/book-list.component';
 import { DiscountofferSectionComponent } from './discountoffer-section/discountoffer-section.component'
 import { MainComponent } from './main/main.component';
+import { BookService } from './book.service';
 
 
 
@@ -78,7 +79,7 @@ import { MainComponent } from './main/main.component';
     CarouselModule,
     FormsModule
   ],
-  providers: [],
+  providers: [BookService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
