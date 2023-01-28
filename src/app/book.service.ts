@@ -13,12 +13,12 @@ export class BookService {
     return this.books.filter(b => b.isFavorite == true);
   }
 
-  getBooksByCategory(category: string, showAll: boolean) {
-    if (showAll) {
-      return this.books.filter(b => b.categories.includes(category));
+  getBooksByCategory(category: string, showOnlyTopSelling: boolean) {
+    if (showOnlyTopSelling) {
+      return this.books.filter(b => b.categories.includes(category)).filter(b => b.isTopSelling == true);
     }
     else {
-      return this.books.filter(b => b.categories.includes(category)).slice(0, 6);
+      return this.books.filter(b => b.categories.includes(category));
     }
   }
 
@@ -27,6 +27,7 @@ export class BookService {
     {
       "name": "The Value of a Whale",
       "isNewArrival": true,
+      "isTopSelling": true,
       "categories": ["fiction"],
       "author": "Adrienne Buller ",
       "bookImage": "book41.jpg",
@@ -86,6 +87,7 @@ export class BookService {
     {
       "name": "A Court of Thorns and Roses",
       "isNewArrival": true,
+      "isTopSelling": true,
       "categories": ["fiction"],
       "author": "Sarah J. Maas",
       "bookImage": "book8.jpg",
@@ -246,6 +248,7 @@ export class BookService {
     },
     {
       "name": "Upgrade",
+      "isTopSelling": true,
       "categories": ["fiction"],
       "isFavorite": true,
       "author": " Blake Crouch",

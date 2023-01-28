@@ -91,7 +91,7 @@ export class HomeComponent implements OnInit {
 
 
 
-  fiction: Array<any> = this.bookService.getBooksByCategory("fiction", false);
+  fiction: Array<any> = this.bookService.getBooksByCategory("fiction", true);
 
 
   // fiction : Array<any>=[
