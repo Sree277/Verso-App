@@ -42,30 +42,8 @@
                    
                 </div>
                 <div class="col-md-9 mt-5 ml-1 bg-white">
-                      <div class="row ">
-                        <div class="col-md-2 my-2 " *ngFor="let book of books">
-                            <div class="card my-3 cardss">
-                                <div class="product-top" [routerLink]="'/bookDetails'"  [state]="{book}">
-                                    <img src="assets/images/{{book.bookImage}}" width="100%" height="100%" alt="">
-                                      <div class="bookicones">
-                                      <button type="button" class="btn btn-secondary space" title="Quick Shop"><i class="bi bi-eye-fill"></i></button>
-                                      <button type="button" class="btn btn-secondary space" title="Add to Wishlist"><i class="bi bi-heart"></i></button>
-                                      <button type="button" class="btn btn-secondary space" title="Add to Cart"><i class="bi bi-cart-fill"></i></button>
-                                       </div>
-                                  </div>
-                     
-                                  <div class="product-bottom text-center">
-                                   <i class="bi bi-star-fill"></i>
-                                   <i class="bi bi-star-fill"></i>
-                                     <i class="bi bi-star-fill"></i>
-                                    <i class="bi bi-star-half"></i>
-                                   <i class="bi bi-star"></i>
-                                   <h3>{{book.name}}</h3>
-                                    <h5>{{book.bookPrize}}</h5>
-                                  </div>
-                              </div>
-                        </div>
-                      </div>
+                    <app-book-list [books]="rentbook"></app-book-list>
+
                 </div>
             </div>
         </div>
