@@ -65,10 +65,13 @@ export class BookService {
     }
   }
 
+  getBookById(id: number) {
+    return this.books.find(b => b.bookId == id);
+  }
 
   books: Array<any> = [
     {
-      "bookId": "",
+      "bookId": 1,
       "name": "The Value of a Whale",
       "isNewArrival": true,
       "isTopSelling": true,
@@ -86,7 +89,7 @@ export class BookService {
 
     },
     {
-      "bookId": "",
+      "bookId": 2,
       "name": "Dharma",
       "isNewArrival": true,
       "isTopSelling": true,
