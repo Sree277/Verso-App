@@ -68,7 +68,7 @@ export class BookService {
 
   books: Array<any> = [
     {
-      "bookId": "",
+      "bookId": "1",
       "name": "The Value of a Whale",
       "isNewArrival": true,
       "isTopSelling": true,
@@ -86,7 +86,7 @@ export class BookService {
 
     },
     {
-      "bookId": "",
+      "bookId": "2",
       "name": "Dharma",
       "isNewArrival": true,
       "isTopSelling": true,
@@ -102,7 +102,7 @@ export class BookService {
       "aboutAuthor": " AMISH is a 1974-born IIM (Kolkata)-educated, boring banker turned happy author. The success of his debut book, The Immortals of Meluha (Book 1 of the Shiva Trilogy), encouraged him to give up a fourteen-year-old career in financial services to focus on writing. He is passionate about history, mythology and philosophy, finding beauty and meaning in all world religions. Amish's books have sold more than 5.5 million copies and have been translated into over 19 languages. BHAVNA ROY was educated in Mussoorie, Pune and Mumbai. After graduating in psychology from Mumbai University, she worked first as a volunteer in a school for special children in Malegaon, and later in an NGO in Nashik called SOS. She is the wife of the late Himanshu Roy IPS, senior police officer of the Maharashtra cadre. She lives in Mumbai."
     },
     {
-      "bookId": "",
+      "bookId": "3",
       "name": " The Alchemist",
       "isNewArrival": true,
       "isTopSelling": true,
@@ -119,7 +119,7 @@ export class BookService {
 
     },
     {
-      "bookId": "",
+      "bookId": "4",
       "name": "RAM Scion of Ikshvaku",
       "isNewArrival": true,
       "isTopSelling": true,
@@ -136,7 +136,7 @@ export class BookService {
 
     },
     {
-      "bookId": "",
+      "bookId": "5",
       "name": "A Court of Thorns and Roses",
       "isNewArrival": true,
       "isTopSelling": true,
@@ -153,7 +153,7 @@ export class BookService {
 
     },
     {
-      "bookId": "",
+      "bookId": "6",
       "name": "Fairy Tale",
       "isNewArrival": true,
       "isTopSelling": true,
@@ -172,7 +172,7 @@ export class BookService {
     // ...........................................................
 
     {
-      "bookId": "",
+      "bookId": "7",
       "name": "Paths of Fear",
       "isNewArrival": false,
       "isTopSelling": true,
@@ -189,7 +189,7 @@ export class BookService {
 
     },
     {
-      "bookId": "",
+      "bookId": "8",
       "name": "Kafka On The Shore",
       "isNewArrival": false,
       "isTopSelling": true,
@@ -206,7 +206,7 @@ export class BookService {
 
     },
     {
-      "bookId": "",
+      "bookId": "9",
       "name": "Overkill ",
       "isNewArrival": false,
       "isTopSelling": true,
@@ -222,7 +222,7 @@ export class BookService {
       "aboutAuthor": " Sandra Brown is the author of seventy-three New York Times bestsellers. There are more than eighty million copies of her books in print worldwide, and her work has been translated into thirty-four languages. Four of her books have been made into films. In 2008, the International Thriller Writers named Brown its Thriller Master, the organization's highest honor. She has served as president of Mystery Writers of America and holds an honorary doctorate of humane letters from Texas Christian University. She lives in Texas.",
     },
     {
-      "bookId": "",
+      "bookId": "10",
       "name": "War of Lanka",
       "isNewArrival": false,
       "isTopSelling": true,
@@ -238,7 +238,7 @@ export class BookService {
       "aboutAuthor": "Amish is a 1974-born, IIM (Kolkata)-educated banker-turned-author. The success of his debut book, The Immortals of Meluha (Book 1 of the Shiva Trilogy), encouraged him to give up his career in financial services to focus on writing. Besides being an author, he is also an Indian-government diplomat, a host for TV documentaries, and a film producer. Amish is passionate about history, mythology and philosophy, finding beauty and meaning in all world religions. His books have sold more than 6 million copies and have been translated into over 20 languages. His Shiva Trilogy is the fastest selling and his Ram Chandra Series the second fastest selling book series in Indian publishing history. You can connect with Amish here: ",
     },
     {
-      "bookId": "",
+      "bookId": "11",
       "name": "Something I Never Told You",
       "isNewArrival": false,
       "isTopSelling": true,
@@ -256,7 +256,7 @@ export class BookService {
     },
 
     {
-      "bookId": "",
+      "bookId": "12",
       "name": "Milk and Honey",
       "categories": ["poetry"],
       "isFavorite": true,
@@ -275,6 +275,7 @@ export class BookService {
 
     // .................................new arrivals.....................................
     {
+      "bookId": "13",
       "name": "The Challenge",
       "isNewArrival": true,
       "categories": ["nonfiction"],
@@ -289,6 +290,7 @@ export class BookService {
       "aboutAuthor": " Danielle Steel has been hailed as one of the world’s bestselling authors, with almost a billion copies of her novels sold. Her many international bestsellers include All That Glitters, Royal, Daddy’s Girls, The Wedding Dress, The Numbers Game, Moral Compass, Spy, and other highly acclaimed novels. She is also the author of His Bright Light, the story of her son Nick Traina’s life and death; A Gift of Hope, a memoir of her work with the homeless; Expect a Miracle, a book of her favorite quotations for inspiration and comfort; Pure Joy, about the dogs she and her family have loved; and the children’s books Pretty Minnie in Paris and Pretty Minnie in Hollywood. "
     },
     {
+      "bookId": "14",
       "name": " The Sun Is Also a Star",
       "isNewArrival": true,
       "categories": ["fiction"],
@@ -304,6 +306,7 @@ export class BookService {
     },
  
     {
+      "bookId": "15",
       "name": " The Midnight Library ",
       "author": "Matt Haig ",
       "bookImage": "book5.jpg",
@@ -318,6 +321,7 @@ export class BookService {
       "aboutAuthor": "The Midnight Library is a fantasy novel by Matt Haig, published on 13 August 2020 by Canongate Books. It was abridged and broadcast on BBC Radio 4 over ten episodes in December 2020.Matt Haig (born 3 July 1975) is an English author and journalist. He has written both fiction and non-fiction books for children and adults, often in the speculative fiction genre.Matt Haig is an author for children and adults. His memoir Reasons to Stay Alive was a number one bestseller, staying in the British top ten for 46 weeks. His children's book A Boy Called Christmas was a runaway hit and is translated in over 40 languages."
     },
     {
+      "bookId": "16",
       "name": "The Seven Husbands of Evelyn Hugo",
       "isNewArrival": true,
       "categories": ["love story"],
@@ -333,6 +337,7 @@ export class BookService {
 
     },
     {
+      "bookId": "17",
       "name": "The Fault in Our Stars",
       "isNewArrival": true,
       "categories": ["non fiction"],
@@ -348,6 +353,7 @@ export class BookService {
 
     },
     {
+      "bookId": "18",
       "name": "Less Is Lost ",
       "author": "Andrew Sean Greer",
       "bookImage": "book10.jpg",
@@ -363,6 +369,7 @@ export class BookService {
 
     },
     {
+      "bookId": "19",
       "name": "White Nights and Other Stories",
       "isNewArrival": true,
       "categories": ["classic"],
@@ -378,6 +385,7 @@ export class BookService {
 
     },
     {
+      "bookId": "20",
       "name": "Without Fail",
       "isNewArrival": true,
       "isNewOffer": true,
@@ -394,6 +402,7 @@ export class BookService {
 
     },
     {
+      "bookId": "21",
       "name": "book14",
       "isNewArrival": true,
       "categories": ["classic"],
@@ -410,6 +419,7 @@ export class BookService {
 
     },
     {
+      "bookId": "22",
       "name": "The Power of your subconscious mind",
       "isNewArrival": true,
       "categories": ["classic"],
@@ -425,6 +435,7 @@ export class BookService {
 
     },
     {
+      "bookId": "23",
       "name": "It Ends with Us ",
       "isNewArrival": true,
       "categories": ["classic"],
@@ -440,6 +451,7 @@ export class BookService {
 
     },
     {
+      "bookId": "24",
       "name": "The Kid Who Came From Space",
       "isNewArrival": true,
       "categories": ["classic"],
@@ -455,6 +467,7 @@ export class BookService {
 
     },
     {
+      "bookId": "25",
       "name": "Kingdom of Ash",
       "isNewArrival": true,
       "categories": ["classic"],
@@ -470,6 +483,7 @@ export class BookService {
 
     },
     {
+       "bookId": "26",
       "name": "The Selection ",
       "isNewArrival": true,
       "categories": ["classic"],
@@ -487,6 +501,7 @@ export class BookService {
     // ..........................end ..............................
     // ...............................rentsection................................
     {
+      "bookId": "27",
       "name": "How to Stop Worrying and Start Living ",
       "isRentable": true,
       "categories": ["classic"],
@@ -502,6 +517,7 @@ export class BookService {
 
     },
     {
+      "bookId": "28",
       "name": "The Perfect Us ",
       "isRentable": true,
       "categories": ["classic"],
@@ -517,6 +533,7 @@ export class BookService {
 
     },
     {
+      "bookId": "29",
       "name": "Romeo and Juliet ",
       "isRentable": true,
       "categories": ["classic"],
@@ -532,6 +549,7 @@ export class BookService {
 
     },
     {
+      "bookId": "30",
       "name": "Paths of Fear",
       "isRentable": true,
       "categories": ["fiction"],
@@ -546,6 +564,7 @@ export class BookService {
       "aboutAuthor": " Connie Kerbs, aka The Fostering Mom, was an early and ardent student of Language Arts - and still is. She is a prolific writer and intense lover of great poetry. Along with the poetry, she writes fiction, non-fiction, inspirational tales, memoirs, children's stories, ...and everything in between! Her stories and poems have been published several places, and Paths of Fear is the debut title of her Pebbled Lane Books Series, (www.pebbledlanebooks.com). She has several other projects in the works at various stages of publishing progress.Author Connie Kerbs, has been writing stories and poems since gripping that first, wonderful, fat pencil! When she is not writing, she is taking care of her unique family",
     },
     {
+      "bookId": "31",
       "name": "Believe in yourself ",
       "isRentable": true,
       "categories": ["classic"],
@@ -560,6 +579,7 @@ export class BookService {
       "aboutAuthor": "Murphy was born in Ireland, the son of a private boy's school headmaster and raised a Roman Catholic. He studied for the priesthood and joined the Jesuits. In his twenties, an experience with healing prayer led him to leave the Jesuits and move to the United States, where he became a pharmacist in New York (having a degree in chemistry by that time). Here he attended the Church of the Healing Christ (part of the Church of Divine Science), where Emmet Fox had become minister in 1931. ",
     },
     {
+      "bookId": "32",
       "name": "Angels Looking Through",
       "isRentable": true,
       "categories": ["classic"],
@@ -574,6 +594,7 @@ export class BookService {
       "aboutAuthor": " Paul Lambillion is a healer and teacher who runs workshops in spiritual awareness in the UK, Switzerland, Austria, Germany and the USA. He also works as an intuitive management consultant and runs a busy private practice in the UK where he lives with his wife and family. Paul Lambillion is a healer, clairvoyant, teacher and lecturer who has worked in a broad range of spiritual and metaphysical fields for over 30 year",
     },
     {
+      "bookId": "33",
       "name": "The Secret Garden",
       "isRentable": true,
       "categories": ["classic"],
@@ -588,6 +609,7 @@ export class BookService {
       "aboutAuthor": " Frances Eliza Hodgson was the daughter of ironmonger Edwin Hodgson, who died three years after her birth, and his wife Eliza Boond. She was educated at The Select Seminary for Young Ladies and Gentleman until the age of fifteen, at which point the family ironmongery, then being run by her mother, failed, and the family emigrated to Knoxville, Tennessee. Here Hodgson began to write, in order to supplement the family income, assuming full responsibility for the family upon the death of her mother, in 1870. In 1872 she married Dr. Swan Burnett, with whom she had two sons, Lionel and Vivian. The marriage was dissolved in 1898. In 1900 Burnett married actor Stephen Townsend until 1902 when they got divorced. Following her great success as a novelist, playwright, and children's author, Burnett maintained homes in both England and America, traveling back and forth quite frequently. She died in her Long Island, New York home, in 1924.",
     },
     {
+      "bookId": "34",
       "name": "Messed Up! But All for Love ",
       "isNewArrival": true,
       "categories": ["classic"],
@@ -602,6 +624,7 @@ export class BookService {
       "aboutAuthor": "Arvind Parashar is a corporate-leader-turned-author who hails from the hill station of Dehradun. Having spent his childhood at the foothills of the Himalayas, Arvind always had a creative inclination in life; he used to write and publish songs, poems, stories, etc. during his schooldays.Arvind Parashar hails from a beautiful valley in Northern India, Dehradun, capital of Uttarakhand. He completed his education there and moved places. His corporate stint took him to the U.S several times. Presently, He lives with his family in Mumbai and finds it the best place on earth to live. Apart from writing",
     },
     {
+      "bookId": "35",
       "name": "Two Indian Girls",
       "isRentable": true,
       "categories": ["classic"],
@@ -616,6 +639,7 @@ export class BookService {
       "aboutAuthor": " Kinshuk has written four novels and he has released his latest work in the form of a novella. He has recently published Bariatu Tales, a tale full of anecdotes and vignettes. He has published his series of The Kanke Killings. It is a compendium of 4 novels in the Police Procedurals genral.Kinshuk has written four novels and he has released his latest work in the form of a novella. He has recently published Bariatu Tales, a tale full of anecdotes and vignettes. He has published his series of The Kanke Killings. It is a compendium of 4 novels in the Police Procedurals genre.",
     },
     {
+      "bookId": "36",
       "name": "Mercy of Gods & Men",
       "isRentable": true,
       "categories": ["classic"],
@@ -630,6 +654,7 @@ export class BookService {
       "aboutAuthor": " ",
     },
     {
+      "bookId": "37",
       "name": "Whispers of Heartache ",
       "isRentable": true,
       "isNewArrival": true,
@@ -645,6 +670,7 @@ export class BookService {
       "aboutAuthor": "A great poetry book for all those who want to experience the beautifully sad emotions that come along with a heartbreak. What letting go feels like, how broken a person can get, how it feels to fall in love with someone, and a lot more. Get this relatable poetry book for gift and the person will surely fall in love with the poems in it.",
     },
     {
+      "bookId": "38",
       "name": "Wuthering Heights ",
       "isRentable": true,
       "categories": ["classic"],
@@ -660,6 +686,7 @@ export class BookService {
     },
 
     {
+      "bookId": "39",
       "name": "The Adventures of Tom Sawyer",
       "isRentable": true,
       "categories": ["classic"],
@@ -674,6 +701,7 @@ export class BookService {
       "aboutAuthor": " Lauded as the ‘greatest American humorist of his age’ and called ‘the father of American literature’ by William Faulkner, Samuel Langhorne Clemens, better known by his pen name Mark Twain, was born in Florida, Missouri, in 1835. He authored 28 books and numerous sketches and short stories. in 1839, his family shifted to Hannibal, a developing port city along the banks of river Mississippi, which later provided the setting for the Adventures of Tom Sawyer and its sequel, Adventures of Huckleberry Finn, two of his most remarkable books. the Adventures of Tom Sawyer (1876) features one of the best-loved characters in American fiction. it is suggestive of the life in the towns by the Mississippi river.Mark Twain was awarded an honorary doctorate in letters by the Oxford University in 1907. He died on April 21, 1910 in Redding, Connecticut, after suffering a heart attack.",
     },
     {
+      "bookId": "40",
       "name": "Color BTS! The Most Beautiful BTS Coloring Book For ARMY",
       "isRentable": true,
       "categories": ["classic"],
@@ -689,6 +717,7 @@ export class BookService {
 
     },
     {
+      "bookId": "41",
       "name": "November 9 ",
       "isRentable": true,
       "categories": ["classic"],
@@ -703,6 +732,7 @@ export class BookService {
       "aboutAuthor": "Colleen Hoover is an American author who primarily writes novels in the romance and young adult fiction genres. She is best known for her 2016 romance novel It Ends with Us. Many of her works were self-published before being picked up by a publishing house. Hoover sold about 20 million books as of October 2022.",
     },
     {
+      "bookId": "42",
       "name": "Girl in Room 105",
       "isRentable": true,
       "categories": ["classic"],
@@ -717,6 +747,7 @@ export class BookService {
       "aboutAuthor": "Chetan Bhagat is the author of seven novels and two nonfiction books. The New York Times called him the the biggest selling English language novelist in India's history and Time magazine named him among the 100 most influential people in the world.Chetan Baghat, a rising star in the contemporary modern Indian literature, is a multitalented personality. He is a novelist, columnist, public speaker and a screenplay writer. His notable works include Five Point Someone, The 3 Mistakes of My Life and 2 States.Most of his literary works address the issues related to Indian youth and their aspirations which earned Baghat status of the youth icon. ",
     },
     {
+      "bookId": "43",
       "name": "Animal Farm",
       "isRentable": true,
       "categories": ["classic"],
@@ -732,6 +763,7 @@ export class BookService {
     },
     // ..............................lovestory..................................
     {
+      "bookId": "44",
       "name": "You Can Heal Your Life",
       "categories": ["love_story"],
       "isRentable": true,
@@ -747,6 +779,7 @@ export class BookService {
 
     },
     {
+      "bookId": "45",
       "name": "I Too Had A Love Story ",
       "categories": ["love_story"],
       "author": "Ravinder Singh",
@@ -761,6 +794,7 @@ export class BookService {
 
     },
     {
+      "bookId": "46",
       "name": "You are the Best Wife",
       "categories": ["love_story"],
       "author": "Ajay K Pandey ",
@@ -774,6 +808,7 @@ export class BookService {
       "aboutAuthor": "Ajay K Pandey is currently working with Cognizant, Pune. He grew up aspiring to be a teacher, but destiny landed him in the IT field. Travelling, trekking and reading novels take much of his leisure time. Travelling and meeting new people has taught him about different cultures and people, and makes him wonder how despite all the differences, there is a bond that unites them. Trekking taught him to deal with challenges like a sport. Reading is perhaps what makes him feel alive. Apart from writing, he wants to follow his role model Mother Teresa and make some contribution to the society. His second book is slated to hit the stands early next year.His debut work, You are the Best Wife is based on his life events and lessons. ",
     },
     {
+      "bookId": "47",
       "name": "Gift Me A New Beginning",
       "categories": ["love_story"],
       "author": "Arpit Vageria ",
@@ -788,6 +823,7 @@ export class BookService {
     },
     
     {
+      "bookId": "48",
       "name": "It Starts With Us",
       "categories": ["love_story"],
       "isRentable": true,
@@ -802,6 +838,7 @@ export class BookService {
       "aboutAuthor": "Colleen Hoover is an American author who primarily writes novels in the romance and young adult fiction genres. She is best known for her 2016 romance novel It Ends with Us. Many of her works were self-published before being picked up by a publishing house. Hoover sold about 20 million books as of October 2022Colleen Hoover is the #1 New York Times and International bestselling author of multiple novels and novellas. She lives in Texas with her husband and their three boys. She is the founder of The Bookworm Box, a non-profit book subscription service and bookstore in Sulphur Springs, Texas.",
     },
     {
+      "bookId": "49",
       "name": "You Only Live Once:",
       "categories": ["classic"],
       "isRentable": true,
@@ -816,6 +853,7 @@ export class BookService {
       "aboutAuthor": "Stuti Changle is a national bestselling author. Her books You Only Live Once and On the Open Road have inspired readers across the country to make a move. Where the Sun Never Sets is her third book.Stuti has a master's degree in management from IMI New Delhi. Stuti quit her job to inspire people by sharing life-changing stories. She made her TV debut in 2019 as a host of the TV series Kar Ke Dikhaenge.Stuti has sailed to the Andamans, camped with Indian jawans in Arunachal Pradesh, scuba-dived in the Indian Ocean, swum with the dolphins in the Mediterranean, floated free for hours in the Atlantic, and wishes to travel the world before she dies. Every year, she spends time in the coastal village of Palolem in Goa. She currently divides her time between India and the US, where she lives with her husband, Kushal Nahata, co-founder and CEO of FarEye.",
     },
     {
+      "bookId": "50",
       "name": "Falling In Love Again",
       "categories": ["love_story"],
       "author": "Ruskin Bond",
@@ -829,6 +867,7 @@ export class BookService {
       "aboutAuthor": "Ruskin Bond's first novel, The Room on the Roof, written when he was seventeen, won the John Llewellyn Rhys Memorial Prize in 1957. Since then he has written several novels (including Vagrants in the Valley, A Flight of Pigeons and Delhi Is Not Far), essays, poems and children's books, many of which have been published by Penguin India. He has also written over 500 short stories and articles that have appeared in a number of magazines and anthologies. He received the Sahitya Akademi Award in 1993 and the Padma Shri in 1999.",
     },
     {
+      "bookId": "51",
       "name": "Ugly Love",
       "categories": ["classic"],
       "isRentable": true,
@@ -844,6 +883,7 @@ export class BookService {
       "aboutAuthor": "Colleen Hoover is the #1 New York Times bestselling author of more than twenty-three novels, including It Ends with Us, All Your Perfects, Ugly Love, and Verity. In 2015, Colleen and her family founded a nonprofit called The Bookworm Box, a bookstore and monthly book subscription service that has donated over $1,000,000 to various charities to date. Colleen lives in Texas with her husband and their three boys. For more information, please visit ColleenHoover.com.",
     },
     {
+      "bookId": "52",
       "name": "Wish I Could Tell You",
       "categories": ["classic"],
       "isTopSelling": true,
@@ -860,6 +900,7 @@ export class BookService {
       "aboutAuthor": "Durjoy Datta was born in New Delhi, and completed a degree in engineering and business management before embarking on a writing career. His first book-Of Course I Love You . . .-was published when he was twenty-one years old and was an instant bestseller. His successive novels-Now That You're Rich . . .; She Broke Up, I Didn't! . . .; Oh Yes, I'm Single! . . .; You Were My Crush . . .; If It's Not Forever . . .; Till the Last Breath . . .; Someone Like You; Hold My Hand; When Only Love Remains; World's Best Boyfriend; The Girl of My Dreams; The Boy Who Loved; The Boy with the Broken Heart and The Perfect Us-have also found prominence on various bestseller lists, making him one of the highest-selling authors in India.",
     },
     {
+      "bookId": "53",
       "name": "Touch of Eternity",
       "categories": ["classic"],
       "isRentable": true,
@@ -874,6 +915,7 @@ export class BookService {
       "aboutAuthor": "Durjoy Datta was born in New Delhi, and completed a degree in engineering and business management before embarking on a writing career. His first book, Of Course I Love You . . ., was published when he was twenty-one years old and was an instant bestseller. His successive novels have also found prominence on various bestseller lists, making him one of the highest-selling authors in India. Durjoy also has to his credit nine television shows and has written over a thousand episodes for television. He lives in Mumbai.",
     },
     {
+      "bookId": "54",
       "name": "boThe Girl in the Glass Casek82",
       "categories": ["fiction"],
       "author": "Devashish Sardana",
@@ -887,6 +929,7 @@ export class BookService {
       "aboutAuthor": "Devashish Sardana is the author of the bestselling The Apple, which won the second prize among 5000 entries at the Amazon India Pen-to-Publish Literary Award 2019. He also writes 100-word thrillers on 10x10 Thrills, a blog on both Facebook and Instagram with 1.6 lakh followers. The blog reached over 1.2 crore readers in 2020.Devashish is a small-town boy from India, who grew up with big dreams and an even bigger imagination. After graduating from IIM Ahmedabad, he sharpened his storytelling skills as a brand builder in a Fortune 100 company for over ten years. Devashish lives in Singapore with his wife and college sweetheart, Megha. He flits across the globe selling hope in a jar (beauty creams).",
     },
     {
+      "bookId": "55",
       "name": "Where the Crawdads Sing",
       "categories": ["classic"],
       "isRentable": true,
@@ -901,6 +944,7 @@ export class BookService {
       "aboutAuthor": "Delia Owens is the co-author of three internationally bestselling nonfiction books about her life as a wildlife scientist in Africa—Cry of the Kalahari, The Eye of the Elephant, and Secrets of the Savanna. She has won the John Burroughs Award for Nature Writing and has been published in Nature, The African Journal of Ecology, and International Wildlife, among many others. She currently lives in Idaho, where she continues her support for the people and wildlife of Zambia. Where the Crawdads Sing is her first novel.",
     },
     {
+      "bookId": "56",
       "name": "A Girl to Remember",
       "categories": ["classic"],
       "isRentable": true,
@@ -915,6 +959,7 @@ export class BookService {
       "aboutAuthor": "Ajay Pandey, also known as Ajay K. Pandey, is an Indian author of romance novels. His books include You are the Best Wife, You are the Best Friend, A Girl to Remember. His first book was You are the Best Wife.Pandey was born in Uttar Pradesh. He is an engineer of a Pune-based company, Cognizant. His first book as an author was You are the Best Wife which was released in 2015. After the success of this book, he wrote Her Last Wish",
     },
     {
+      "bookId": "57",
       "name": "Maybe Someday",
       "categories": ["classic"],
       "isRentable": true,
@@ -929,6 +974,7 @@ export class BookService {
       "aboutAuthor": " Colleen Hoover is the #1 New York Times bestselling author of more than twenty-three novels, including It Ends with Us, All Your Perfects, Ugly Love, and Verity. In 2015, Colleen and her family founded a nonprofit called The Bookworm Box, a bookstore and monthly book subscription service. Colleen lives in Texas with her husband and their three boys. For more information, please visit ColleenHoover.com.",
     },
     {
+      "bookId": "58",
       "name": "Jaya",
       "categories": ["classic"],
       "isRentable": true,
@@ -943,6 +989,7 @@ export class BookService {
       "aboutAuthor": "Devdutt Pattanaik is a doctor who worked in the pharmaceutical and healthcare industry for fifteen years, before turning his passion for mythology into his profession. He has authored over 600 articles and 30 books on the relevance of sacred stories, symbols and rituals in modern times. His books include:",
     },
     {
+      "bookId": "59",
       "name": "Harry Potter and the Prisoner of Azkaban",
       "categories": ["classic"],
       "isRentable": true,
@@ -958,6 +1005,7 @@ export class BookService {
     },
     // ......................usedbook.............................
     {
+      "bookId": "60",
       "name": "Humsafar ",
       "categories": ["classic"],
       "isUsed": true,
@@ -973,6 +1021,7 @@ export class BookService {
 
     },
     {
+      "bookId": "61",
       "name": "The Monsoon Murders",
       "categories": ["classic"],
       "isUsed": true,
@@ -988,6 +1037,7 @@ export class BookService {
 
     },
     {
+      "bookId": "62",
       "name": "Roses Are Blood Red",
       "categories": ["classic"],
       "isUsed": true,
@@ -1002,6 +1052,7 @@ export class BookService {
       "aboutAuthor": "Novoneel Chakraborty is the bestselling author of fourteen bestselling thriller novels and one short story collection titled Cheaters. His novel, Forget Me Not, Stranger, debuted as the No. 1 bestseller across India. While All Yours, Stranger ranked in the top five thriller novels on Amazon, India-the only one to feature amid other international bestsellers. His novel Black Suits You was in top five thrillers category on Amazon for fifteen weeks. While his Forever series was in the bestseller list for ten weeks straight after its release with Forever Is a Lie featuring in the highest selling books on Flipkart for 2017. Forever Is True made it to Amazon's Memorable Books of 2017 and Times of India's Most Stunning Books of 2017.",
     },
     {
+      "bookId": "63",
       "name": "One Arranged Murder",
       "categories": ["classic"],
       "isRentable": true,
@@ -1017,6 +1068,7 @@ export class BookService {
       "aboutAuthor": "Chetan Bhagat is the author of nine blockbuster books. These include seven novels—Five Point Someone (2004), One Night @ the Call Center (2005), The 3 Mistakes of My Life (2008), 2 States (2009), Revolution 2020 (2011), Half Girlfriend (2014) and One Indian Girl (2016) and two non-fiction titles— What Young India Wants (2012) and Making India Awesome(2015). His upcoming book 400 Days is now available to preorder and will release on 17th September 2021. Chetan’s books have remained bestsellers since their release. Four out his five novels have been already adapted into successful Bollywood films and the others are in process of being adapted as well. The New York Times called him the ‘the biggest selling English language novelist in India’s history’. Time magazine named him amongst the ‘100 most influential people in the world’ and Fast Company, USA, listed him as one of the world’s ‘100 most creative people in business’. Chetan writes columns for leading English and Hindi newspapers, focusing on youth and national development issues. He is also a motivational speaker and screenplay writer. Chetan quit his international investment banking career in 2009 to devote his entire time to writing and make change happen in the country. He lives in Mumbai with his wife, Anusha, an ex-classmate from IIM-A, and his twin boys.",
     },
     {
+      "bookId": "64",
       "name": "7 Days",
       "categories": ["classic"],
       "isUsed": true,
@@ -1031,6 +1083,7 @@ export class BookService {
       "aboutAuthor": "Stanish Gill is a young writer associated with Film Writer Association as an Associate Writer. Apart from writing fictional novels, he also writes Hindi songs. Some of his work has been published in newspapers and on the Film Writer Association portal. He is an Educationist by profession and lives along with his wife and two sons in Mumbai.",
     },
     {
+      "bookId": "65",
       "name": "Without Merit",
       "categories": ["classic"],
       "isUsed": true,
@@ -1045,6 +1098,7 @@ export class BookService {
       "aboutAuthor": "Colleen Hoover is the #1 New York Times bestselling author of more than twenty-three novels, including It Ends with Us, All Your Perfects, Ugly Love, and Verity. In 2015, Colleen and her family founded a nonprofit called The Bookworm Box, a bookstore and monthly book subscription service. Colleen lives in Texas with her husband and their three boys.",
     },
     {
+      "bookId": "66",
       "name": "Lost Symbol",
       "categories": ["classic"],
       "isUsed": true,
@@ -1059,6 +1113,7 @@ export class BookService {
       "aboutAuthor": "Daniel Gerhard Brown is an American author best known for his thriller novels, including the Robert Langdon novels Angels & Demons, The Da Vinci Code, The Lost Symbol, Inferno, and Origin. His novels are treasure hunts which usually take place over a period of 24 hours.Daniel Gerhard Brown (born June 22, 1964) is an American author best known for his thriller novels, including the Robert Langdon novels Angels & Demons (2000), The Da Vinci Code (2003), The Lost Symbol (2009), Inferno (2013), and Origin (2017). His novels are treasure hunts which usually take place over a period of 24 hours.[3] They feature recurring themes of cryptography, art, and conspiracy theories. His books have been translated into 57 languages and, as of 2012, have sold over 200 million copies. Three of them, Angels & Demons, The Da Vinci Code, and Inferno, have been adapted into films, while one of them, The Lost Symbol, was adapted into a television show. ",
     },
     {
+      "bookId": "67",
       "name": "Over My Dead Body",
       "categories": ["classic"],
       "isUsed": true,
@@ -1073,6 +1128,7 @@ export class BookService {
       "aboutAuthor": "Jeffrey Howard Archer, Baron Archer of Weston-super-Mare (born 15 April 1940) is an English author and former politician.He was a Member of Parliament and deputy chairman of the Conservative Party, and became a life peer in 1992. His political career, having suffered several controversies, ended after a conviction for perverting the course of justice and his subsequent imprisonment. He is married to Mary Archer, a scientist specialising in solar power. Outside politics, he is a novelist, playwright and short story writer.",
     },
     {
+      "bookId": "68",
       "name": "My Imperfect Dream",
       "categories": ["classic"],
       "isUsed": true,
@@ -1087,6 +1143,7 @@ export class BookService {
       "aboutAuthor": "Experienced Co-Founder with a demonstrated history of working in the computer software industry. Skilled in Team Building, Mentoring, Trading, and Marketing. Strong business development professional graduated from Guru Gobind Singh Indraprastha University. ",
     },
     {
+      "bookId": "69",
       "name": "That Man in the Mirror",
       "categories": ["classic"],
       "isUsed": true,
@@ -1101,6 +1158,7 @@ export class BookService {
       "aboutAuthor": "Rajeev Ranjan graduated in physics from University of Delhi in the year 1996. He works for Government of India in senior executive position. A voracious reader and writer, Rajeev has written two more bestselling novels.",
     },
     {
+      "bookId": "70",
       "name": "400 Days ",
       "categories": ["classic"],
       "isUsed": true,
@@ -1115,6 +1173,7 @@ export class BookService {
       "aboutAuthor": "Chetan Bhagat is the author of seven novels and two nonfiction books. The New York Times called him the “the biggest selling English language novelist in India’s history” and Time magazine named him among the “100 most influential people in the world.” Chetan also writes about youth and national development issues in India. He lives in Mumbai with his wife and their twin boys.      ",
     },
     {
+      "bookId": "71",
       "name": "The Secret of the Druids",
       "categories": ["classic"],
       "isUsed": true,
@@ -1129,6 +1188,7 @@ export class BookService {
       "aboutAuthor": "Christopher C. Doyle is an author who transports the reader into a fascinating world where ancient secrets buried in legends blend with science and history to create a gripping story.Brought up as a boy on a steady diet of books ranging from classical literature to science fiction and fantasy, Christopher has been writing since his schooldays. Since childhood, his literary mentors have been Jules Verne, H G Wells, Isaac Asimov and Robert Heinlein, JRR Tolkein, Robert Jordan and Terry Brooks.Along the way to publishing his debut novel, The Mahabharata Secret, Christopher pursued a career in the corporate world after graduating from St. Stephens College, Delhi with a degree in Economics and studying business management at IIM Calcutta. Over the course of his corporate career, he has worked with leading multinational organizations as a senior executive and CEO before setting up a strategic consultancy in India in partnership with a US based consulting firm.",
     },
     {
+      "bookId": "72",
       "name": "Leopard",
       "categories": ["classic"],
       "isUsed": true,
@@ -1143,6 +1203,7 @@ export class BookService {
       "aboutAuthor": "",
     },
     {
+      "bookId": "73",
       "name": "Angels And Demons",
       "categories": ["classic"],
       "isUsed": true,
@@ -1158,6 +1219,7 @@ export class BookService {
 
     },
     {
+      "bookId": "74",
       "name": "Love Story ",
       "categories": ["classic"],
       "isUsed": true,
@@ -1172,6 +1234,7 @@ export class BookService {
       "aboutAuthor": "Erich Segal (June 16, 1937 – January 17, 2010) was an American author, screenwriter, and Classics Professor. He was best known for writing the phenomenally successful novel Love Story (1970), and the hit major motion picture of the same name.When Erich was at Midwood High School, he had a serious canoeing accident and as part of his rehabilitation, the high school coach recommended that he jog. This became a lifelong passion and he competed in the Boston Marathon more than twelve times, breaking 3 hours. This led to him being a commentator for the marathon at the 1972 ABC Olympics and at Montreal in 1976.      ",
     },
     {
+      "bookId": "75",
       "name": "A COUNTRY CALLED CHILDHOOD",
       "categories": ["classic"],
       "isUsed": true,
@@ -1186,6 +1249,7 @@ export class BookService {
       "aboutAuthor": "Deepti Naval is an Indian actress, director, and writer, predominantly active in Hindi cinema. Her major contribution has been in the area of art cinema, winning critical acclaim for her sensitive and 'close to life' characters that emphasized the changing roles of women in India. ",
     },
     {
+      "bookId": "76",
       "name": "The Psychology of Money",
       "categories": ["classic"],
       "isUsed": true,
@@ -1200,6 +1264,7 @@ export class BookService {
       "aboutAuthor": "Morgan Housel is a partner at Collaborative Fund and author of the book The Psychology of Money.Doing well with money isn't necessarily about what you know. It's about how you behave. And behavior is hard to teach, even to really smart people",
     },
     {
+      "bookId": "77",
       "name": "How to Win Friends and Influence People",
       "categories": ["classic"],
       "isUsed": true,
@@ -1217,6 +1282,7 @@ export class BookService {
     // ...................................rarecollections................................................
     
     {
+      "bookId": "78",
       "name": "The Little Book of Hermès",
       "categories": ["classic"],
       "isFavorite": true,
@@ -1232,6 +1298,7 @@ export class BookService {
 
     },
     {
+      "bookId": "79",
       "name": "Looking for Alaska",
       "categories": ["classic"],
       "isFavorite": true,
@@ -1247,6 +1314,7 @@ export class BookService {
       "aboutAuthor": "John Green is an award-winning, New York Times bestselling author who has received numerous accolades including the Printz Medal, a Printz Honor and the Edgar Award. John is also one half of the Vlogbrothers; co-creator, with his brother, Hank, of the popular video blog Brotherhood 2.0, which has been watched more than 30 million times by Nerdfighter fans all over the globe (youtube.com/vlogbrothers).",
     },
     {
+      "bookId": "80",
       "name": "Long Winter",
       "categories": ["classic"],
       "isFavorite": true,
@@ -1262,6 +1330,7 @@ export class BookService {
       "aboutAuthor": "Laura Elizabeth Ingalls Wilder was an American writer, mostly known for the Little House on the Prairie series of children's books, published between 1932 and 1943, which were based on her childhood in a settler and pioneer family.Ingalls wrote a series of historical fiction books for children based on her childhood growing up in a pioneer family. She also wrote a regular newspaper column and kept a diary as an adult moving from South Dakota to Missouri, the latter of which has been published as a book.",
     },
     {
+      "bookId": "81",
       "name": "Sooley",
       "categories": ["classic"],
       "isFavorite": true,
@@ -1277,6 +1346,7 @@ export class BookService {
       "aboutAuthor": "John Grisham is the author of forty-seven consecutive #1 bestsellers, which have been translated into nearly fifty languages. His recent books include The Judge's List, Sooley, and his third Jake Brigance novel, A Time for Mercy, which is being developed by HBO as a limited series.Grisham is a two-time winner of the Harper Lee Prize for Legal Fiction and was honored with the Library of Congress Creative Achievement Award for Fiction.When he's not writing, Grisham serves on the board of directors of the Innocence Project and of Centurion Ministries, two national organizations dedicated to exonerating those who have been wrongfully convicted. Much of his fiction explores deep-seated problems in our criminal justice system.",
     },
     {
+      "bookId": "82",
       "name": "Twisted Love",
       "categories": ["classic"],
       "isFavorite": true,
@@ -1292,6 +1362,7 @@ export class BookService {
       "aboutAuthor": "Ana Huang is an author of primarily steamy New Adult and contemporary romance. Her stories range from lighthearted to dark, but they all have HEAs with plenty of banter and swoon sprinkledAna Huang is a 24-year-old Florida native who is currently based in Washington, D.C. As the daughter of Chinese-American immigrants, she had to take ESOL (English for Speakers of Other Languages) classes in kindergarten.",
     },
     {
+      "bookId": "83",
       "name": "You Are a Badass",
       "categories": ["classic"],
       "isFavorite": true,
@@ -1307,6 +1378,7 @@ export class BookService {
       "aboutAuthor": "Jen Sincero is a #1 New York Times bestselling author, speaker, and success coach who has helped countless people transform their personal and professional lives via her newsletters, products, seminars, public appearances, and books. A few years ago, Jen said goodbye to her home in California in order to travel the world indefinitely and encourages as many people as possible to live lives of unbridled awesomeness. You can find out more, and sign up for her newsletter at jensincero.com.",
     },
     {
+      "bookId": "84",
       "name": "Upgrade",
       "categories": ["classic"],
       "isFavorite": true,
@@ -1323,6 +1395,7 @@ export class BookService {
     },
 
     {
+      "bookId": "85",
       "name": "Protect Your Light",
       "categories": ["classic"],
       "isFavorite": true,
@@ -1338,6 +1411,7 @@ export class BookService {
       "aboutAuthor": "George Lizos is a spiritual teacher and intuitive healer, passionate about helping lightworkers to follow their purpose of creating positive change in the world. He’s the #1 bestselling author of Lightworkers Gotta Work and Be The Guru, creator of Intuition Mastery School®, and host of The Lit Up Lightworker Podcast.George has been named one of the top-50 health and wellness influencers by Health Blog Awards, and his work has been featured in Soul & Spirit, Watkin’s Mind Body Spirit, and Kindred Spirit magazines. He holds bachelor’s and master’s degrees in Metaphysical Sciences, a BSc in Human Geography with a focus on sacred geographies, an MSc in Psychology, and is a priest of Greek Paganism.Based in Cyprus, George runs a thriving, online international community of empaths, lightworkers, and spiritual leaders within the Your Spiritual Toolkit Facebook group. There, he provides daily guidance and holds transformational workshops aimed at overcoming the blocks that keep us stuck and prevent us from fearlessly following our purpose. ",
     },
     {
+      "bookId": "86",
       "name": "God's Road to Financial Freedom",
       "categories": ["classic"],
       "isFavorite": true,
@@ -1353,6 +1427,7 @@ export class BookService {
       "aboutAuthor": "About the Author: Billy Epperhart is a successful entrepreneur, investor, and a nationally known speaker and author. He is the CEO of Andrew Wommack Ministries and Charis Bible College, as well as the co-founder of the Charis Business School. In addition, he oversees the strategic direction of his nonprofit, WealthBuilders, which provides financial and spiritual education to help people make sense of making money for making a difference. The missional arm of WealthBuilders, Tricord Global, provides microfinance loans and business training in developing nations.",
     },
     {
+      "bookId": "87",
       "name": "Rizzoli & Isles: Listen to Me",
       "categories": ["classic"],
       "isFavorite": true,
@@ -1368,6 +1443,7 @@ export class BookService {
       "aboutAuthor": "Bestselling author Tess Gerritsen is also a physician, and she brings to her novels her first-hand knowledge of emergency and autopsy rooms. Her thrillers featuring homicide detective Jane Rizzoli and medical examiner Maura Isles inspired the hit TV series Rizzoli & Isles. But Gerritsen's interests span far more than medicine and crime. As an anthropology student at Stanford University, she catalogued centuries-old human remains, and she continues to travel the world, driven by her fascination with ancient cultures and bizarre natural phenomena.",
     },
     {
+      "bookId": "88",
       "name": "The Secret of the Science of Getting Rich",
       "categories": ["classic"],
       "isFavorite": true,
@@ -1382,6 +1458,7 @@ export class BookService {
       "aboutAuthor": "Sandy Gallagher As an esteemed attorney with a successful career in banking law, Sandy regularly handled billions of dollars in mergers and acquisitions, IPOs, and other big-ticket transactions, and was an advisor to boards and top executives of Fortune 500 firms. She epitomized success in the classic corporate mold.Bob Proctor was a Canadian self-help author and lecturer. He was best known for his New York Times best-selling book You Were Born Rich and being a contributor to the film The Secret.",
     },
     {
+      "bookId": "89",
       "name": "The Science of Getting Rich with The Science of Being Great",
       "categories": ["classic"],
       "isFavorite": true,
@@ -1397,6 +1474,7 @@ export class BookService {
 
     },
     {
+      "bookId": "90",
       "name": "Sea of Tranquility ",
       "categories": ["classic"],
       "isFavorite": true,
@@ -1411,6 +1489,7 @@ export class BookService {
       "aboutAuthor": "EMILY ST. JOHN MANDEL's five previous novels include The Glass Hotel and Station Eleven, which was a finalist for a National Book Award and the PEN/Faulkner Award for Fiction, has been translated into thirty-two languages, and is the basis for the HBO Max series by the same name. She lives in New York City with her husband and daughter.",
     },
     {
+      "bookId": "91",
       "name": "The Cartographers",
       "categories": ["classic"],
       "isFavorite": true,
@@ -1427,6 +1506,7 @@ export class BookService {
 
     // .............................cooking.......................................
     {
+      "bookId": "92",
       "name": "Masala Dabba",
       "categories": ["cooking"],
       "author": " Michael Swamy ",
@@ -1440,6 +1520,7 @@ export class BookService {
       "aboutAuthor": "Chef Michael Swamy is a pioneer in the area of food media and is a chef, food stylist, food writer and travel photographer based in Mumbai, India. A graduate of the prestigious Le Cordon Bleu, London, he has trained under several Michelin chefs. He, with his team, has conceptualised and handled major food shows on several GEC and international niche channels. He has won numerous accolades in the culinary industry. He has authored several cookbooks and is a four-time Gourmand Award winner. As Chef Patron at NUEVA, India’s first Latin American restaurant in Delhi, he set a benchmark for global cuisines. He is currently associated with a leading hospitality university where he has designed a specialised culinary degree. ",
     },
     {
+      "bookId": "93",
       "name": "Thai Cookery Secrets",
       "categories": ["cooking"],
       "author": " Kris Dhillon ",
@@ -1454,6 +1535,7 @@ export class BookService {
 
     },
     {
+      "bookId": "94",
       "name": "Cooking For Crowds For Dummies",
       "categories": ["cooking"],
       "author": "Dawn Simmons",
@@ -1468,6 +1550,7 @@ export class BookService {
 
     },
     {
+      "bookId": "95",
       "name": "A Indian HouseWife's Recipe Book",
       "categories": ["cooking"],
       "author": "Laxmi Khurana",
@@ -1480,7 +1563,8 @@ export class BookService {
       "aboutbook": "Laxmi Khurana is an Indian housewife living in the UK. Her recipes have been handed down to her through the generations, and admired by her family and friends. Here, in her classic curry cookbook, she makes them available to everyone, so you can re-create authentic Indian meals for all the family - from starters to raitas, chutneys and pickles to sweets, as well as the ever popular curries - all with minimum fuss and maximum satisfaction that this is the real thing.• Recipes for traditional 'family' dishes, not normally served in Indian restaurants• Uses ingredients and spices that are widely available• Simple, economical dishes that anyone can makeSome reader reviews:'The recipes are very simple and clear to follow. They produce the best curries I have ever made. The ingredients can all be found easily in any supermarket.''It doesn't require you to pre-prepare 6 basic sauces first. Just pick up the book and cook.''Good, honest and easy everyday cooking for those of us addicted to Indian food.'",
       "aboutAuthor": "Laxmi Khurana is an Indian housewife living in the UK. The recipes which she features in this book have been handed down to her through the generations. Laxmi Khurana is an Indian housewife living in the UK. The recipes which she features in this book have been handed down to her through the generations.Laxmi Khurana is an Indian housewife living in the UK. The recipes which she features in this book have been handed down to her through the generations.",
     },
-    {
+    { 
+      "bookId": "96",
       "name": "Sweet and Simple Homemade Cakes",
       "categories": ["cooking"],
       "author": "Rosalia Ason ",
@@ -1494,6 +1578,7 @@ export class BookService {
       "aboutAuthor": "Rosalía is the singer-songwriter behind the smash hit Con Altura featuring J Balvin and El Guincho, and the Latin Grammy award-winning song, Malamente.",
     },
     {
+      "bookId": "97",
       "name": "On Food and Cooking ",
       "categories": ["cooking"],
       "author": "Harold McGee ",
@@ -1508,6 +1593,7 @@ export class BookService {
     },
 
     {
+      "bookId": "98",
       "name": "The Student Cookbook",
       "categories": ["cooking"],
       "author": "Bounty",
@@ -1521,6 +1607,7 @@ export class BookService {
       "aboutAuthor": "Bounty is an American author of archeological thrillers. He attended Montclair State University, and received a graduate degree in business administration from Rutgers University. ",
     },
     {
+      "bookId": "99",
       "name": "Soups",
       "categories": ["cooking"],
       "author": " Norma Miller ",
@@ -1534,6 +1621,7 @@ export class BookService {
       "aboutAuthor": "Norma Miller is a successful food writer and author of The Juicing Secret and co-author with Annette Yates of Slow Cooking: Best New Recipes, and the Fresh & Fast series: Meals from the Hob, Meals from the Oven and Meals from the Microwave. She also runs the TasteTalk food consultancy with Annette Yates.",
     },
     {
+      "bookId": "100",
       "name": "Curries",
       "categories": ["cooking"],
       "isNewOffer": true,
@@ -1549,6 +1637,7 @@ export class BookService {
     },
 
     {
+      "bookId": "101",
       "name": "Quick And Easy 30-minute Recipes",
       "categories": ["cooking"],
       "author": "Slavka Bodic",
@@ -1562,6 +1651,7 @@ export class BookService {
       "aboutAuthor": "by Slavka Bodic There are many wonderful cookbooks out there with recipes that take hours and hours to prepare. We all lead such busy lives these days; we don't have time to spend all day in the kitchen. This book is for everyone who likes their food tasty and fast.",
     },
     {
+      "bookId": "102",
       "name": "AMA ",
       "categories": ["cooking"],
       "author": "Betty Hallock ,Josef Centeno",
@@ -1575,6 +1665,7 @@ export class BookService {
       "aboutAuthor": "Josef Centeno is the chef-owner of the Centeno Group, which includes the award-winning restaurants Bäco Mercat, Bar Amá, and more. He is the co-author of the cookbook Bäco. Betty Hallock is a journalist, food writer, and former deputy food editor of the Los Angeles Times. She is the co-author of Bäco. Ren Fuller is a Los Angeles-based food and lifestyle photographer.About the Author: Josef Centeno is the chef-owner of the Centeno Group, which includes the award-winning restaurants Bäco Mercat, Bar Amá, and more. He is the coauthor of the cookbook Bäco and lives in Los Angeles.Betty Hallock is a journalist and food writer, and former deputy food editor of the Los Angeles Times. She is the coauthor of Bäco and lives in Los Angeles. ",
     },
     {
+      "bookId": "103",
       "name": "The Complete Book of Salt Block Cooking",
       "categories": ["cooking"],
       "author": "Ryan Childs ",
@@ -1588,6 +1679,7 @@ export class BookService {
       "aboutAuthor": " Ryan Childs,Take that Himalayan salt block off the shelf and get ready to season, cure and serve like a pro with The Complete Book of Salt Block Cooking. ",
     },
     {
+      "bookId": "104",
       "name": "The Andhra Cookbook ",
       "categories": ["cooking"],
       "author": " Komala Sista Rao",
@@ -1601,6 +1693,7 @@ export class BookService {
       "aboutAuthor": "Komala Sista Rao was a professional singer in the early 1960’s – a respected name in Hindustani light classical, Bollywood music and an All-India Radio artiste. She married at the age of 23 and moved to Germany, where she lived for ten years, cooking traditional Andhra recipes to preserve the essence of her home, away from home. When she returned to India, her kitchen was always open to friends and family, for whom she cooked just as her mother had done for years. Always serving up the best of meals, she earned a reputation of being a sublime and original cook.",
     },
     {
+      "bookId": "105",
       "name": "The Essential Kerala Cookbook",
       "categories": ["cooking"],
       "author": "Vijayan Kannampilly",
@@ -1616,6 +1709,7 @@ export class BookService {
     },
 
     {
+      "bookId": "106",
       "name": "The Complete OPOS Cookbook",
       "categories": ["cooking"],
       "author": " B Ramakrishnan",
@@ -1629,6 +1723,7 @@ export class BookService {
       "aboutAuthor": "An MBA from XLRI in Jamshedpur, B. Ramakrishnan is a restless entrepreneur. After eight years of experimentation, the Chennai-based chef and restaurateur believes he has unlocked the pressure cooker's secret to cooking flavourful food. The OPOS technique is the greenest, healthiest, tastiest and fastest way to cook just about anything.The Complete OPOS Cookbook, by culinary pioneer and OPOS inventor B. Ramakrishnan, features entire meal plans spanning regional and international cuisines and includes his bestselling recipes along with new ones.",
     },
     {
+      "bookId": "107",
       "name": "Macrobiotic Food Cooking",
       "categories": ["cooking"],
       "author": "Sylvester Acken ",
@@ -1642,6 +1737,7 @@ export class BookService {
       "aboutAuthor": "by Sylvester Acken,The word macrobiotic derives from the Greek words “macros,” meaning “long,” and “bios,” meaning “life.” Simply put, macrobiotics refers to foods that are believed to promote health by balancing a person’s life energy or Qi over time.",
     },
     {
+      "bookId": "108",
       "name": "Conquer the Kitchen",
       "categories": ["cooking"],
       "author": "Jared Kent",
@@ -1655,6 +1751,7 @@ export class BookService {
       "aboutAuthor": "Jared Kent is a professional chef and food writer for Table Matters. Jared started working in restaurants in 2012, and since then, he's been fortunate enough to travel the world and cook in many settings, from Michelin star restaurants to food trucks to sporting events like the Australian Open. A graduate of the esteemed culinary program at Johnson & Wales University, Jared is passionate about creating delicious vegan and vegetarian food to help people, animals, and the planet live better.",
     },
     {
+      "bookId": "109",
       "name": "Modern Asian Baking at Home ",
       "categories": ["cooking"],
       "author": "Kat Lieu",
@@ -1671,6 +1768,7 @@ export class BookService {
  
    
     {
+      "bookId": "110",
       "name": "Ikigai ",
       "categories": ["fiction"],
       "author": " Francesc Miralles,Hector Garcia, Héctor Fracesc García Miralles",
@@ -1684,6 +1782,7 @@ export class BookService {
       "aboutAuthor": "I'm the author of several Japanese culture books: The Magic of Japan, Ikigai the Japanese Secret for a Long and Happy Life, The Book of Ichigo Ichie, Shinrinyoku, The Ikigai Journey and A Geek in Japan.I'm the author of several Japanese culture books: The Magic of Japan, Ikigai the Japanese Secret for a Long and Happy Life, The Book of Ichigo Ichie, Shinrinyoku, The Ikigai Journey and A Geek in Japan.I’m the bestselling author of IKIGAI the Japanese Secret to a Long and Happy Life (with Francesc Miralles), The Magic of Japan, Ichigo Ichie, A geek in Japan, and other books. I write about Japanese culture and how its wisdom can help us to lead better lives. I’m truly grateful to all the millions of people who have read my words. For us, writers, our art becomes meaningful when we are read.      ",
     },
     {
+      "bookId": "111",
       "name": "The Last Thing He Told Me",
       "categories": ["fiction"],
       "author": "Laura Dave",
@@ -1697,6 +1796,7 @@ export class BookService {
       "aboutAuthor": " Laura Dave is the author of the #1 New York Times bestseller The Last Thing He Told Me, as well as The First Husband, Eight Hundred Grapes, and other novels. She resides in Los Angeles with her family.",
     },
     {
+      "bookId": "112",
       "name": "The Candy House",
       "categories": ["fiction"],
       "author": " Jennifer Egan",
@@ -1710,6 +1810,7 @@ export class BookService {
       "aboutAuthor": " Jennifer Egan is the author of six previous books of fiction: Manhattan Beach, winner of the Andrew Carnegie Medal for Excellence in Fiction; A Visit from the Goon Squad, which won the Pulitzer Prize and the National Book Critics Circle Award; The Keep; the story collection Emerald City; Look at Me, a National Book Award Finalist; and The Invisible Circus. Her work has appeared in The New Yorker, Harper's Magazine, Granta, McSweeney's, and The New York Times Magazine. The Candy House is a bold, brilliant imagining of a world that is moments away. Egan takes to stunning new heights her deeply intuitive forays into the darker aspects of our technology-driven, image-saturated culture (Vogue). The Candy House delivers an absolutely extraordinary combination of fierce, exhilarating intelligence and heart.Her website is JenniferEgan.com.",
     },
     {
+      "bookId": "113",
       "name": "In Five Years",
       "categories": ["fiction"],
       "author": "Rebecca Serle",
@@ -1723,6 +1824,7 @@ export class BookService {
       "aboutAuthor": "Rebecca Serle is the New York Times bestselling author of In Five Years, The Dinner List, and the young adult novels The Edge of Falling and When You Were Mine. Serle also developed the hit TV adaptation Famous in Love, based on her YA series of the same name. She is a graduate of USC and The New School and lives in Los Angeles. Find out more at RebeccaSerle.com.",
     },
     {
+      "bookId": "114",
       "name": "The Tools ",
       "categories": ["fiction"],
       "author": "Phil Stutz,Barry Michels ",
@@ -1736,6 +1838,7 @@ export class BookService {
       "aboutAuthor": "Phil Stutz graduated from City College in New York and received his MD from New York University. He worked as a prison psychiatrist on Rikers Island and then in private practice in New York before moving his practice to Los Angeles in 1982.Barry Michels has a BA from Harvard, a law degree from University of California, Berkeley, and an MSW from the University of Southern California. He has been in private practice as a psychotherapist in Los Angeles since 1986.  ",
     },
     {
+      "bookId": "115",
       "name": "Untamed",
       "categories": ["fiction"],
       "author": "Glennon Doyle",
@@ -1749,6 +1852,7 @@ export class BookService {
       "aboutAuthor": "Author, activist, founder of Together Rising, and host of the We Can Do Hard Things podcast Glennon Doyle is the author of the #1 New York Times bestseller Untamed, a Reese’s Book Club selection, which has sold over two million copies. She is also the author of the #1 New York Times bestseller Love Warrior, an Oprah’s Book Club selection, and Carry On, Warrior. An activist and “patron saint of female empowerment” (People), Glennon hosts the We Can Do Hard Things podcast. She is the founder and president of Together Rising, an all-women-led nonprofit organization that has revolutionized grassroots philanthropy—raising over $30 million for women, families, and children in crisis. Glennon lives in Florida with her wife and three children.“She is a terrific storyteller. . . . Whether discussing her children or the world outside, challenging conformity, confronting misogyny, or standing up to religious bigotry, her goal as a memoirist (and as a person) is to defy expectations and to help others break out of their cultural cages so that everyone can find their own version of humanity. A bracing jolt of honesty from someone who knows what she wants to say and isn’t afraid to say it.”—Booklist (starred review)",
     },
     {
+      "bookId": "116",
       "name": "HORSE",
       "categories": ["fiction"],
       "author": "Geraldine Brooks",
@@ -1762,6 +1866,7 @@ export class BookService {
       "aboutAuthor": "Geraldine Brooks is the author of the Pulitzer Prize-winning novel March and the international bestsellers The Secret Chord, Caleb's Crossing, People of the Book, and Year of Wonders. She has also written the acclaimed nonfiction works Nine Parts of Desire and Foreign Correspondence. Born and raised in Australia, Brooks lives in Massachusetts.There's something bordering on the supernatural about Geraldine Brooks. She seems able to transport herself back to earlier time periods, to time travel. Sometimes, reading her work, she draws you so thoroughly into another era that you swear she's actually lived in it. -- Matthew Gilbert ― The Boston Globe",
     },
     {
+      "bookId": "117",
       "name": "If It's Not Forever It's Not Love",
       "categories": ["fiction"],
       "author": "Durjoy Datta",
@@ -1776,6 +1881,7 @@ export class BookService {
     },
 
     {
+      "bookId": "118",
       "name": "A Son of Destiny",
       "isNewOffer": true,
       "categories": ["fiction"],
@@ -1791,6 +1897,7 @@ export class BookService {
 
     },
     {
+      "bookId": "119",
       "name": "All I Ever Want Is You",
       "isNewOffer": true,
       "categories": ["love_story"],
@@ -1805,6 +1912,7 @@ export class BookService {
       "aboutAuthor": "Nikhil Raj, the author has always dreamed of a career as a writer and a filmmaker. The 22 year old aspiring writer and filmmaker is currently pursuing his graduation in Cinema at the esteemed Asian Academy of Film and Television.Nikhil has made various short films. A Recent release of his is “The Smiling Rickshawala”. Nikhil happens to be the writer and director of the short film.He has also been the leading man in the short film, ‘Ajeeb Dastaan Hai Yeh’, which secured the seventh rank at an esteemed filmmaking challenge in Delhi. Nikhil had also written the story, screenplay and the dialogues of the film. Other than that, Nikhil also happens to be the Associate Director of the film. ",
     },
     {
+      "bookId": "120",
       "name": "THE MAID",
       "categories": ["fiction"],
       "isNewOffer": true,
@@ -1821,6 +1929,7 @@ export class BookService {
 
     // ..........................childrens story...........................
     {
+      "bookId": "121",
       "name": "Grandma's Bag of Stories",
       "categories": ["childrens_story"],
       "author": "Sudha Murty",
@@ -1835,6 +1944,7 @@ export class BookService {
 
     },
     {
+      "bookId": "122",
       "name": "Go Away You Bully And Stronger",
       "categories": ["childrens_story"],
       "author": "KIRAN AGARWAL",
@@ -1849,6 +1959,7 @@ export class BookService {
 
     },
     {
+      "bookId": "123",
       "name": "Diary of a Wimpy Kid: Rodrick Rules",
       "categories": ["childrens_story"],
       "author": "Jeff Kinney",
@@ -1862,6 +1973,7 @@ export class BookService {
       "aboutAuthor": "Jeff Kinney was born in Maryland, USA, in 1971, and is an author. Apart from writing children’s books, he is also a producer, cartoonist and game designer. Jeff Kinney has written a number of books in the Wimpy Kid series, some of them being Diary of a Wimpy Kid: The Last Straw, Diary of a Wimpy Kid: The Ugly Truth, Diary of a Wimpy Kid: Cabin Fever, Diary of a Wimpy Kid: Hard Luck and Diary of a Wimpy Kid: The Third Wheel. Jeff Kinney studied at the Bishop McNamara High School, and then at the University of Maryland, College Park. He developed a comic strip when he was in college called, Igdoof. He currently lives in Massachusetts with his wife and two children.",
     },
     {
+      "bookId": "124",
       "name": "101 Moral Stories for Children",
       "categories": ["childrens_story"],
       "author": " Om Books Editorial Team",
@@ -1875,6 +1987,7 @@ export class BookService {
       "aboutAuthor": "  Om Books Editorial Team Discover more of the author’s books, see similar authors, read author blogs and more As the child reads the 101 Moral Stories, they realise that goodness always prevails over evil, and that, as human beings they should be kind, truthful, honest and helpful to all. The book also contains life lessons about avoiding strangers, flattery and deceit.",
     },
     {
+      "bookId": "125",
       "name": "All-Time Favourites for Children",
       "categories": ["childrens_story"],
       "author": "Ruskin Bond",
@@ -1888,6 +2001,7 @@ export class BookService {
       "aboutAuthor": "Ruskin Bond, born in Kasauli in 1934, grew up in Jamnagar, Dehradun, New Delhi and Shimla. His first novel, The Room on the Roof, which was written when he was seventeen, received the John Llewellyn Rhys Memorial Prize in 1957. Since then he has written over 500 short stories, essays and novellas (including Vagrants in the Valley and A Flight of Pigeons) and more than forty books for children. He received the Sahitya Akademi Award for English writing in India in 1992, the Padma Shri in 1999, the Delhi government's Lifetime Achievement Award in 2012 and Padma Bhushan in 2014 for his contribution to literature.Ruskin lives in Landour, Mussoorie, with his extended family. ",
     },
     {
+      "bookId": "126",
       "name": "Secret Key ",
       "categories": ["childrens_story"],
       "author": "Lena Jones",
@@ -1901,6 +2015,7 @@ export class BookService {
       "aboutAuthor": "HarperCollins and Tibor Jones – a new boutique packager – have developed the series with a talented team of new writers, who work collaboratively with a creative and dynamic approach echoing the TV script writing model. Agatha Oddly will be published under the fictional author name Lena Jones.",
     },
     {
+      "bookId": "127",
       "name": "Favourite Stories of Courageous Girls",
       "categories": ["childrens_story"],
       "author": "L.M. Montgomery , Enid Blyton, E. Nesbit ,Brothers Grimm ",
@@ -1914,6 +2029,7 @@ export class BookService {
       "aboutAuthor": "By: L.M. Montgomery (Author) , Enid Blyton (Author) , L. Frank Baum (Author) , E. Nesbit (Author) , Brothers Grimm (Author)Each of the 24 chapters contains an introduction about the courageous girl featured and a satisfying extract from the original book. These fictional heroines will inspire young readers with their stories of expectations defied, fears faced and obstacles overcome. This collection is also bound to tempt readers to discover these classic novels for themselves.",
     },
     {
+      "bookId": "128",
       "name": "The Magic of the Lost Temple",
       "categories": ["childrens_story"],
       "author": " Sudha Murty ",
@@ -1927,6 +2043,7 @@ export class BookService {
       "aboutAuthor": "B. Jain Publishing Group started publishing Children Books in 2008 with brand new imprint Pegasus. With more than 2000 books in print and over 200 new titles added every year Pegasus is one of the largest independent children books publisher in the world. Pegasus has been focused on providing excellent quality reading and learning material for children aged 0+ years to 12 + years. With famous and award winning series including Read and Shine and Pegasus Encyclopaedias it has become a household name in many countries. Pegasus Books have been translated in more than 30 languages and are actively sold across the globe. ",
     },
     {
+      "bookId": "129",
       "name": "Magical Mythology",
       "categories": ["childrens_story"],
       "author": "Stuti Gupta ",
@@ -1940,6 +2057,7 @@ export class BookService {
       "aboutAuthor": "Stuti Gupta has been a storyteller all her life. Digging out tales from everyday life, history, mythology and folk traditions is her forte. She has earlier introduced 101 Best Indian Fables for Children and compiled Popular Indian Fairy Tales, which have been loved and appreciated by thousands of readers. ",
     },
     {
+      "bookId": "130",
       "name": "Brain Games for Clever Kids",
       "categories": ["childrens_story"],
       "author": "Gareth Moore ",
@@ -1953,6 +2071,7 @@ export class BookService {
       "aboutAuthor": " Gareth Moore is the author of a wide range of brain-training and puzzle books for both children and adults, including The Kids' Book of Sudoku! and The Mammoth Book of Brain Work.",
     },
     {
+      "bookId": "131",
       "name": " Amazing Questions & Answers Science",
       "categories": ["childrens_story"],
       "author": "Om Books Editorial Team ",
@@ -1966,6 +2085,7 @@ export class BookService {
       "aboutAuthor": "Discover more of the author’s books, see similar authors, read author blogs and moreThis book nurtures the creativity and imagination of a child by feeding him answers to questions that are valuable and unique. Exposure to new information assists in the development of cognitive skills as well as critical thinking skills. ",
     },
     {
+      "bookId": "132",
       "name": " Timeless Tales from Panchatantra",
       "categories": ["childrens_story"],
       "author": "Om Books Editorial Team ",
@@ -1979,6 +2099,7 @@ export class BookService {
       "aboutAuthor": "Discover more of the author’s books, see similar authors, read author blogs and moreThe animals in the stories possess human characteristics, such as, greed, loneliness, compassion, hatred, perseverance and more. The stories leave a concrete impact upon the minds of the children by teaching them moral lessons. ",
     },
     {
+      "bookId": "133",
       "name": "200+ Activities for Kids",
       "categories": ["childrens_story"],
       "author": "Maple Press ",
@@ -1992,6 +2113,7 @@ export class BookService {
       "aboutAuthor": "Maple Press is an independent family-run book publishing house launched in 2014 to inspire, inform, and excite the children of today and the future and develop children’s literature by publishing high-quality, affordable books in print, electronic and audio formats.The current catalogue has over 1000+ titles consisting of yesteryear classics, illustrated storybooks of folklore, mythology, and history depicted in new and contemporary formats, beginner’s writing books, picture books, colouring books, activity books, biographies, and complete book sets for pre-primary schools.Maple Press supports various charities, including Share-a-book India, Awaaz Foundation and Thinksharp Foundation and has donated tens of thousands of books to help improve literacy and promote reading in India. ",
     },
     {
+      "bookId": "134",
       "name": "Around the World in 80 Days",
       "categories": ["childrens_story"],
       "author": " Jules Verne ",
@@ -2006,6 +2128,7 @@ export class BookService {
 
     },
     {
+      "bookId": "135",
       "name": "Festival Stories",
       "categories": ["childrens_story"],
       "author": "Rachna Chhabria ",
@@ -2019,6 +2142,7 @@ export class BookService {
       "aboutAuthor": "Rachna Chhabria is the author of Lazy Worm Goes on a Journey, The Lion Who Wanted to Sing and Bunny in Search of a Name. Her short story 'Ganesh's Blanket of Stars' won the Special Prize in the Unisun-Reliance TimeOut Writing Competition, 2010-11.",
     },
     {
+      "bookId": "136",
       "name": "Penguin ",
       "categories": ["childrens_story"],
       "author": "Om Books Editorial Team ",
@@ -2032,6 +2156,7 @@ export class BookService {
       "aboutAuthor": "Om Books Editorial Team It is written in easy language for the kids to comprehend. Full of fascinating illustrations, they instill reading habit in a child, especially before it is time to sleep. ",
     },
     {
+      "bookId": "137",
       "name": "Tales from the World ",
       "categories": ["childrens_story"],
       "author": " Geeta Ramanujam",
@@ -2046,6 +2171,7 @@ export class BookService {
     },
     // .........................poetry...............................
     {
+      "bookId": "138",
       "name": "Moonrise and Memories",
       "categories": ["poetry"],
       "author": "Navaneel Kar ",
@@ -2060,6 +2186,7 @@ export class BookService {
 
     },
     {
+      "bookId": "139",
       "name": "The Book of Nature",
       "categories": ["poetry"],
       "author": "William Wordsworth",
@@ -2074,6 +2201,7 @@ export class BookService {
 
     },
     {
+      "bookId": "140",
       "name": "Poetry Will Save Your Life",
       "categories": ["poetry"],
       "author": "Jill Bialosky",
@@ -2088,6 +2216,7 @@ export class BookService {
     },
    
     {
+      "bookId": "141",
       "name": "Tirukkural: The Book of Desire ",
       "categories": ["poetry"],
       "author": "Meena Kandasamy",
@@ -2101,6 +2230,7 @@ export class BookService {
       "aboutAuthor": "Tiruvalluvar was an ancient Tamil poet and philosopher best known for writing the Tirukkural, a collection of couplets on matters ranging from love to ethics.Meena Kandasamy is an anti-caste activist, poet, novelist and translator. She has written books of poems such as Touch (2006) and Ms. Militancy (2010), as well as three novels, The Gypsy Goddess (2014), When I Hit You (2017), and Exquisite Cadavers (2019). Her novels have been shortlisted for the Women's Prize for Fiction, the International Dylan Thomas Prize, the Jhalak Prize and the Hindu Lit Prize.She has been a fellow of the University of Iowa's International Writing Program, a Charles Wallace India Trust Fellow at the University of Kent and a fellow of the Berlin-based Junge Akademie. In 2022, she was elected as a Fellow of the Royal Society of Literature (FRSL), United Kingdom.",
     },
     {
+      "bookId": "142",
       "name": "Few Days of Cute Cringe",
       "categories": ["poetry"],
       "author": " Ishwariya Gopi ",
@@ -2114,6 +2244,7 @@ export class BookService {
       "aboutAuthor": "Ishwariya was born and raised in Bangalore, graduated in Chennai and had been in Hyderabad for a while. Technically, adaptable anywhere! Someone who loves pen and paper language. Every time, she finds an opportunity, she escapes from her corporate life for an adventure. Vacations and poetries have been her favourite things in this world and beyond!..Ishwariya Gopi is the author of Few Days of Cute Cringe,",
     },
     {
+      "bookId": "143",
       "name": "Ruskin Bond's Book of Verse ",
       "categories": ["poetry"],
       "author": "Ruskin Bond ",
@@ -2127,6 +2258,7 @@ export class BookService {
       "aboutAuthor": "Ruskin Bond is one of India’s best-loved writers, who has written over 500 short stories, essays and novellas and more than forty books for children. He won the Sahitya Akademi Award in 1992, the Padma Shri in 1999 and Padma Bhushan in 2014.",
     },
     {
+      "bookId": "144",
       "name": " Eternal Memories",
       "categories": ["poetry"],
       "author": "PS Punith Krishna ",
@@ -2140,6 +2272,7 @@ export class BookService {
       "aboutAuthor": " PS Punith Krishna  The story of a heart placed in hands that couldn’t keep it in one piece One that starts in love, ending with hope. Broken, but still alive. ",
     },
     {
+      "bookId": "145",
       "name": "Hues in Ink",
       "categories": ["poetry"],
       "author": "Vaanee Tripathi",
@@ -2153,6 +2286,7 @@ export class BookService {
       "aboutAuthor": "Discover more of the author’s books, see similar authors, read author blogs and more..the emotional world has feelings, emotions, thoughts, opinions, and philosophies. This book brings to you the culmination of a tryst of these two worlds. It associates colours with words and words with more than what words can say.",
     },
     {
+      "bookId": "146",
       "name": "Too Young to Think Twice",
       "author": "Areeb Sami ",
       "categories": ["poetry"],
@@ -2166,6 +2300,7 @@ export class BookService {
       "aboutAuthor": " Areeb Sami The writer definately poured his heart out !! Eyes follow me was quite relatable ! I think it's a really great grab for youth beacause you guys can literally find relatable feelings. Renegade perfectly written ! I read the whole book in one go couldn't stop myself and I'm sure you guys are gonna love this .",
     },
     {
+      "bookId": "147",
       "name": "Ninety-Seven Poems",
       "categories": ["poetry"],
       "author": "Terribly Tiny Tales ",
@@ -2179,6 +2314,7 @@ export class BookService {
       "aboutAuthor": "Cat GIFs, silly memes and WhatsApp forwards. The year 2013 saw attention spans dwindling, and stories struggled to stay in our feeds. So we hand-picked a bunch of stellar writers, shrunk stories to 140 characters and put them out for the world to read. And what started as a page on Facebook slowly became the Internet's most loved micro-fiction platform.Now reaching millions every week, Terribly Tiny Tales continues to explore newer formats, with writers and readers from around the globe. We believe the best stories aren't just the ones that move you while reading. They're the ones that stay.To read more stories and write your own, download the TTT app for Android and iOS at terriblytinytales.com/app.",
     },
     {
+      "bookId": "148",
       "name": "Healing Comes In Waves",
       "categories": ["poetry"],
       "author": "Twinkle Patel ",
@@ -2192,6 +2328,7 @@ export class BookService {
       "aboutAuthor": "Healing comes in waves is a amazing book by author Twinkle patel . The storyline is amazing and the characters are well developed. Healing Comes In Waves will heal our heart and mind from various things and also it gives some hope to move on. The quotes in the beginning of every chapter related to each topic and a brief introduction that took place before entering into the chapters of poems are all will give an idea before jumping into the emotional pool filled with words of poems. But I am not sure how these topics are interrelated and what basis the author has selected the headers to give a complete feel of book. It doesn't look like a story related to each other instead it resembles like random pick and common things are discussed to get healed. Anyways with an easy language and precise manner, the author has crafted all the emotions nicely to heal the mind and it shows a ray of hope to nurture us. i recommend this book.",
     },
     {
+      "bookId": "149",
       "name": "Best of Faiz",
       "categories": ["poetry"],
       "author": "Kuldip Salil",
@@ -2205,6 +2342,7 @@ export class BookService {
       "aboutAuthor": "Faiz Ahmad Faiz MBE NI was a Pakistani poet, and author of Urdu and Punjabi literature. Faiz was one of the most celebrated Pakistani Urdu writers of his time.This Volume Is A Compilation Of Faiz'S Work ",
     },
     {
+      "bookId": "150",
       "name": "The moon",
       "categories": ["poetry"],
       "author": "K Tolnoe",
@@ -2218,6 +2356,7 @@ export class BookService {
       "aboutAuthor": "K Tolnoe was a poet Kamilla Tolnø (k. tolnoe) is a danish writer and poet. She is known for her way to express complex emotions with simple words and minimalistic drawings.",
     },
     {
+      "bookId": "151",
       "name": "Greatest Poetry Ever Written",
       "categories": ["poetry"],
       "author": "Grapevine",
@@ -2232,6 +2371,7 @@ export class BookService {
 
     },
     {
+      "bookId": "152",
       "name": "To the man I loved too much",
       "categories": ["poetry"],
       "author": "Gabrielle G ",
@@ -2245,6 +2385,7 @@ export class BookService {
       "aboutAuthor": "Gabrielle G.'s writing is driven by pure emotion and will leave you out of breath, yearning for more, while at the same time wiping away tears.She will do anything for a hot cup of tea, still celebrates her half-birthdays, and feels everyone has an inner temptuous voice.Born in France and having lived in Switzerland, Gabrielle currently resides in Montreal with her family, and an extremely moody cat."
     },
     {
+      "bookId": "153",
       "name": "Home Body",
       "categories": ["poetry"],
       "author": "Rupi Kaur",
@@ -2258,6 +2399,7 @@ export class BookService {
       "aboutAuthor": "A breakout literary phenomenon and #1 New York Times Bestselling Author, Rupi Kaur wrote, illustrated, and self-published her first poetry collection, 'milk and honey' in 2014. Next came its artistic siblings 'the sun and her flowers' and ‘home body’, both debuting at #1 on bestseller lists across the world. These collections have sold more than 11 million copies and have been translated into over 43 languages. Most recently in 2022- she released her 4th book ‘Healing Through Words’ which is a journey of guided writing exercises to help the reader explore their creativity.As she has done from the very beginning, Rupi self-produced ‘Rupi Kaur Live’, the first poetry special of its kind, which debuted on Amazon Prime Video in 2021.Rupi Kaur graces stages across the globe on sold-out world tours. These shows are a poetic theatrical experience interlaced with her own touch of stand-up. Her work touches on love, loss, trauma, healing, femininity, and migration. She feels most at home when creating art, performing her poetry onstage, and spending time with family and friends. "
     },
     {
+      "bookId": "154",
       "name": "When He Leaves You ",
       "categories": ["poetry"],
       "author": "Michaela Angemeer",
@@ -2272,6 +2414,7 @@ export class BookService {
     },
     // .............................classic.................................
     {
+      "bookId": "155",
       "name": "The Paris Apartment",
       "categories": ["classic"],
       "author": "Lucy Foley",
@@ -2287,6 +2430,7 @@ export class BookService {
     },
 
     {
+      "bookId": "156",
       "name": "The Guest List",
       "categories": ["classic"],
       "author": "Melissa Hill",
@@ -2301,6 +2445,7 @@ export class BookService {
 
     },
     {
+      "bookId": "157",
       "name": "Clementine Book One",
       "categories": ["classic"],
       "author": "Tillie Walden",
@@ -2315,6 +2460,7 @@ export class BookService {
 
     },
     {
+      "bookId": "158",
       "name": "Do It Today",
       "categories": ["classic"],
       "author": "Darius Foroux ",
@@ -2329,6 +2475,7 @@ export class BookService {
 
     },
     {
+      "bookId": "159",
       "name": "Wise and Otherwise",
       "categories": ["classic"],
       "author": "Sudha Murty ",
@@ -2343,6 +2490,7 @@ export class BookService {
 
     },
     {
+      "bookId": "160",
       "name": "The Woman in the Window",
       "categories": ["classic"],
       "author": "A. J. Finn ",
@@ -2357,6 +2505,7 @@ export class BookService {
 
     },
     {
+      "bookId": "161",
       "name": "Loveless",
       "categories": ["classic"],
       "author": "Alice Oseman",
@@ -2371,6 +2520,7 @@ export class BookService {
 
     },
     {
+      "bookId": "162",
       "name": "Ashwatthama's Redemption",
       "categories": ["classic"],
       "author": " Gunjan Porwal ",
@@ -2386,6 +2536,7 @@ export class BookService {
     },
 
     {
+      "bookId": "163",
       "name": "Lonely Planet Cambodia 12 ",
       "categories": ["classic"],
       "author": " Nick Ray ,Greg Bloom ,Mark Johanson ",
@@ -2400,6 +2551,7 @@ export class BookService {
 
     },
     {
+      "bookId": "164",
       "name": "The Last Ronin",
       "categories": ["classic"],
       "author": " Kevin Eastman, Peter Laird ",
@@ -2414,6 +2566,7 @@ export class BookService {
 
     },
     {
+      "bookId": "165",
       "name": "A Tale of Two Cities",
       "categories": ["classic"],
       "author": " Charles Dickens",
@@ -2428,6 +2581,7 @@ export class BookService {
 
     },
     {
+      "bookId": "166",
       "name": "Will",
       "categories": ["classic"],
       "author": "Will Smith , Mark Manson",
@@ -2442,6 +2596,7 @@ export class BookService {
 
     },
     {
+      "bookId": "167",
       "name": "The Coercion",
       "categories": ["classic"],
       "author": " Ishan Majumdar",
@@ -2456,6 +2611,7 @@ export class BookService {
 
     },
     {
+      "bookId": "168",
       "name": "A Book Of Simple Living ",
       "categories": ["classic"],
       "author": " Ruskin Bond ",
@@ -2470,6 +2626,7 @@ export class BookService {
 
     },
     {
+      "bookId": "169",
       "name": "A Long Petal Of The Sea",
       "categories": ["classic"],
       "author": " Isabel Allende ",
@@ -2484,6 +2641,7 @@ export class BookService {
 
     },
     {
+      "bookId": "170",
       "name": "A Half-Baked Love Story ",
       "categories": ["classic"],
       "author": "Anurag Garg",
@@ -2498,6 +2656,7 @@ export class BookService {
 
     },
     {
+      "bookId": "171",
       "name": "M.T.Yude Kathakal",
       "categories": ["classic"],
       "author": "M.T.VASUDEVAN NAIR ",
@@ -2512,6 +2671,7 @@ export class BookService {
 
     },
     {
+      "bookId": "172",
       "name": "Better Than Best Friends",
       "categories": ["classic"],
       "author": " Ahona Sadhu",
@@ -2528,6 +2688,7 @@ export class BookService {
     // ..............................newoffer................................
 
     {
+      "bookId": "173",
       "name": "It's Never Too Late...",
       "categories": ["fiction"],
       "isNewOffer": true,
@@ -2542,6 +2703,7 @@ export class BookService {
       "aboutAuthor": "Priyanka Baranwal is a freelance writer, poet and blogger. She is a science graduate and a diploma holder in Teacher Training and Textile Designing. She has been a well-appreciated teacher and has also worked with an NGO in Bangalore. She loves music, literature, writing, and travelling. Originally from Mirzapur (U.P.), Priyanka now lives with her husband Sumit and son Ashmit in Bangalore. It's Never Too Late is her debut novel.",
     },
     {
+      "bookId": "174",
       "name": "A Culinary Journey for the Love of Biryani",
       "categories": ["cooking"],
       "isNewOffer": true,
@@ -2556,6 +2718,7 @@ export class BookService {
       "aboutAuthor": "Mughal cooking is the epitome of Indian cooking- NO, far from it, the tremendous depth and breadth of Bharat's cuisine encompasses a spectrum of flavours, of which Mughal is just a small but tasty fraction, just as 600 years is a painful fraction of her 7000 year old history. Having gotten that out of the way, this little book contains a good variety of this delicacy called biryani. No photos, alas, but the recipes more than make up for it. Good addition to your collection.",
     },
     {
+      "bookId": "175",
       "name": "A Thing Beyond Forever",
       "categories": ["classic"],
       "isNewOffer": true,
@@ -2570,6 +2733,7 @@ export class BookService {
       "aboutAuthor": "Novoneel Chakraborty is the bestselling author of ten romantic thriller novels and one short story collection. Known for his twists, dark plots and strong female protagonists, he is also popular as the Sidney Sheldon of India. His books have created newer benchmarks of success with each successive title. Having been translated into several Indian languages, one is soon to be a web series.Apart from novels, Novoneel has written several popular TV shows Like Savdhaan India and Yeh Hai Aashiqui. He lives and works in Mumbai.",
     },
     {
+      "bookId": "176",
       "name": "Love: it never ends",
       "categories": ["fiction"],
       "isNewOffer": true,
@@ -2584,6 +2748,7 @@ export class BookService {
       "aboutAuthor": "Gautam Navapara is a person who strongly believes in, “whatever happens, happens for a reason, for good.” After growing up in a small village in Amreli, he moved to Surat. He started writing during his graduation. Being less talkative, he gives voice to his thoughts with the help of writing. Love: It Never Ends is his debut novel based on his experiences and stories around him. Writing is not just a hobby or something that interests him, but it is something that he is passionate about. Apart from being an author, he's also a blogger, trying to put stories/poems that most of the people can relate with and find out a ray of hope. He wants everyone to believe in the magic of KINDNESS because it's the language which the deaf can hear and the blind can see. His interest lies in engineering too, which led him to work with semiconductor company.",
     },
     {
+      "bookId": "177",
       "name": "The Jasmine Bloom",
       "categories": ["classic"],
       "isNewOffer": true,
@@ -2598,6 +2763,7 @@ export class BookService {
       "aboutAuthor": "Rajat Narula is a lead financial management specialist at TheWorld Bank. He has published several poems and articles andwon the Fairfax District award in USA for his poetry. He hasworked and lived in India, Indonesia and USA",
     },
     {
+      "bookId": "178",
       "name": "Rebirth: A Novel ",
       "categories": ["nonfiction"],
       "isNewOffer": true,
@@ -2613,6 +2779,7 @@ export class BookService {
     },
 
     {
+      "bookId": "179",
       "name": "Scent of Pepper ",
       "categories": ["fiction"],
       "isNewOffer": true,
@@ -2627,6 +2794,7 @@ export class BookService {
       "aboutAuthor": "I'm Kavery Nambisan, surgeon and novelist, one of those lucky people who gets to pursue not one but two passions. After my surgical training in the UK, I returned to India which is my country and have since worked mainly in rural areas and small towns.",
     },
     {
+      "bookId": "180",
       "name": "Boys Don't Cry",
       "categories": ["fiction"],
       "isNewOffer": true,
@@ -2642,6 +2810,7 @@ export class BookService {
     },
 
     {
+      "bookId": "181",
       "name": "The Innocent Footsteps",
       "categories": ["nonfiction"],
       "isNewOffer": true,
@@ -2656,6 +2825,7 @@ export class BookService {
       "aboutAuthor": "The Innocent Footsteps’ is the story of a boy entangled in the most challenging problems of society, family and love. Be ready to meet the innocent Gopi and his super Mom, get amazed by his smart friends, touched by his caring, spicy romantic side and maybe a couple of enemies too. Travel with him from his village to the city, feel what it takes to be born in a village, hear out the intellectual discussions with an uncanny God, and unravel the wisdom & virtues which give him strength; for it may be worth a lifetime. As some wise man said: We cannot change the cards we are dealt, just how we play the hand.Enjoy the skillful game with rough cards in a few pages. Sit back and take the guided tour of the 2 faces of India & its intractable story by Rini Kapoor, a student of IIT Delhi.",
     },
     {
+      "bookId": "182",
       "name": "The White Sky",
       "categories": ["classic"],
       "isNewOffer": true,
@@ -2670,6 +2840,7 @@ export class BookService {
       "aboutAuthor": "Such a decent work which tells us that silent people too have strong feelings even though they express very subtly or they don't even express at times.the hero falls for a girl in a prestigious institution.but he never expresses his feelings towards her till the end not even to anyone.story has been narrated beautifully with a strong empathy towards introverts. Long time since we have come across such work which portrays women with dignity and respect",
     },
     {
+      "bookId": "183",
       "name": "Stars in Your Eyes ",
       "categories": ["ficion"],
       "isNewOffer": true,
@@ -2684,6 +2855,7 @@ export class BookService {
       "aboutAuthor": "Sunil Gera took onto writing bold and passionate novels for the youth to evoke dreams, desires and determination to live their dreams. An edge of the seat romantic thriller with a dash of crime is what Sunil best describes his style of writing as. He promises you a thrill-sational experience in this journey of finding love and living your dreams, which inspires you to love boldly, live passionately, and dream sensationally!",
     },
     {
+      "bookId": "184",
       "name": "From The Sunflower's Heart ",
       "categories": ["classic"],
       "isNewOffer": true,
@@ -2698,6 +2870,7 @@ export class BookService {
       "aboutAuthor": "",
     },
     {
+      "bookId": "185",
       "name": "The Village in the Jungle",
       "categories": ["classic"],
       "isNewOffer": true,
@@ -2713,6 +2886,7 @@ export class BookService {
     },
 
     {
+      "bookId": "186",
       "name": "The Girl With No Dreams",
       "categories": ["adult_story"],
       "isNewOffer": true,
@@ -2728,6 +2902,7 @@ export class BookService {
     },
     //  .................................combo........................................
     {
+      "bookId": "187",
       "name": "The Summer I Turned Preety Series",
       "categories": ["combo"],
       "author": " Jenny",
@@ -2741,6 +2916,7 @@ export class BookService {
       "aboutAuthor": "Jenny Han is the New York Times Bestselling author of The Summer I Turned Pretty series. A former children's bookseller and school librarian, she earned her master's degree in creative writing for children at the New School. She lives in Brooklyn. Find out more at www.dearjennyhan.com",
     },
     {
+      "bookId": "188",
       "name": "Anna Huang Twisted Combo Pack Of 4 Books",
       "categories": ["combo"],
       "isTopSelling": true,
@@ -2755,6 +2931,7 @@ export class BookService {
       "aboutAuthor": "Ana Huang is an author of primarily steamy New Adult and contemporary romance. Her stories range from lighthearted to dark, but they all have HEAs with plenty of banter and swoon sprinkled in. Besides reading and writing, Ana loves traveling, is obsessed with hot chocolate, and has multiple relationships with fictional boyfriends. She lives in New York City.",
     },
     {
+      "bookId": "189",
       "name": "It Ends With Us And It Start With Us Best 2 Books Combo",
       "categories": ["combo"],
       "isTopSelling": true,
@@ -2769,6 +2946,7 @@ export class BookService {
       "aboutAuthor": "Colleen Hoover is the #1 New York Times bestselling author of more than twenty-three novels, including It Ends with Us, All Your Perfects, Ugly Love, and Verity. In 2015, Colleen and her family founded a nonprofit called The Bookworm Box, a bookstore and monthly book subscription service that has donated over $1,000,000 to various charities to date. Colleen lives in Texas with her husband and their three boys. For more information, please visit ColleenHoover.com.",
     },
     {
+      "bookId": "190",
       "name": "Without Merit + The Song Of Achilles",
       "categories": ["combo"],
       "isTopSelling": true,
@@ -2783,6 +2961,7 @@ export class BookService {
       "aboutAuthor": "Colleen Hoover is the #1 New York Times and International bestselling author of multiple novels and novellas. She lives in Texas with her husband and their three boys. She is the founder of The Bookworm Box, a non-profit book subscription service and bookstore in Sulphur Springs, Texas.For more information and for a schedule of events, please visit colleenhoover.com.",
     },
     {
+      "bookId": "191",
       "name": "Ugly Love + The Spanish Love Deception ",
       "categories": ["combo"],
       "author": "Colleen Hoover, Elena Arams ",
@@ -2796,6 +2975,7 @@ export class BookService {
       "aboutAuthor": "Colleen Hoover is the #1 New York Times and International bestselling author of multiple novels and novellas. She lives in Texas with her husband and their three boys. She is the founder of The Bookworm Box, a non-profit book subscription service and bookstore in Sulphur Springs, Texas.For more information and for a schedule of events, please visit colleenhoover.com.",
     },
     {
+      "bookId": "192",
       "name": "Reminders Of Him + November 9",
       "categories": ["combo"],
 
@@ -2810,6 +2990,7 @@ export class BookService {
       "aboutAuthor": "SALLY ROONEY was born in the west of Ireland in 1991. Her work has appeared in The New Yorker, The New York Times, Granta and The London Review of Books. Winner of the Sunday Times Young Writer of the Year Award in 2017, she is the author of Conversations with Friends and the editor of the Irish literary journal The Stinging Fly.",
     },
     {
+      "bookId": "193",
       "name": "400 Days + One Arranged Murder Combo Of 2 Books",
       "categories": ["combo"],
       "author": "Bhagat Chetan ",
@@ -2823,6 +3004,7 @@ export class BookService {
       "aboutAuthor": "",
     },
     {
+      "bookId": "194",
       "name": "Sally Rooney Bestselling Books Combo + Beautiful World Where Are You + Conversation With Friends ",
       "categories": ["combo"],
       "isTopSelling": true,
@@ -2837,6 +3019,7 @@ export class BookService {
       "aboutAuthor": "",
     },
     {
+      "bookId": "195",
       "name": "AMISH - Ram Chandra Series Combo",
       "categories": ["combo"],
       "isTopSelling": true,
@@ -2851,6 +3034,7 @@ export class BookService {
       "aboutAuthor": "AMISH is a 1974-born IIM (Kolkata)-educated, boring banker turned happy author. The success of his debut book, The Immortals of Meluha (Book 1 of the Shiva Trilogy), encouraged him to give up a fourteen-year-old career in financial services to focus on writing. He is passionate about history, mythology and philosophy, finding beauty and meaning in all world religions. Amish’s books have sold more than 5.5 million copies and have been translated into over 19 languages.",
     },
     {
+      "bookId": "196",
       "name": "Naalukettu | Kaalam | Mt Vasudevan Nair | 2books Combo ",
       "categories": ["combo"],
       "author": " MT VASUDEVAN NAIR ",
@@ -2864,6 +3048,7 @@ export class BookService {
       "aboutAuthor": "",
     },
     {
+      "bookId": "197",
       "name": "And Then There Were None + Five Little Pigs COMBO OF 2 BOOKS  ",
       "categories": ["combo"],
       "author": " Christie Agatha ",
@@ -2877,6 +3062,7 @@ export class BookService {
       "aboutAuthor": "",
     },
     {
+      "bookId": "198",
       "name": "Combo Of 2 Books : I Want To Eat You Pancreas + King Of Wrath",
       "categories": ["combo"],
       "author": " Ana Huang ",
@@ -2890,6 +3076,7 @@ export class BookService {
       "aboutAuthor": "",
     },
     {
+      "bookId": "199",
       "name": "Deep Work + Hyper Focus (Combo Of 2 Books) ",
       "categories": ["combo"],
       "author": " Cal Newport, Chris Bailey ",
@@ -2903,6 +3090,7 @@ export class BookService {
       "aboutAuthor": "",
     },
     {
+      "bookId": "200",
       "name": "ANXIOUS PEOPLE + A MAN CALLED OVE : Combo Of 2 Books By. Fredrik Backman ",
       "categories": ["combo"],
       "author": " Fredrik Backman ",
@@ -2916,6 +3104,7 @@ export class BookService {
       "aboutAuthor": "",
     },
     {
+      "bookId": "201",
       "name": "A Million Kisses In Your Lifetime + A Thousand Boy Kisses (Combo Of 2 Books)",
       "categories": ["combo"],
       "author": "Tillie Cole, Murphy Monica ",
@@ -2929,6 +3118,7 @@ export class BookService {
       "aboutAuthor": "Tillie Cole is a Northern girl through and through. She originates from a place called Teesside on that little but awesomely sunny (okay I exaggerate) Isle called Great Britain. She was brought up surrounded by her mother -- a farmer's daughter, her crazy Scottish father, a savagely sarcastic sister and a multitude of rescue animals and horses.Monica Murphy is a New York Times, USA Today, and international bestselling romance author. Her books have been translated in almost a dozen languages and have sold over two million copies worldwide.A native Californian, she lives on fourteen acres in the middle of nowhere with her husband, two kids, one dog, and four cats. When she's not writing, she's an assistant coach for her daughter's high school cheer team. Maybe someday, she'll even write about this experience.",
     },
     {
+      "bookId": "202",
       "name": "Maybe Not & May Be Someday Best Combo (Set Of 2 )By Collen Hoover",
       "categories": ["combo"],
       "author": "Collen Hoover ",
@@ -2942,6 +3132,7 @@ export class BookService {
       "aboutAuthor": "Colleen Hoover is the #1 New York Times bestselling author of more than twenty-three novels, including It Starts with Us, It Ends with Us, All Your Perfects, Ugly Love, and Verity. In 2015, Colleen and her family founded a nonprofit called The Bookworm Box, a bookstore and monthly book subscription service. Colleen lives in Texas with her husband and their three boys. For more information, please visit ColleenHoover.com.",
     },
     {
+      "bookId": "203",
       "name": "Turtles All The Way Down + The Fault In Our Stars (Combo) ",
       "categories": ["combo"],
       "isTopSelling": true,
@@ -2956,6 +3147,7 @@ export class BookService {
       "aboutAuthor": "John Green is the award-winning, #1 bestselling author of Looking for Alaska, An Abundance of Katherines, Paper Towns, Will Grayson, Will Grayson (with David Levithan), The Fault in Our Stars and Turtles All the Way Down    ",
     },
     {
+      "bookId": "204",
       "name": "Get Epic Shit Done + Do Epic Shit (Self Help Books Combo) ",
       "categories": ["combo"],
       "author": " Kunex ",
@@ -2971,6 +3163,7 @@ export class BookService {
 
     // ........................under 200..........................  
     {
+      "bookId": "205",
       "name": "Can't Help Falling in Love",
       "categories": ["love_story"],
       "author": "Sanchit Garg , Prachi Gupta ",
@@ -2984,6 +3177,7 @@ export class BookService {
       "aboutAuthor": "PRACHI GUPTA is a bestselling author of 4 books and a motivational speaker. She is an engineering graduate from K.I.E.T and lives in Ghaziabad. The First writer from India to get into the top 10 finalist of the ‘Author Elite Awards 2020’. Sanchit Garg is a storyteller, artist, content creator and motivational speaker.      ",
     },
     {
+      "bookId": "206",
       "name": "The Blue Umbrella",
       "categories": ["love_story"],
       "author": "  Ruskin Bond",
@@ -2997,6 +3191,7 @@ export class BookService {
       "aboutAuthor": "Ruskin Bond's first novel, The Room on the Roof, written when he was seventeen, won the John Llewellyn Rhys Memorial Prize in 1957. Since then he has written several novels (including Vagrants in the Valley, A Flight of Pigeons and Delhi Is Not Far), essays, poems and children's books, many of which have been published by Penguin India. He has also written over 500 short stories and articles that have appeared in a number of magazines and anthologies. He received the Sahitya Akademi Award in 1993 and the Padma Shri in 1999.",
     },
     {
+      "bookId": "207",
       "name": "If It's Not Forever It's Not Love ",
       "categories": ["love_story"],
       "author": "Durjoy Datta ",
@@ -3010,6 +3205,7 @@ export class BookService {
       "aboutAuthor": "Durjoy Datta’s first book—Of Course I Love You!—was published when he was twenty-one years old and was an instant bestseller. His successive novels—Now That You’re Rich!; She Broke Up, I Didn’t!; Ohh Yes, I Am Single!; You Were My Crush; If It’s Not Forever; Till the Last Breath; Someone Like You; Hold My Hand; When Only Love Remains; World’s Best Boyfriend; Our Impossible Love; and The Girl of My Dreams—have also found prominence on various bestseller lists, making him one of the highest-selling authors in India.",
     },
     {
+      "bookId": "208",
       "name": "How to Crack Test Of Reasoning",
       "categories": ["non_fiction"],
       "author": "Jaikishan,Premkishan ",
@@ -3024,6 +3220,7 @@ export class BookService {
     },
 
     {
+      "bookId": "209",
       "name": "Ghosts of the Silent Hills",
       "categories": ["horror"],
       "author": "Anita Krishan",
@@ -3037,6 +3234,7 @@ export class BookService {
       "aboutAuthor": "Born in Shimla in 1955, Anita Krishan spent the initial twenty-two years of her life in this pristine Himalayan town, earning her master’s degree in English literature from Himachal University, and moving on to a career of introducing delights of the language to her young learners. In her long tenure as an educator, she has enriched the lives of countless students with the mystery of the narrative. A versatile writer, each of her literary works appertains to a different genre... from the joys and travails of life, to terrorism that has brought the world to its tenterhooks, to now the paranormal. She has travelled extensively around the globe absorbing the diverse human ethos and cultures—the delectable food for her thoughts. Presently, she lives in Gurgaon with her family.",
     },
     {
+      "bookId": "210",
       "name": "It Was Always You",
       "categories": ["fiction"],
       "author": " Sudeep Nagarkar  ",
@@ -3051,6 +3249,7 @@ export class BookService {
     },
 
     {
+      "bookId": "211",
       "name": "The Cocktail Of Love",
       "categories": ["love_story"],
       "author": "Dhruv Maloo ",
@@ -3064,6 +3263,7 @@ export class BookService {
       "aboutAuthor": "Dhruv Maloo is a reader, writer, entrepreneur, and a foodie. With the knack for storytelling since childhood, he is currently heading a content agency in Delhi.He is also associated with the startup culture and has worked with real-estate and blockchain startups.",
     },
     {
+      "bookId": "212",
       "name": "In Search of Lost Life ",
       "categories": ["fiction"],
       "author": "Suravi Sharma Kumar ",
@@ -3077,6 +3277,7 @@ export class BookService {
       "aboutAuthor": "Suravi Sharma Kumar is a medical doctor and has authored two novels so far. This book is her first collection of short stories. She has an MFA in Creative writing from University of London and has poured out snippets of life in these stories.",
     },
     {
+      "bookId": "213",
       "name": "Euphoria",
       "categories": ["classic"],
       "author": " Writer's Pocket",
@@ -3090,6 +3291,7 @@ export class BookService {
       "aboutAuthor": "Euphoria draws you in page after page until you have no more left. There is hope and there is the feeling of desolation, it often gets confessional, these poems are an orchestra of feelings by diverse people who feel the same as you, that pour its essence to the readers.",
     },
     {
+      "bookId": "214",
       "name": "If It's Not Love",
       "categories": ["love_story"],
       "author": "Syed Arshad ",
@@ -3103,6 +3305,7 @@ export class BookService {
       "aboutAuthor": "Frank McCourt (1930-2009) was born in Brooklyn, New York, to Irish immigrant parents, grew up in Limerick, Ireland, and returned to America in 1949. For thirty years he taught in New York City high schools. His first book,Angela s Ashes, won the Pulitzer Prize, the National Book Critics Circle Award and the L.A. Times Book Award. In 2006, he won the prestigious Ellis Island Family Heritage Award for Exemplary Service in the Field of the Arts and the United Federation of Teachers John Dewey Award for Excellence in Education",
     },
     {
+      "bookId": "215",
       "name": "Wings Of Poetry ",
       "categories": ["poetry"],
       "author": " Writer's Pocket ",
@@ -3116,6 +3319,7 @@ export class BookService {
       "aboutAuthor": "Really appreciate the collection on varied topics by various authors. A must buy and read. Happy to see young budding talent.I have really liked the book it’s very cool. Do buy it and read it. Do it as soon as possible. U will really like it.",
     },
     {
+      "bookId": "216",
       "name": "Will You Still Love Me? ",
       "categories": ["love_story"],
       "author": "Ravinder Singh  ",
@@ -3129,6 +3333,7 @@ export class BookService {
       "aboutAuthor": "Ravinder Singh is a bestselling author. His debut novel I Too Had a Love Story has touched millions of heart. Can Love Happen Twice? is his second book. After spending most of his life in Burla, Orissa, Ravinder has finally settled down in Chandigarh. Having worked as a computer engineer for about several years at some of India’s prominent IT companies, Ravinder is now pursuing his MBA at the world renowned Indian School of Business, Hyderabad. Ravinder loves playing snooker in his free time. He is crazy about Punjabi music and loves dancing to its beat.",
     },
     {
+      "bookId": "217",
       "name": "Her Last Wish",
       "categories": ["fiction"],
       "author": " Ajay K. Pandey ",
@@ -3143,6 +3348,7 @@ export class BookService {
     },
 
     {
+      "bookId": "218",
       "name": "And Then There Were None",
       "categories": ["classic"],
       "author": "Agatha Christie  ",
@@ -3156,6 +3362,7 @@ export class BookService {
       "aboutAuthor": "Agatha Christie was born in Torquay in 1890 and became, quite simply, the bestselling novelist in history. Her first novel, The Mysterious Affair at Styles, written towards the end of the First World War, introduced us to Hercule Poirot, who was to become the most popular detective in crime fiction since Sherlock Holmes. She is known throughout the world as the Queen of Crime. Her books have sold over a billion copies in the English language and another billion in over 100 foreign countries. She is the author of 80 crime novels and short story collections, 19 plays and six novels under the name of Mary Westmacott.",
     },
     {
+      "bookId": "219",
       "name": "Heart On The Edge",
       "categories": ["love_story"],
       "author": "Novoneel Chakraborty  ",
@@ -3169,6 +3376,7 @@ export class BookService {
       "aboutAuthor": "Novoneel Chakraborty is the bestselling author of fourteen bestselling thriller novels and one short story collection titled Cheaters. His novel, Forget Me Not, Stranger, debuted as the No. 1 bestseller across India. While All Yours, Stranger ranked in the top five thriller novels on Amazon, India-the only one to feature amid other international bestsellers. His novel Black Suits You was in top five thrillers category on Amazon for fifteen weeks. While his Forever series was in the bestseller list for ten weeks straight after its release with Forever Is A Lie featuring in the highest selling books on Flipkart for 2017. Forever Is True made it to Amazon's Memorable Books of 2017 and Times of India's Most Stunning Books of 2017.Known for his twists, dark plots and strong female protagonists, Novoneel Chakraborty is also called the Sidney Sheldon of India by his readers. His immensely popular thriller series, The Stranger Trilogy, has been translated into six Indian languages and has been adapted into a popular web series, titled Hello Mini, on MX Player produced by Applause Entertainment and Rose Movies. His erotic thriller novel, Black Suits You, has been adapted into the blockbuster hit Bekaaboo, while his exclusive digital novella, Red Suits You, is also being adapted into a web series by Alt Balaji. His short story collection, Cheaters, is now available in Hindi as well. Apart from novels, Novoneel has written and developed several TV and web shows for premiere channels and platforms. He lives and works in Mumbai. ",
     },
     {
+      "bookId": "220",
       "name": "The Girl of My Dreams",
       "categories": ["love_story"],
       "author": " Durjoy Datta ",
@@ -3183,6 +3391,7 @@ export class BookService {
     },
     // .............................under400................................              
     {
+      "bookId": "221",
       "name": "Good Girl, Bad Blood",
       "categories": ["fiction"],
       "author": "Holly Jackson  ",
@@ -3196,6 +3405,7 @@ export class BookService {
       "aboutAuthor": "Holly Jackson started writing stories from a young age, completing her first (poor) attempt at a novel aged fifteen. She lives in London and aside from reading and writing, she enjoys playing video games and watching true crime documentaries so she can pretend to be a detective. A Good Girl's Guide to Murder is her first novel. You can follow Holly on Twitter and Instagram @HoJay92",
     },
     {
+      "bookId": "222",
       "name": "All the Light we Cannot See",
       "categories": ["adult-story"],
       "author": " Anthony Doerr ",
@@ -3210,6 +3420,7 @@ export class BookService {
     },
 
     {
+      "bookId": "223",
       "name": "The Mistress Of Spices",
       "categories": ["cooking"],
       "author": " Chitra Divakaruni ",
@@ -3224,6 +3435,7 @@ export class BookService {
     },
 
     {
+      "bookId": "224",
       "name": "Shoe Dog",
       "categories": ["fiction"],
       "author": " Phil Knight  ",
@@ -3238,6 +3450,7 @@ export class BookService {
     },
   
     {
+      "bookId": "225",
       "name": "Eleanor Oliphant is Completely Fine ",
       "categories": ["fiction"],
       "author": " Gail Honeyman",
@@ -3251,6 +3464,7 @@ export class BookService {
       "aboutAuthor": "While Gail Honeyman was writing her debut novel, Eleanor Oliphant is Completely Fine, it was shortlisted for the Lucy Cavendish Fiction Prize as a work in progress. It has subsequently sold to almost thirty territories worldwide and it.was chosen as one of the Observer’s Debuts of the Year for 2017.Gail was also awarded the Scottish Book Trust’s Next Chapter Award in 2014 and has been longlisted for BBC Radio 4’s Opening Lines and shortlisted for the Bridport Prize. She lives in Glasgow.",
     },
     {
+      "bookId": "226",
       "name": "A Girl That Had to be Strong",
       "categories": ["love_story"],
       "author": "  Garima Pradhan ",
@@ -3264,6 +3478,7 @@ export class BookService {
       "aboutAuthor": "Garima Pradhan is an Author | Relationship and Personality Coach. She is born and brought up from the beautiful “city of lakes” Bhopal. And published her books- A Girl That Had to be Strong and Broken is the New Beautiful. Also. she is popularly known as the Pride of Bhopal and was awarded  Best Author Bhopal for her beautiful writing style. Moreover, she also got awarded with Best Student Award in 3rd std and won medals in DMS School for sports. She completed her entire schooling from St. Joseph’s Co-Ed School and opted for commerce with the optional subject as fine arts. And was Appreciated by Dr. APJ Abdul Kalam Sir, for her poem on the Topic- Mother when she was a kid. She has a keen interest in fine arts and was later awarded Best Artist Award in 12th STD at St. Joseph Co-Ed School. She did her graduation in B.Com from Chitransh College and prepared for CA simultaneously clearing CA-CPT and later went for next level CA-IPCC, where she cleared Group-2 of IPCC with an exemption in IT/SM. She then did her MBA in finance and retail management from Chakravarti Rajagopalachari Institute of Management (CRIM), Bhopal. She then worked as a corporate professional with IT industry for one year and later discovered her passion for writing and went for her first Debut novel- “A Girl That Had to Be Strong.” She wrote this book to bring about a change in the mindset of people and to inspire live a better life. She loves music, painting, writing blogs at blogger, writing quotes and is active in yourquotes.in the platform. Her quotes are Google searchable with her pen name- “Garima Pradhan Quotes”. She believes in making people smile, uplifting and motivating them with her vibes, her thoughts in person and via her FB page- Dream it to make it happen. She is a mix of positive aura with a strong personality!",
     },
     {
+      "bookId": "227",
       "name": "Amaira ",
       "categories": ["classic"],
       "author": "Priyanka Pareek ",
@@ -3277,6 +3492,7 @@ export class BookService {
       "aboutAuthor": "Priyanka Pareek is a happy educator who has been a teaching professional from her teens. Having the passion of writing since her childhood, she got the idea of her first project, Amaira almost five years back but couldn't complete due to time constraints but the lockdown and the Covid-19 pandemic enabled her and hence, 'Amaira' came into being in 2020. She believes in empowerment of women, and hence the readers will come across many unconventional aspects which would seem normal but questions will arise for the comfort of their happenings, cause in this dimension/world they never seem to happen, women never seem to be that comfortable whether it could be wandering alone at night or physical fighting with strong built evil men.",
     },
     {
+      "bookId": "228",
       "name": "Death on the Nile",
       "categories": ["classic"],
       "author": " Agatha Christie  ",
@@ -3290,6 +3506,7 @@ export class BookService {
       "aboutAuthor": "Agatha Christie was born in Torquay in 1890 and became, quite simply, the bestselling novelist in history. Her first novel, The Mysterious Affair at Styles, written towards the end of the First World War, introduced us to Hercule Poirot, who was to become the most popular detective in crime fiction since Sherlock Holmes. She is known throughout the world as the Queen of Crime. Her books have sold over a billion copies in the English language and another billion in over 100 foreign countries. She is the author of 80 crime novels and short story collections, 19 plays and six novels under the name of Mary Westmacott.",
     },
     {
+      "bookId": "229",
       "name": "Book Lovers",
       "categories": ["fiction"],
       "author": " EMILY HENRY",
@@ -3303,6 +3520,7 @@ export class BookService {
       "aboutAuthor": "Emily Henry is the #1 New York Times bestselling author of Book Lovers, People We Meet on Vacation, Beach Read, and the forthcoming Happy Place. She studied creative writing at Hope College, and now spends most of her time in Cincinnati, Ohio, and the part of Kentucky just beneath it. Find her on Instagram @EmilyHenryWrites.",
     },
     {
+      "bookId": "230",
       "name": "Things We Never Got Over",
       "categories": ["fiction"],
       "author": " Lucy Score  ",
@@ -3317,6 +3535,7 @@ export class BookService {
     },
     
     {
+      "bookId": "231",
       "name": "Crimson Skies ",
       "categories": ["classic"],
       "author": " Ankita Das  ",
@@ -3330,6 +3549,7 @@ export class BookService {
       "aboutAuthor": "subjects like love, friendship, repudiation, detachment, grief, enigmas, paradox, backstabbing and retaliation. The male protagonist is Raghav Aditya Shankar who is 42 years old successful politician and the female protagonist is Dr, Areeti Ray who is 34 years old, a successful young and introverted lady. Somehow due to fate, they crossed their path at a wedding. The male protagonist is soon drawn to the female protagonist and he realises that there is some old connection with her.",
     },
     {
+      "bookId": "232",
       "name": "The Cheat Sheet",
       "categories": ["fiction"],
       "author": " Sarah Adams  ",
@@ -3344,6 +3564,7 @@ export class BookService {
     },
 
     {
+      "bookId": "233",
       "name": "Anxious People-Backman",
       "categories": ["classic"],
       "author": " Fredrik Backman",
@@ -3357,6 +3578,7 @@ export class BookService {
       "aboutAuthor": "Number 1 New York Times bestseller FREDRIK BACKMAN made his literary debut in 2012 with the global sensation A Man Called Ove - now in development as a major motion picture starring Tom Hanks. Wickedly funny, touching and wise, Fredrik Backman's novels are odysseys of the ordinary man and woman, and stunningly moving tales of everyday courage. Up to now, Fredrik Backman has written six highly acclaimed novels, two heartfelt novellas about life and love, and one non-fiction book about parenthood. His books have sold more than 15 million copies in 46 languages and the Swedish film adaption of A Man Called Ove was nominated for two Academy Awards. He lives in Stockholm, Sweden, with his wife and two children.",
     },
     {
+      "bookId": "234",
       "name": "Where the Sun Never Sets",
       "isTopSelling": true,
       "categories": [""],
@@ -3371,6 +3593,7 @@ export class BookService {
       "aboutAuthor": "Dale Carnegie has authored close to eleven books and multiple articles on solving everyday problems and achieving success, his books have helped millions of people feel better prepared for life.",
     },
     {
+      "bookId": "235",
       "name": "Pieces Of Her",
       "isTopSelling": true,
       "categories": [""],
@@ -3385,6 +3608,7 @@ export class BookService {
       "aboutAuthor": " Devanshi Prabhakar was an indian writer. born in kerala..be nice to yourself, you're trying. if its taking longer than you thought it would to achieve something or to move on from someone it's okay. try not to compare yourself to others, you're alive and smiling, and that's what matters. keep trying. find yourself again. you'll get there.",
     },
     {
+      "bookId": "236",
       "name": "Half Girlfriend",
       "isTopSelling": true,
       "categories": [""],
@@ -3399,6 +3623,7 @@ export class BookService {
       "aboutAuthor": "Chetan Bhagat is an Indian author, columnist and YouTuber. He was included in Time magazine's list of World's 100 Most Influential People in 2010. Five of his novels have been adapted into films.Chetan then decided to make writing a full-time career. His third novel “The 3 Mistakes of my life” published in 2008 also became a huge success. This novel became a bestseller and Chetan also became the most successful English-Language writer in India. The Bollywood hit movie “Kai Po Che” is based on this novel.",
     },
     {
+      "bookId": "237",
       "name": "Promise me a million times",
       "isTopSelling": true,
       "categories": [""],
@@ -3413,6 +3638,7 @@ export class BookService {
       "aboutAuthor": "Keshav Aneel is a young marketing professional, who chose to take the route of his heart, ending his brief stint in corporate soon after completing his studies in Business Administration. He immersed himself in honing his creative side and now revels in it. 'A University Gold Medalist' in debate and an affluent public speaker, he is a poet at heart and an avid traveler, in love with the blue sky side of life.",
     },
     {
+      "bookId": "238",
       "name": "When Love Came Calling",
       "isTopSelling": true,
       "categories": [""],
@@ -3427,6 +3653,7 @@ export class BookService {
       "aboutAuthor": "Preeti Shenoy is the bestselling author of Life is What You Make It and eleven other titles. Her books have been translated into several Indian and foreign languages. She is among the highest-selling authors in India. She is also a speaker, columnist, and artist. Preeti has been featured on BBC, Conde Nast, Verve, India Today and all other major media.Preeti Shenoy is the bestselling author of Life is What You Make It and twelve other titles. She is among the highest-selling authors in India. She is also a speaker, columnist, and artist.",
     },
     {
+      "bookId": "239",
       "name": "That Kiss in the Rain",
       "isTopSelling": true,
       "categories": [""],
@@ -3442,6 +3669,7 @@ export class BookService {
     },
     // .........................under400..............................
     {
+      "bookId": "240",
       "name": "You Only Live Once",
       "isTopSelling": true,
       "categories": [""],
@@ -3456,6 +3684,7 @@ export class BookService {
       "aboutAuthor": "Stuti Changle is a bestselling author. She won notable mentions in Amazon Kindle's Pen to Publish 2018 competition. You Only Live Once is her second book.Stuti is a postgraduate in management from IMI and she quit her corporate career to inspire people by sharing life-changing stories. She is often invited by prestigious institutions for speaker engagements, where she encourages young people to follow their dreams. She made her TV debut in 2019 as a host of the TV Series Kar Ke Dikhaenge.Stuti has sailed to the Andamans, camped with Indian jawans in Arunachal Pradesh, scuba-dived in the Indian Ocean, swum with the dolphins in the Mediterranean, floated free for hours on the island of Mallorca and wishes to travel the world before she dies. Every year, she spends time in the coastal village of Palolem in Goa. She is currently based in New Delhi, where she lives with her husband, Kushal Nahata, co-founder and CEO of FarEye.",
     },
     {
+      "bookId": "241",
       "name": "All Your Perfects",
       "isTopSelling": true,
       "categories": [""],
@@ -3470,6 +3699,7 @@ export class BookService {
       "aboutAuthor": "About the Author: Colleen Hoover is the #1 New York Times bestselling author of more than twenty-three novels, including It Ends with Us, All Your Perfects, Ugly Love, and Verity. In 2015, Colleen and her family founded a nonprofit called The Bookworm Box, a bookstore and monthly book subscription service. Colleen lives in Texas with her husband and their three boys. For more information, please visit ColleenHoover.com.",
     },
     {
+      "bookId": "242",
       "name": "The Bhagwat Gita",
       "isTopSelling": true,
       "categories": [""],
@@ -3484,6 +3714,7 @@ export class BookService {
       "aboutAuthor": "R.R. Varma  This best-selling and expanded edition of the most famous and popular of Indian scriptures, contextualizes the book culturally and historically and explains the key concepts of Hindu religious thought and the technical vocabulary of yoga. Chapter introductions, notes, and a glossary help readers understand the book’s message better",
     },
     {
+      "bookId": "243",
       "name": "Do Epic Shit ",
       "isTopSelling": true,
       "categories": [""],
@@ -3498,6 +3729,7 @@ export class BookService {
       "aboutAuthor": "Ankur Warikoo is an entrepreneur, teacher, content creator and mentor. Ankur founded nearbuy.com and was its CEO from its inception in 2015 until 2019. Prior to that, Ankur was the founding CEO of Groupon’s India business. Today he spends his time creating content, teaching online and mentoring first-time founders.",
     },
     {
+      "bookId": "244",
       "name": "A Man Called Ove ",
       "isTopSelling": true,
       "categories": [""],
@@ -3512,6 +3744,7 @@ export class BookService {
       "aboutAuthor": "Fredrik Backman is a Swedish blogger, columnist and author. His debut novel A MAN CALLED OVE was a number 1 bestseller across Scandinavia, has sold over one million copies worldwide, was a Richard & Judy summer read in the UK and an instant New York Times paperback bestseller, and has been made into an acclaimed film. Fredrik's subsequent novels, MY GRANDMOTHER SENDS HER REGARDS AND APOLOGISES and BRITT-MARIE WAS HERE, also went straight to number 1 in Sweden on publication.",
     },
     {
+      "bookId": "245",
       "name": "Da Vinci Code",
       "isTopSelling": true,
       "categories": [""],
