@@ -71,7 +71,7 @@ export class BookService {
 
   books: Array<any> = [
     {
-      "bookId": 1,
+      "bookId": "1",
       "name": "The Value of a Whale",
       "isNewArrival": true,
       "isTopSelling": true,
@@ -89,7 +89,7 @@ export class BookService {
 
     },
     {
-      "bookId": 2,
+      "bookId": "2",
       "name": "Dharma",
       "isNewArrival": true,
       "isTopSelling": true,
@@ -486,7 +486,7 @@ export class BookService {
 
     },
     {
-       "bookId": "26",
+      "bookId": "26",
       "name": "The Selection ",
       "isNewArrival": true,
       "categories": ["classic"],
@@ -1565,7 +1565,7 @@ export class BookService {
       "aboutbook": "Laxmi Khurana is an Indian housewife living in the UK. Her recipes have been handed down to her through the generations, and admired by her family and friends. Here, in her classic curry cookbook, she makes them available to everyone, so you can re-create authentic Indian meals for all the family - from starters to raitas, chutneys and pickles to sweets, as well as the ever popular curries - all with minimum fuss and maximum satisfaction that this is the real thing.• Recipes for traditional 'family' dishes, not normally served in Indian restaurants• Uses ingredients and spices that are widely available• Simple, economical dishes that anyone can makeSome reader reviews:'The recipes are very simple and clear to follow. They produce the best curries I have ever made. The ingredients can all be found easily in any supermarket.''It doesn't require you to pre-prepare 6 basic sauces first. Just pick up the book and cook.''Good, honest and easy everyday cooking for those of us addicted to Indian food.'",
       "aboutAuthor": "Laxmi Khurana is an Indian housewife living in the UK. The recipes which she features in this book have been handed down to her through the generations. Laxmi Khurana is an Indian housewife living in the UK. The recipes which she features in this book have been handed down to her through the generations.Laxmi Khurana is an Indian housewife living in the UK. The recipes which she features in this book have been handed down to her through the generations.",
     },
-    { 
+    {
       "bookId": "96",
       "name": "Sweet and Simple Homemade Cakes",
       "categories": ["cooking"],
