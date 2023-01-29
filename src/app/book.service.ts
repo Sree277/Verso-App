@@ -302,7 +302,7 @@ export class BookService {
       "aboutbook": " The Sun Is Also a Star, is a touching story about two teenagers who deserve the chance to get to know each other, but risk having it ripped away from them before it's even really begun. The novel takes place in New York City, where Natasha is on a mission to save her family from being deported back to Jamaica.College-bound romantic Daniel Bae and Jamaica-born pragmatist Natasha Kingsley meet -- and fall for each other -- over one magical day amidst the fervor and flurry of New York City. Sparks immediately fly between these two strangers, who might never have met had fate not given them a little push. With just hours left on the clock in what looks to be her last day in the U.S., Natasha is fighting against her family's deportation just as fiercely as she's fighting her growing feelings for Daniel.   ",
       "aboutAuthor": " Nicola Yoon is a Jamaican-American author. She is best known for writing the 2015 young adult novel Everything, Everything, a New York Times best seller and the basis of a 2017 film of the same name. In 2016, she released The Sun Is Also a Star, a novel that was adapted to a film of the same name. "
     },
- 
+
     {
       "name": " The Midnight Library ",
       "author": "Matt Haig ",
@@ -530,20 +530,6 @@ export class BookService {
       "aboutbook": " Romeo and Juliet is a tragedy written early in the career of playwright William Shakespeare about two young star-cross'd lovers whose deaths ultimately unite their feuding families. It was among Shakespeare s most popular plays during his lifetime and, along with Hamlet and Macbeth, is one of his most frequently performed plays. Today, the title characters are regarded as archetypal young lovers.Romeo and Juliet is a tragedy written by William Shakespeare early in his career about the romance between two Italian youths from feuding families. It was among Shakespeare's most popular plays during his lifetime and, along with Hamlet, is one of his most frequently performed plays. ",
       "aboutAuthor": "William Shakespeare was a renowned English poet, playwright, and actor born in 1564 in Stratford-upon-Avon. His birthday is most commonly celebrated on 23 April (see When was Shakespeare born), which is also believed to be the date he died in 1616.William Shakespeare was a renowned English poet, playwright, and actor born in 1564 in Stratford-upon-Avon. His birthday is most commonly celebrated on 23 April (see When was Shakespeare born), which is also believed to be the date he died in 1616.Shakespeare was a prolific writer during the Elizabethan and Jacobean ages of British theatre (sometimes called the English Renaissance or the Early Modern Period). Shakespeare’s plays are perhaps his most enduring legacy, but they are not all he wrote. "
 
-    },
-    {
-      "name": "Paths of Fear",
-      "isRentable": true,
-      "categories": ["fiction"],
-      "author": "  Connie Kerbs",
-      "bookImage": "book84.webp",
-      "bookPrize": 1236.00,
-      "orginalBookPrize": 1780.00,
-      "publisher": " F.I.N.E. Reads Press ",
-      "relesedDate": " 17 November 2015  ",
-      "bookStockDetails": "Available",
-      "aboutbook": " Connie Kerbs and Pebbled Lane Books presents this collection of stories, poems, and essays, on a universal theme. Most of all, Paths of Fear is a deeper look at all that fear can teach us and our triumph over it as we find the fortitude to replace it with hope, and determination.Paths of Fear is an inspirational reflection on facing, enduring and overcoming one of the most basic human emotions. Fear. It is an experience we all have at one time or another, to varying degrees. Understanding that the lasting aftershocks can be as devastating as the original traumatic event or fearful season in our life is paramount. Fear is our most primal emotion. It manifests as a scream of sheer terror, an alarm of mortal danger, or a simple cry for help. Sometimes it is silent, imagined, a recipe for our nightmares.      ",
-      "aboutAuthor": " Connie Kerbs, aka The Fostering Mom, was an early and ardent student of Language Arts - and still is. She is a prolific writer and intense lover of great poetry. Along with the poetry, she writes fiction, non-fiction, inspirational tales, memoirs, children's stories, ...and everything in between! Her stories and poems have been published several places, and Paths of Fear is the debut title of her Pebbled Lane Books Series, (www.pebbledlanebooks.com). She has several other projects in the works at various stages of publishing progress.Author Connie Kerbs, has been writing stories and poems since gripping that first, wonderful, fat pencil! When she is not writing, she is taking care of her unique family",
     },
     {
       "name": "Believe in yourself ",
@@ -786,7 +772,7 @@ export class BookService {
       "aboutbook": "Shaurya is a charming eligible bachelor who lives in a luxurious house in Mumbai. Having lost his parents a few years back, he loves his grandfather to bits. He shares a unique fate with his grandfather, though. They both didn’t get the love they deserved.Roshan, a fun-loving old man, breathes in the present, but lives in his past. He treasures his past so much that he has a hard time moving on. ",
       "aboutAuthor": " Arpit Vageria is one of India’s most loved storytellers. He has penned several bestsellers, including You Are My Reason to Smile, Be My Perfect Ending and I Still Think About You.Roshan, a fun-loving old man, breathes in the present, but lives in his past. He treasures his past so much that he has a hard time moving on. ",
     },
-    
+
     {
       "name": "It Starts With Us",
       "categories": ["love_story"],
@@ -1215,7 +1201,7 @@ export class BookService {
     },
 
     // ...................................rarecollections................................................
-    
+
     {
       "name": "The Little Book of Hermès",
       "categories": ["classic"],
@@ -1668,8 +1654,8 @@ export class BookService {
       "aboutAuthor": "Kat Lieu is a doctor of physical therapy by day and an avid home baker by night. Originally from New York, she now calls Washington state her home. Lieu is the founder of a popular online baking group called Subtle Asian Baking (SAB). She is known for the Japanese and Basque cheesecake recipes published on her blog, philandmama.com, and Instagram, @subtleasian.baking.",
     },
     // ..............................fiction...................................
- 
-   
+
+
     {
       "name": "Ikigai ",
       "categories": ["fiction"],
@@ -2086,7 +2072,7 @@ export class BookService {
       "aboutbook": "From a critically acclaimed New York Times bestselling author and poet comes “a delightfully hybrid book: part anthology, part critical study, part autobiography” (Chicago Tribune) that is organized around fifty-one remarkable poems by poets such as Robert Frost, Emily Dickinson, Wallace Stevens, and Sylvia Plath.For Jill Bialosky, certain poems stand out like signposts at pivotal moments in a life: the death of a father, adolescence, first love, leaving home, the suicide of a sister, marriage, the birth of a child, the day in New York City the Twin Towers fell. As Bialosky narrates these moments, she illuminates the ways in which particular poems offered insight, compassion, and connection, and shows how poetry can be a blueprint for living. In Poetry Will Save Your Life, Bialosky recalls when she encountered each formative poem, and how its importance and meaning evolved over time, allowing new insights and perceptions to emerge.While Bialosky’s personal stories animate each poem, they touch on many universal experiences, from the awkwardness of girlhood, to crises of faith and identity, from braving a new life in a foreign city to enduring the loss of a loved one, from becoming a parent to growing creatively as a poet and artist. Each moment and poem illustrate “not only how to read poetry, but also how to love poetry” (Christian Science Monitor). ",
       "aboutAuthor": "Jill Bialosky is the author of four acclaimed collections of poetry. Her poems have appeared in The New Yorker, The New York Times, and The Atlantic, among others. She is the author of several books, including History of a Suicide, Asylum, and Poetry Will Save Your Life. In 2015, Jill was honored by the Poetry Society of America for her distinguished contribution to the field of poetry. She lives in New York City. Find out more at JillBialosky.com. “Poetry Will Save Your Life is one of the most moving memoirs I’ve ever read, but it’s so much more. Bialosky does something miraculous: as she shares stories from her life, she shows how specific poems can help all of us make sense of our own lives and the world. Here are classic and contemporary poems that help us see and hear one another more clearly; that speak to us in times of loss and grief; that guide us through our every days. If you’ve always loved poetry, this book will captivate you. And if you want to love poetry, then this book will open worlds. Poetry Will Save Your Life is itself a life-saving book.” -- Will Schwalbe, New York Times bestselling author of The End of Your Life Book Club and Books for Living",
     },
-   
+
     {
       "name": "Tirukkural: The Book of Desire ",
       "categories": ["poetry"],
@@ -3236,7 +3222,7 @@ export class BookService {
       "aboutbook": "In 1962, fresh out of business school, phil knight borrowed $50 from his father and created a company with a simple mission: import high-quality, athletic shoes from japan. Selling the shoes from the boot of his Plymouth, knight grossed $8000 in his first year. Today, nike's annual sales top $30 billion. In an age of start-ups, nike is the ne plus ultra of all start-ups, and the swoosh has become a revolutionary, globe-spanning icon, one of the most ubiquitous and recognisable symbols in the world today. But knight, the man behind the swoosh, has always remained a mystery. Now, for the first time, he tells his story. Candid, humble, wry and gutsy, he begins with his crossroads moment when he decided to start his own business. He details the many risks and daunting setbacks that stood between him and his dream - along with his early triumphs. Above all, he recalls how his first band of partners and employees soon became a tight-knit band of brothers. Together, harnessing the transcendent power of a shared mission, and a deep belief in the spirit of sport, they built a brand that changed everything. A memoir rich with insight, humour and hard-won wisdom, this book is also studded with lessons - about building something from scratch, overcoming adversity, and ultimately leaving your mark on the world.",
       "aboutAuthor": "One of the world’s most influential business executives, Phil Knight is the founder of Nike, Inc. He served as CEO of the company from 1964 to 2004, as board chairman through 2016, and he is currently Chairman Emertius. He lives in Oregon with his wife, Penny.",
     },
-  
+
     {
       "name": "Eleanor Oliphant is Completely Fine ",
       "categories": ["fiction"],
@@ -3315,7 +3301,7 @@ export class BookService {
       "aboutbook": "A spicy contemporary rom-com set in the town of Knockemout from bestselling author and TikTok sensation, Lucy Score",
       "aboutAuthor": "Lucy Score is a New York Times, USA Today and Wall Street Journal bestselling author. She grew up in a literary family who insisted that the dinner table was for reading and earned a degree in journalism.She writes full-time from the Pennsylvania home she and Mr. Lucy share with their obnoxious cat, Cleo. When not spending hours crafting heartbreaker heroes and kick-ass heroines, Lucy can be found on the couch, in the kitchen, or at the gym.",
     },
-    
+
     {
       "name": "Crimson Skies ",
       "categories": ["classic"],
