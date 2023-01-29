@@ -72,6 +72,7 @@ export class BookService {
       "name": "The Value of a Whale",
       "isNewArrival": true,
       "isTopSelling": true,
+      "isFavorite": true,
       "categories": ["classic"],
       "author": "Adrienne Buller ",
       "bookImage": "book41.jpg",
@@ -206,22 +207,6 @@ export class BookService {
     },
     {
       "bookId": "",
-      "name": "Wish I Could Tell You",
-      "isNewArrival": false,
-      "isTopSelling": true,
-      "categories": ["fiction"],
-      "author": "Durjoy Datta ",
-      "bookImage": "book77.jpg",
-      "bookPrize": 176.00,
-      "orginalBookPrize": 199.00,
-      "publisher": " Penguin Metro Reads ",
-      "relesedDate": " 4 October 2019  ",
-      "bookStockDetails": "Available",
-      "aboutbook": "Can you find yourself after you have lost that special someone? A disillusioned and heartbroken Anusha finds herself in the small world of WeD. Struggling to cope with her feelings and the job of raising money for charity, she reluctantly searches for a worthwhile cause to support.For Ananth, who has been on the opposite side, no life is less worthy, no cause too small to support. Behind them are teams for whom going to extraordinary lengths to save lives is more than a full-time occupation. In front of them is the virtual world of social media-watching, interacting, judging, making choices, and sometimes, saving lives. From the virtual to the real, their lives and that of their families, entangle in a way that moving together is the only solution. They can't escape each other. In this world of complicated relationships, should love be such a difficult ride?",
-      "aboutAuthor": "Durjoy Datta was born in New Delhi, and completed a degree in engineering and business management before embarking on a writing career. His first book-Of Course I Love You . . .-was published when he was twenty-one years old and was an instant bestseller. His successive novels-Now That You're Rich . . .; She Broke Up, I Didn't! . . .; Oh Yes, I'm Single! . . .; You Were My Crush . . .; If It's Not Forever . . .; Till the Last Breath . . .; Someone Like You; Hold My Hand; When Only Love Remains; World's Best Boyfriend; The Girl of My Dreams; The Boy Who Loved; The Boy with the Broken Heart and The Perfect Us-have also found prominence on various bestseller lists, making him one of the highest-selling authors in India.Durjoy also has to his credit nine television shows and has written over a thousand episodes for television. He lives in Mumbai. For more updates, you can follow him on Facebook (www.facebook.com/durjoydatta1) or Twitter (@durjoydatta) or mail him at durjoydatta@gmail.com.",
-    },
-    {
-      "bookId": "",
       "name": "Overkill ",
       "isNewArrival": false,
       "isTopSelling": true,
@@ -272,51 +257,6 @@ export class BookService {
 
     {
       "bookId": "",
-      "name": "Looking for Alaska",
-      "isFavorite": true,
-      "categories": ["poetry"],
-      "author": "Jhon Green",
-      "bookImage": "book40.jpg",
-      "bookPrize": 669.00,
-      "orginalBookPrize": 917.00,
-      "publisher": "  Harper Collins India Ltd  ",
-      "relesedDate": " 28 Feb 2013  ",
-      "bookStockDetails": "Available",
-      "aboutbook": "“If people were rain, I was drizzle and she was a hurricane.Gorgeous, clever and undoubtedly screwed-up, Alaska draws Miles into her reckless world and irrevocably steals his heart. For Miles, nothing can ever be the same again.‘Looking for Alaska’ brilliantly captures the exquisite painful joy of living and loving. Poignant, funny, heartbreaking and compelling, this novel will stay with you forever.The unmissable first novel from bestselling and award-winning author of THE FAULT IN OUR STARS and TURTLES ALL THE WAY DOWN.",
-      "aboutAuthor": "John Green is an award-winning, New York Times bestselling author who has received numerous accolades including the Printz Medal, a Printz Honor and the Edgar Award. John is also one half of the Vlogbrothers; co-creator, with his brother, Hank, of the popular video blog Brotherhood 2.0, which has been watched more than 30 million times by Nerdfighter fans all over the globe (youtube.com/vlogbrothers).",
-    },
-    {
-      "bookId": "",
-      "name": "Long Winter",
-      "isFavorite": true,
-      "categories": ["love story"],
-      "author": "Laura Ingalls Wilder ",
-      "bookImage": "book39.jpg",
-      "bookPrize": 339.00,
-      "orginalBookPrize": 513.00,
-      "publisher": " Egmont UK Ltd ",
-      "relesedDate": "  30 Jul 2015 ",
-      "bookStockDetails": "Available",
-      "aboutbook": "When a blizzard cuts the town of De Smet off from the railroad, the community is left for weeks without food or fuel deliveries and the Ingalls family are forced to eke out the last of their supplies. As the terrible winter drags on, things begin to look desperate, until Almanzo Wilder and his friend brave the icy storms in search of help.The Long Winter is an autobiographical children's novel written by Laura Ingalls Wilder and published in 1940, the sixth of nine books in her Little House series. It is set in southeastern Dakota Territory during the severe winter of 1880–1881, when she turned 14 years old.On the empty winter prairie, gray clouds to the northwest meant only one thing: a blizzard was seconds away. The first blizzard came in October. It snowed almost without stopping until April. The temperature dropped to forty below. Snow reached the roof-tops. And no trains could get through with food and coal. The townspeople began to starve. The Ingalls family barely lived through that winter. And Almanzo Wilder knew he would have to risk his life to save the town.",
-      "aboutAuthor": "Laura Elizabeth Ingalls Wilder was an American writer, mostly known for the Little House on the Prairie series of children's books, published between 1932 and 1943, which were based on her childhood in a settler and pioneer family.Ingalls wrote a series of historical fiction books for children based on her childhood growing up in a pioneer family. She also wrote a regular newspaper column and kept a diary as an adult moving from South Dakota to Missouri, the latter of which has been published as a book.",
-    },
-    {
-      "bookId": "",
-      "name": "Sooley",
-      "isFavorite": true,
-      "categories": ["drama story"],
-      "author": "John Grisham",
-      "bookImage": "book38.webp",
-      "bookPrize": 477.00,
-      "orginalBookPrize": 698.00,
-      "publisher": " Doubleday Books  ",
-      "relesedDate": " 27 April 2021  ",
-      "bookStockDetails": "Available",
-      "aboutbook": "New York Times bestselling author John Grisham takes you to a different kind of court in his first basketball novel. Samuel 'Sooley' Sooleymon is a raw, young talent with big hoop dreams...and even bigger challenges off the court.In the summer of his seventeenth year, Sam­uel Sooleymon gets the chance of a lifetime: a trip to the United States with his South Sudanese teammates to play in a showcase basket­ball tournament. He has never been away from home, nor has he ever been on an airplane. The opportunity to be scouted by dozens of college coaches is a dream come true.Samuel is an amazing athlete, with speed, quick­ness, and an astonishing vertical leap. The rest of his game, though, needs work, and the American coaches are less than impressed.During the tournament, Samuel receives dev­astating news from home: A civil war is raging across South Sudan, and rebel troops have ran­sacked his village. His father is dead, his sister is missing, and his mother and two younger brothers are in a refugee camp.Samuel desperately wants to go home, but it's just not possible. Partly out of sympathy, the coach of North Carolina Central offers him a scholar­ship. Samuel moves to Durham, enrolls in classes, joins the team, and prepares to sit out his freshman season. There is plenty of more mature talent and he isn't immediately needed.Gripping and moving, Sooley showcases John Grisham's unparalleled storytelling powers in a whole new light. This is Grisham at the top of his game. ",
-      "aboutAuthor": "John Grisham is the author of forty-seven consecutive #1 bestsellers, which have been translated into nearly fifty languages. His recent books include The Judge's List, Sooley, and his third Jake Brigance novel, A Time for Mercy, which is being developed by HBO as a limited series.Grisham is a two-time winner of the Harper Lee Prize for Legal Fiction and was honored with the Library of Congress Creative Achievement Award for Fiction.When he's not writing, Grisham serves on the board of directors of the Innocence Project and of Centurion Ministries, two national organizations dedicated to exonerating those who have been wrongfully convicted. Much of his fiction explores deep-seated problems in our criminal justice system.",
-    },
-    {
-      "bookId": "",
       "name": "Milk and Honey",
       "categories": ["poetry"],
       "isFavorite": true,
@@ -362,20 +302,7 @@ export class BookService {
       "aboutbook": " The Sun Is Also a Star, is a touching story about two teenagers who deserve the chance to get to know each other, but risk having it ripped away from them before it's even really begun. The novel takes place in New York City, where Natasha is on a mission to save her family from being deported back to Jamaica.College-bound romantic Daniel Bae and Jamaica-born pragmatist Natasha Kingsley meet -- and fall for each other -- over one magical day amidst the fervor and flurry of New York City. Sparks immediately fly between these two strangers, who might never have met had fate not given them a little push. With just hours left on the clock in what looks to be her last day in the U.S., Natasha is fighting against her family's deportation just as fiercely as she's fighting her growing feelings for Daniel.   ",
       "aboutAuthor": " Nicola Yoon is a Jamaican-American author. She is best known for writing the 2015 young adult novel Everything, Everything, a New York Times best seller and the basis of a 2017 film of the same name. In 2016, she released The Sun Is Also a Star, a novel that was adapted to a film of the same name. "
     },
-    {
-      "name": "Dharma",
-      "isNewArrival": true,
-      "categories": ["classic"],
-      "author": "Amish and Bhavna Dive",
-      "bookImage": "book3.jpg",
-      "bookPrize": 359.72,
-      "orginalBookPrize": 499.00,
-      "publisher": " Westland ",
-      "relesedDate": " 28 December 2020",
-      "bookStockDetails": "Out Of Stock",
-      "aboutbook": " The spiritual self-help book is co-authored by Amish and his sister Bhavna Roy. In 'Dharma: Decoding the Epics for a Meaningful Life', as the title suggests, Amish and Bhavna Roy discuss the intriguing concepts of Dharma, Karma, the meaning of life and how it can help one achieve the most in life.Stories can be both entertaining and educative. They can also be insightful and illuminating, especially when they have travelled down the generations, through the centuries, taking on and eliding new meanings with each retelling. In this genre-bending book, the first of a series, Amish and Bhavna dive into the priceless treasure trove of the ancient Indian epics, as well as the vast and complex universe of Amish’s Meluha (through his Shiva Trilogy and Ram Chandra Series), to explore some of the key concepts of Indian philosophy. ",
-      "aboutAuthor": " AMISH is a 1974-born IIM (Kolkata)-educated, boring banker turned happy author. The success of his debut book, The Immortals of Meluha (Book 1 of the Shiva Trilogy), encouraged him to give up a fourteen-year-old career in financial services to focus on writing. He is passionate about history, mythology and philosophy, finding beauty and meaning in all world religions. Amish's books have sold more than 5.5 million copies and have been translated into over 19 languages. BHAVNA ROY was educated in Mussoorie, Pune and Mumbai. After graduating in psychology from Mumbai University, she worked first as a volunteer in a school for special children in Malegaon, and later in an NGO in Nashik called SOS. She is the wife of the late Himanshu Roy IPS, senior police officer of the Maharashtra cadre. She lives in Mumbai."
-    },
+ 
     {
       "name": " The Midnight Library ",
       "author": "Matt Haig ",
@@ -391,21 +318,6 @@ export class BookService {
       "aboutAuthor": "The Midnight Library is a fantasy novel by Matt Haig, published on 13 August 2020 by Canongate Books. It was abridged and broadcast on BBC Radio 4 over ten episodes in December 2020.Matt Haig (born 3 July 1975) is an English author and journalist. He has written both fiction and non-fiction books for children and adults, often in the speculative fiction genre.Matt Haig is an author for children and adults. His memoir Reasons to Stay Alive was a number one bestseller, staying in the British top ten for 46 weeks. His children's book A Boy Called Christmas was a runaway hit and is translated in over 40 languages."
     },
     {
-      "name": " The Alchemist",
-      "isNewArrival": true,
-      "categories": ["classic"],
-      "author": "Paulo Coelho ",
-      "bookImage": "book7.webp",
-      "bookPrize": 140.07,
-      "orginalBookPrize": 249.12,
-      "publisher": "HarperTorch (English translation) ",
-      "relesedDate": "1988  ",
-      "bookStockDetails": "Available",
-      "aboutbook": " Combining magic, mysticism, wisdom, and wonder into an inspiring tale of self-discovery, The Alchemist has become a modern classic, selling millions of copies around the world and transforming the lives of countless readers across generations.Paulo Coelho's masterpiece tells the mystical story of Santiago, an Andalusian shepherd boy who yearns to travel in search of a worldly treasure. His quest will lead him to riches far different—and far more satisfying—than he ever imagined. Santiago's journey teaches us about the essential wisdom of listening to our hearts, recognizing opportunity and learning to read the omens strewn along life's path, and, most importantly, following our dreams.",
-      "aboutAuthor": " The Brazilian author PAULO COELHO was born in 1947 in the city of Rio de Janeiro. Before dedicating his life completely to literature, he worked as theatre director and actor, lyricist and journalist.The Alchemist is a novel by Brazilian author Paulo Coelho which was first published in 1988. Originally written in Portuguese, it became a widely translated international bestseller  "
-
-    },
-    {
       "name": "The Seven Husbands of Evelyn Hugo",
       "isNewArrival": true,
       "categories": ["love story"],
@@ -418,36 +330,6 @@ export class BookService {
       "bookStockDetails": "Available",
       "aboutbook": " The Seven Husbands of Evelyn Hugo is a historical fiction novel by American author Taylor Jenkins Reid and published by Atria Books in 2017. The novel tells the story of the fictional Old Hollywood star Evelyn Hugo, who at age 79 gives a final interview to an unknown journalist, Monique Grant.“Riveting, heart-wrenching, and full of Old Hollywood glamour, The Seven Husbands of Evelyn Hugo is one of the most captivating reads of 2017.” —BuzzFeed “The epic adventures Evelyn creates over the course of a lifetime will leave every reader mesmerized. This wildly addictive journey of a reclusive Hollywood starlet and her tumultuous Tinseltown journey comes with unexpected twists and the most satisfying of drama.” —PopSugar In this entrancing novel “that speaks to the Marilyn Monroe and Elizabeth Taylor in us all” (Kirkus Reviews), a legendary film actress reflects on her relentless rise to the top and the risks she took, the loves she lost, and the long-held secrets the public could never imagine.Aging and reclusive Hollywood movie icon Evelyn Hugo is finally ready to tell the truth about her glamorous and scandalous life. But when she chooses unknown magazine reporter Monique Grant for the job, no one is more astounded than Monique herself. Why her? Why now? Monique is not exactly on top of the world. Her husband has left her, and her professional life is going nowhere. Regardless of why Evelyn has selected her to write her biography, Monique is determined to use this opportunity to jumpstart her career. Summoned to Evelyn’s luxurious apartment, Monique listens in fascination as the actress tells her story. From making her way to Los Angeles in the 1950s to her decision to leave show business in the ‘80s, and, of course, the seven husbands along the way, Evelyn unspools a tale of ruthless ambition, unexpected friendship, and a great forbidden love. Monique begins to feel a very real connection to the legendary star, but as Evelyn’s story near its conclusion, it becomes clear that her life intersects with Monique’s own in tragic and irreversible ways. “Heartbreaking, yet beautiful” (Jamie Blynn, Us Weekly), The Seven Husbands of Evelyn Hugo is “Tinseltown drama at its finest” (Redbook): a mesmerizing journey through the splendor of old Hollywood into the harsh realities of the present day as two women struggle with what it means—and what it costs—to face the truth. ",
       "aboutAuthor": "Taylor Jenkins Reid is the author of the New York Times Bestselling novels Carrie Soto Is Back, Malibu Rising, Daisy Jones and The Six, and The Seven Husbands of Evelyn Hugo, as well as One True Loves, Maybe in Another Life, After I Do, and Forever, Interrupted. She lives in Los Angeles. "
-
-    },
-    {
-      "name": "RAM Scion of Ikshvaku",
-      "isNewArrival": true,
-      "categories": ["classic drama"],
-      "author": " Amish Tripathi",
-      "bookImage": "book4.jpg",
-      "bookPrize": 201.00,
-      "orginalBookPrize": 388.00,
-      "publisher": "Westland Press ",
-      "relesedDate": " 22 June 2015",
-      "bookStockDetails": "Available",
-      "aboutbook": "Scion of Ikshvaku (also known as Ram: Scion of Ikshvaku) is a one to one replica of the events taking place before the epic tale 'Ramayana' and also the fourth book of Amish Tripathi, fourth book of Amishverse, and first book of Ram Chandra Series. It was released on 22 June 2015. It is based on Ram, the legendary Indian king regarded as an incarnation of Vishnu. The title was revealed by the author at the Jaipur Literature Festival. The story begins with King Dashrath of Ayodhya being defeated in a war by Lankan trader Raavan, and the birth of his son Ram. It follows through Ram's childhood and tutelage, along with the politics surrounding his ascension to the throne, and ultimately his 14-year exile, accompanied by wife Sita and brother Lakshman. ",
-      "aboutAuthor": "Amish is a 1974-born, IIM (Kolkata)-educated banker-turned-author. The success of his debut book, The Immortals of Meluha (Book 1 of the Shiva Trilogy), encouraged him to give up his career in financial services to focus on writing. Besides being an author, he is also an Indian-government diplomat, a host for TV documentaries, and a film producer. Amish is passionate about history, mythology and philosophy, finding beauty and meaning in all world religions. His books have sold more than 6 million copies and have been translated into over 20 languages. His Shiva Trilogy is the fastest selling and his Ram Chandra Series the second fastest selling book series in Indian publishing history   "
-
-    },
-    {
-      "name": "A Court of Thorns and Roses",
-      "isNewArrival": true,
-      "categories": ["love stoy"],
-      "author": "Sarah J. Maas",
-      "bookImage": "book8.jpg",
-      "bookPrize": 386.00,
-      "orginalBookPrize": 417.02,
-      "publisher": "Bloomsbury Publishing ",
-      "relesedDate": " 5 May 2015 ",
-      "bookStockDetails": "Available",
-      "aboutbook": "Feyre's survival rests upon her ability to hunt and kill – the forest where she lives is a cold, bleak place in the long winter months. So when she spots a deer in the forest being pursued by a wolf, she cannot resist fighting it for the flesh. But to do so, she must kill the predator and killing something so precious comes at a price..Dragged to a magical kingdom for the murder of a faerie, Feyre discovers that her captor, his face obscured by a jewelled mask, is hiding far more than his piercing green eyes would suggest. Feyre's presence at the court is closely guarded, and as she begins to learn why, her feelings for him turn from hostility to passion and the faerie lands become an even more dangerous place. Feyre must fight to break an ancient curse, or she will lose him forever. ",
-      "aboutAuthor": "Sarah J. Maas is the #1 New York Times and internationally bestselling author of the Crescent City, A Court of Thorns and Roses, and the Throne of Glass series. Her books have sold more than twelve million copies and are published in thirty-seven languages.Sarah Janet Maas is an American fantasy author known for her fantasy series Throne of Glass and A Court of Thorns and Roses. As of 2021, she has sold over twelve million copies of her books and her work has been translated into 37 languages "
 
     },
     {
@@ -478,21 +360,6 @@ export class BookService {
       "bookStockDetails": "Available",
       "aboutbook": " In the follow-up to the “bedazzling, bewitching, and be-wonderful” (New York Times​) best-selling and Pulitzer Prize-winning Less: A Novel, the awkward and lovable Arthur Less returns in an unforgettable road trip across America.For Arthur Less, life is going surprisingly well: he is a moderately accomplished novelist in a steady relationship with his partner, Freddy Pelu. But nothing lasts: the death of an old lover and a sudden financial crisis has Less running away from his problems yet again as he accepts a series of literary gigs that send him on a zigzagging adventure across the US.We cannot, however, escape ourselves—even across deserts, bayous, and coastlines. From his estranged father and strained relationship with Freddy, to the reckoning he experiences in confronting his privilege, Arthur Less must eventually face his personal demons. With all of the irrepressible wit and musicality that made Less a bestselling, Pulitzer Prize-winning, must-read breakout book, Less Is Lost is a profound and joyous novel about the enigma of life in America, the riddle of love, and the stories we tell along the way. ",
       "aboutAuthor": " Andrew Sean Greer (born November 1970) is an American novelist and short story writer.[1] Greer received the 2018 Pulitzer Prize for Fiction for his novel Less. He is the author of The Story of a Marriage, which The New York Times has called an “inspired, lyrical novel,” and The Confessions of Max Tivoli, which was named one of the best books of 2004 by the San Francisco Chronicle[2] and received a California Book Award "
-
-    },
-    {
-      "name": "Fairy Tale",
-      "author": " Stephen King",
-      "bookImage": "book11.jpg",
-      "isNewArrival": true,
-      "categories": ["horror"],
-      "bookPrize": 387.00,
-      "orginalBookPrize": 402.03,
-      "publisher": " Scribner ",
-      "relesedDate": " 6 September 2022",
-      "bookStockDetails": "Available",
-      "aboutbook": "Fairy Tale is a dark fantasy novel by American author Stephen King, published on September 6, 2022 by Scribner. The novel follows Charlie Reade, a 17-year-old who inherits keys to a hidden, otherworldly realm, and finds himself leading the battle between forces of good and evil.Legendary storyteller Stephen King goes deep into the well of his imagination in this spellbinding novel about a seventeen-year-old boy who inherits the keys to a parallel world where good and evil are at war, and the stakes could not be higher—for their world or ours.A story as old as myth, and as startling and iconic as the rest of King’s work, Fairy Tale is about an ordinary guy forced into the hero’s role by circumstance, and it is both spectacularly suspenseful and satisfying.  ",
-      "aboutAuthor": "Stephen Edwin King (born September 21, 1947) is an American author of horror, supernatural fiction, suspense, crime, science-fiction, and fantasy novels. Described as the King of Horror, a play on his surname and a reference to his high standing in pop culture,[2] his books have sold more than 350 million copies,[3] and many have been adapted into films, television series, miniseries, and comic books. King has published 64 novels, including seven under the pen name Richard Bachman, and five non-fiction books.[4] He has also written approximately 200 short stories, most of which have been published in book collections"
 
     },
     {
@@ -667,7 +534,7 @@ export class BookService {
     {
       "name": "Paths of Fear",
       "isRentable": true,
-      "categories": ["classic"],
+      "categories": ["fiction"],
       "author": "  Connie Kerbs",
       "bookImage": "book84.webp",
       "bookPrize": 1236.00,
@@ -765,7 +632,8 @@ export class BookService {
     {
       "name": "Whispers of Heartache ",
       "isRentable": true,
-      "categories": ["clasic"],
+      "isNewArrival": true,
+      "categories": ["poetry"],
       "author": "Kavya",
       "bookImage": "book91.webp",
       "bookPrize": 161.00,
@@ -918,19 +786,7 @@ export class BookService {
       "aboutbook": "Shaurya is a charming eligible bachelor who lives in a luxurious house in Mumbai. Having lost his parents a few years back, he loves his grandfather to bits. He shares a unique fate with his grandfather, though. They both didn’t get the love they deserved.Roshan, a fun-loving old man, breathes in the present, but lives in his past. He treasures his past so much that he has a hard time moving on. ",
       "aboutAuthor": " Arpit Vageria is one of India’s most loved storytellers. He has penned several bestsellers, including You Are My Reason to Smile, Be My Perfect Ending and I Still Think About You.Roshan, a fun-loving old man, breathes in the present, but lives in his past. He treasures his past so much that he has a hard time moving on. ",
     },
-    {
-      "name": "All I Ever Want Is You",
-      "categories": ["love_story"],
-      "author": "Nikhil Raj ",
-      "bookImage": "book139.jpg",
-      "bookPrize": 199.00,
-      "orginalBookPrize": 241.00,
-      "publisher": " Kindle Edition ",
-      "relesedDate": " 11 March 2020  ",
-      "bookStockDetails": "Available",
-      "aboutbook": "Raj and Alisha meet at a family party and fall for each other, later they realise they love each other, but until then, they have drifted apart due to some family drama. ‘All I Ever Want Is You’ is the story of finding love, finding passion, and separation. This is a story that defines love, a journey that leads you to love your loved ones and yourself.Sister is not what I wanted her to be, friendship was not enough, and I couldn't afford to lose her. So, the only way to live with her was by loving her.Love is one of the most stupid things living organisms ever do, and what makes it more stupid is the journey of finding love. This is a new age journey inspired by some real stupidity. This is the story of Raj and Alisha, who travel through the wrecked roads of stupidity, called love. Raj and Alisha meet at a family party and fall for each other, later they realise they love each other, but until then, they have drifted apart due to some family drama. 'All I Ever Want Is You' is the story of finding love, finding passion, and separation. This is a story that defines love, a journey that leads you to love your loved ones and yourself.",
-      "aboutAuthor": "Nikhil Raj, the author has always dreamed of a career as a writer and a filmmaker. The 24-year-old aspiring writer and filmmaker is currently working with the esteemed Dainik Bhaskar Group.Nikhil has made various short films. A recent release of his is “The Smiling Rickshawala”. Nikhil happens to be the writer and director of the short film.He has also been the leading man in the short film, ‘Ajeeb Dastaan Hai Yeh’, which secured the seventh rank at an esteemed filmmaking challenge in Delhi. Nikhil had also written the story, screenplay, and dialogues of the film. Other than that, Nikhil also happens to be the Associate Director of the film.Another, big film Nikhil did was ‘8 din ki Farwary’. This was a commercial short film, and Nikhil was appointed as an assistant director in the film. There are many more films, that Nikhil has worked in.Nikhil belongs to a small town in Bihar, called Saran. This is a place where the first president of India belonged to. Nikhil is currently residing in Noida and is expected to graduate by 2021 from the Asian Academy of Film and Television.Nikhil is an excellent writer and his power of imagination has an unparalleled vogue.",
-    },
+    
     {
       "name": "It Starts With Us",
       "categories": ["love_story"],
@@ -990,7 +846,9 @@ export class BookService {
     {
       "name": "Wish I Could Tell You",
       "categories": ["classic"],
+      "isTopSelling": true,
       "isRentable": true,
+      "isNewOffer": true,
       "author": "Durjoy Datta",
       "bookImage": "book142.webp",
       "bookPrize": 135,
@@ -1041,20 +899,6 @@ export class BookService {
       "bookStockDetails": "Available",
       "aboutbook": "Perfect for fans of Barbara Kingsolver and Celeste Ng, Where the Crawdads Sing is at once an exquisite ode to the natural world, a heartbreaking coming-of-age story, and a surprising tale of possible murder.For years, rumors of the “Marsh Girl” haunted Barkley Cove, a quiet fishing village. Kya Clark is barefoot and wild; unfit for polite society. So in late 1969, when the popular Chase Andrews is found dead, locals immediately suspect her.But Kya is not what they say. A born naturalist with just one day of school, she takes life's lessons from the land, learning the real ways of the world from the dishonest signals of fireflies. But while she has the skills to live in solitude forever, the time comes when she yearns to be touched and loved. Drawn to two young men from town, who are each intrigued by her wild beauty, Kya opens herself to a new and startling world—until the unthinkable happens.In Where the Crawdads Sing, Owens juxtaposes an exquisite ode to the natural world against a profound coming of age story and haunting mystery. Thought-provoking, wise, and deeply moving, Owens’s debut novel reminds us that we are forever shaped by the child within us, while also subject to the beautiful and violent secrets that nature keeps.The story asks how isolation influences the behavior of a young woman, who like all of us, has the genetic propensity to belong to a group. The clues to the mystery are brushed into the lush habitat and natural histories of its wild creatures.",
       "aboutAuthor": "Delia Owens is the co-author of three internationally bestselling nonfiction books about her life as a wildlife scientist in Africa—Cry of the Kalahari, The Eye of the Elephant, and Secrets of the Savanna. She has won the John Burroughs Award for Nature Writing and has been published in Nature, The African Journal of Ecology, and International Wildlife, among many others. She currently lives in Idaho, where she continues her support for the people and wildlife of Zambia. Where the Crawdads Sing is her first novel.",
-    },
-    {
-      "name": "Something I Never Told You",
-      "categories": ["fiction"],
-      "author": "Shravya Bhinder",
-      "bookImage": "book145.jpg",
-      "bookPrize": 150.00,
-      "orginalBookPrize": 250.00,
-      "publisher": "Penguin ",
-      "relesedDate": " 01 Feb 2019",
-      "bookStockDetails": "Available",
-      "aboutbook": "Ronnie knew that his first crush was way out of his league, and yet he pursued and wooed Adira. Shyly and from a distance in the beginning, and more persuasively later. He couldn't believe it when the beautiful Adira actually began to reciprocate, falling in love with him for his simplicity and honesty.Slowly, as they get close and comfortable with each other, life takes on another hue. From truly magical it becomes routine. There are fights and then making-up sessions-a clash of egos and doubts.",
-      "aboutAuthor": "Shravya loves to find hidden stories around her and write novels about them. Formerly a corporate employee, she managed to flee the madness after a few years of boredom to become a full-time writer. She is a sucker for romance and strives to pen down exciting stories.When she is not reading and writing, she is out enjoying nature, playing with her dogs or cooking for her family.She lives in Melbourne with her family, in a house with a barren backyard and a lifetime's collection of books.",
-
     },
     {
       "name": "A Girl to Remember",
@@ -1371,21 +1215,7 @@ export class BookService {
     },
 
     // ...................................rarecollections................................................
-    {
-      "name": "The Value of a Whale",
-      "categories": ["classic"],
-      "isFavorite": true,
-      "author": "Adrienne Buller ",
-      "bookImage": "book41.jpg",
-      "bookPrize": 321.00,
-      "orginalBookPrize": 389.00,
-      "publisher": "Manchester University Press  ",
-      "relesedDate": "  19 July 2022 ",
-      "bookStockDetails": "Available",
-      "aboutbook": "Public understanding of, and outcry over, the dire state of the climate and environment is greater than ever before. Parties across the political spectrum claim to be climate leaders, and overt denial is on the way out. Yet when it comes to slowing the course of the climate and nature crises, despite a growing number of pledges, policies and summits, little ever seems to change. Nature is being destroyed at an unprecedented rate. We remain on course for a catastrophic 3°C of warming. What's holding us back?In this searing and insightful critique, Adrienne Buller examines the fatal biases that have shaped the response of our governing institutions to climate and environmental breakdown, and asks: are the ‘solutions’ being proposed really solutions? Tracing the intricate connections between financial power, economic injustice and ecological crisis, she exposes the myopic economism and market-centric thinking presently undermining a future where all life can flourish. The book examines what is wrong with mainstream climate and environmental governance, from carbon pricing and offset markets to 'green growth', the commodification of nature and the growing influence of the finance industry on environmental policy. In doing so, it exposes the self-defeating logic of a response to these challenges based on creating new opportunities for profit, and a refusal to grapple with the inequalities and injustices that have created them. Both honest and optimistic, The Value of a Whale asks us ― in the face of crisis ― what we really value.",
-      "aboutAuthor": "Adrienne Buller is a Senior Fellow at Common Wealth, a progressive think tank focused on building a democratic economy. Her research and writing have featured in The Guardian, The Financial Times, Bloomberg, and The New Statesman, among others. She is the co-author of Owning the Future (Verso, 2022).",
-
-    },
+    
     {
       "name": "The Little Book of Hermès",
       "categories": ["classic"],
@@ -1838,34 +1668,8 @@ export class BookService {
       "aboutAuthor": "Kat Lieu is a doctor of physical therapy by day and an avid home baker by night. Originally from New York, she now calls Washington state her home. Lieu is the founder of a popular online baking group called Subtle Asian Baking (SAB). She is known for the Japanese and Basque cheesecake recipes published on her blog, philandmama.com, and Instagram, @subtleasian.baking.",
     },
     // ..............................fiction...................................
-    {
-      "name": "Paths of Fear",
-      "categories": ["fiction"],
-      "author": " Mrs Connie Kerbs ",
-      "bookImage": "book26.jpg",
-      "bookPrize": 976.00,
-      "orginalBookPrize": 999.00,
-      "publisher": "F.I.N.E. Reads Press  ",
-      "relesedDate": "  01 Oct 2016  ",
-      "bookStockDetails": "Available",
-      "aboutbook": "Paths of Fear is a unique anthology which explores that universal and misunderstood experience we call fear. This enjoyable read is part psychological, part informational, and all inspirational. It is largely personal narrative with a sprinkling of poetry and all entertainment. Paths of Fear explores a broad range of fears from that which manifests in screams of sheer terror, to that immobilizing, fear-ridden freeze we all understand. This survey sheds light on that deep, dark discouragement that reminds us of how we might fall short or fail. It exposes furtive beliefs sometimes rooted in us that we, aren't enough; a destructive idea cultivated in toxic environments which erode us from the inside out. Thought-provoking narratives highlight the many faces of fear with the sensitivity and insight of real experience. A wide variety of real-life examples are offered up on how others have dealt with fearful things and fearful places in life. Some of these circumstances have called for a long endurance, with dignity and grace; others required a special kind of strength and defiance. All are examples of facing fear, on one's own terms, inspiring in their own right. This part psychological survey, part self-help, and part spiritual essay spotlights the true antidote to fear - love, of one kind or another. Secularly accessible, but decidedly faith-based, Paths of Fear de-masks the monsters of circumstance and sheds light on some of the darker recesses of life experience. It is a pleasing, poignant reveal of courage, faith, and modern knowledge balanced with age-old wisdom. Paths of Fear encourages us to rely on our best, healthy sense of true self, and a heartfelt love for others. It's a collection to inspire readers down paths of faith and hope and to encourage anyone through trials of fear they must overcome.",
-      "aboutAuthor": "About the Author: Indeed... On being blessed with early spiritual experiences: these would be as a conduit between myself and a renewable fountain of faith which has utterly saved me time and again. Indeed, this source of amazing grace ever rescues, revives, and rejuvenates still my soul. On having a grandmother whose upstairs library I perused: it was here I met first the Caldecott and Newbery classics, enduring poets, composers, story-telling icons and literary giants. Indeed, I was irrevocably impressed. On having an antique, script, manual type-writer tossed my way: it defined my tender years. Indeed, it nurtured my budding muse. On being married to my childhood sweetheart for 30(plus) years: I am in awe of our incredible journey together. We have been honed and humbled even as we've been bathed in bliss. I am grateful he has been my faithful, capable - and especially good-humored companion all this time. My admiration and love for him are indescribable. Indeed, words fail to convey such a divine devotion. On being adoptive-foster parents for nearly a quarter of a century: this means bevies of babies and bus-loads of youth of all ages and stages have graced our home, profoundly altering us. With 13 adopted, and three procured the old-fashioned way, indeed, I love and appreciate beyond expression, being honed and owned all this time by these precious people. On all the above and more, my family, dear friends, Walk of Faith, and my writing journey: these have indeed, all made for the savoriest of lives and the ultimate, beautiful mess. It is to my great delight that such a crazy-wonderful menagerie has somehow chosen me! On writing: Indeed, is there anything better than ever growing, changing, and becoming? Is there anything better than that release of tremors that have rumbled inside for eons, as they built up a force to be reckoned with? When they finally find their focus to surge into a tsunami of positive energy that ripples out into the world - to leave its mark. To leave it just a little better place than they might have found it? Indeed. It is not that I found writing. For some-how, some-why, it found and claimed me. It's not even that I am a writer, per say. I am just a vessel in which a small but powerful portion of that endless stream, that fountain of renewable vigor - pours a bit of itself in me for a time. ",
-
-    },
-    {
-      "name": "Kafka On The Shore",
-      "categories": ["fiction"],
-      "author": " Haruki Murakami",
-      "bookImage": "book27.jpg",
-      "bookPrize": 419.00,
-      "orginalBookPrize": 599.00,
-      "publisher": "  Vintage Publishing ",
-      "relesedDate": " 03 Oct 2005  ",
-      "bookStockDetails": "Available",
-      "aboutbook": "Alternate cover edition here . Kafka on the Shore , a tour de force of metaphysical reality, is powered by two remarkable characters: a teenage boy, Kafka Tamura, who runs away from home either to escape a gruesome oedipal prophecy or to search for his long-missing mother and sister; and an aging simpleton called Nakata, who never recovered from a wartime affliction and now i Alternate cover edition here . Kafka on the Shore , a tour de force of metaphysical reality, is powered by two remarkable characters: a teenage boy, Kafka Tamura, who runs away from home either to escape a gruesome oedipal prophecy or to search for his long-missing mother and sister; and an aging simpleton called Nakata, who never recovered from a wartime affliction and now is drawn toward Kafka for reasons that, like the most basic activities of daily life, he cannot fathom. Their odyssey, as mysterious to them as it is to us, is enriched throughout by vivid accomplices and mesmerizing events. Cats and people carry on conversations, a ghostlike pimp employs a Hegel-quoting prostitute, a forest harbors soldiers apparently unaged since World War II, and rainstorms of fish (and worse) fall from the sky. There is a brutal murder, with the identity of both victim and perpetrator a riddleyet this, along with everything else, is eventually answered, just as the entwined destinies of Kafka and Nakata are gradually revealed, with one escaping his fate entirely and the other given a fresh start on his own.",
-      "aboutAuthor": "Haruki Murakami was born in Kyoto, Japan, in 1949. He grew up in Kobe and then moved to Tokyo, where he attended Waseda University. After college, Murakami opened a small jazz bar, which he and his wife ran for seven years.In 1978 Murakami was in the bleachers of Jingu Stadium watching a baseball game between the Yakult Swallows and the Hiroshima Carp when Dave Hilton, an American, came to bat. According to an oft-repeated story, in the instant that he hit a double, Murakami suddenly realized that he could write a novel. He went home and began writing that night.His first novel, Hear the Wind Sing, won the Gunzou Literature Prize for budding writers in 1979. He followed this success with two sequels, Pinball, 1973 and A Wild Sheep Chase, which all together form “The Trilogy of the Rat.” ",
-
-    },
+ 
+   
     {
       "name": "Ikigai ",
       "categories": ["fiction"],
@@ -1878,32 +1682,6 @@ export class BookService {
       "bookStockDetails": "Available",
       "aboutbook": "Bring Meaning And Joy To All Your Days With The Internationally Bestselling Guide To Ikigai.According To The Japanese, Everyone Has An Ikigai – A Reason For Living. And According To The Residents Of The Japanese Island Of Okinawa – The World’s Longest-living People – Finding It Is The Key To A Happier And Longer Life.Inspiring And Soothing, This Book Will Bring You Closer Bring Meaning And Joy To All Your Days With The Internationally Bestselling Guide To Ikigai.According To The Japanese, Everyone Has An Ikigai – A Reason For Living. And According To The Residents Of The Japanese Island Of Okinawa – The World’s Longest-living People – Finding It Is The Key To A Happier And Longer Life.Inspiring And Soothing, This Book Will Bring You Closer To These Centenarians’ Secrets: How They Leave Urgency Behind Keep Doing What They Love For As Long As Possible Nurture Friendships Live In The Moment Participate In Their Communities And Throw Themselves Into Their Passions. And It Provides Practical Tools To Help You Discover Your Own Personal Ikigai. Because Who Doesn’t Want To Find The Joy In Every Day",
       "aboutAuthor": "I'm the author of several Japanese culture books: The Magic of Japan, Ikigai the Japanese Secret for a Long and Happy Life, The Book of Ichigo Ichie, Shinrinyoku, The Ikigai Journey and A Geek in Japan.I'm the author of several Japanese culture books: The Magic of Japan, Ikigai the Japanese Secret for a Long and Happy Life, The Book of Ichigo Ichie, Shinrinyoku, The Ikigai Journey and A Geek in Japan.I’m the bestselling author of IKIGAI the Japanese Secret to a Long and Happy Life (with Francesc Miralles), The Magic of Japan, Ichigo Ichie, A geek in Japan, and other books. I write about Japanese culture and how its wisdom can help us to lead better lives. I’m truly grateful to all the millions of people who have read my words. For us, writers, our art becomes meaningful when we are read.      ",
-    },
-    {
-      "name": "Overkill ",
-      "categories": ["fiction"],
-      "author": "Sandra Brown",
-      "bookImage": "book24.webp",
-      "bookPrize": 1930.0,
-      "orginalBookPrize": 2460.0,
-      "publisher": "Grand Central Publishing  ",
-      "relesedDate": "  16 Aug 2022 ",
-      "bookStockDetails": "Available",
-      "aboutbook": "Former Super Bowl MVP quarterback Zach Bridger hasn't seen his ex-wife, Rebecca Pratt, for some time--not since their volatile marriage imploded--so he's shocked to receive a life-altering call about her. Rebecca has been placed on life support after a violent assault, and he--despite their divorce--has medical power-of-attorney. Zach is asked to make an impossible choice: keep her on life support or take her off of it. Buckling under the weight of the responsibility and the glare of public scrutiny, Zach ultimately walks away, letting Rebecca's parents have the final say.Four years later, Rebecca's attacker, Eban--the scion of a wealthy family in Atlanta--gets an early release from prison. The ludicrous miscarriage of justice reeks of favoritism, and Kate Lennon, a brilliant state prosecutor, is determined to put him back behind bars. Rebecca's parents have kept her alive all these years, but if her condition were to change--if she were to die--Eban could be retried on a new charge: murder.It isn't lost on Zach that in order for Eban to be charged with Rebecca's murder, Zach must actually be the one to kill her. He rejects Kate's legal standpoint but can't resist their ill-timed attraction to each other. Eban, having realized the jeopardy he's in, plots to make certain that neither Zach nor Kate lives to see the death of Rebecca--and the end of his freedom. ",
-      "aboutAuthor": " Sandra Brown is the author of seventy-three New York Times bestsellers. There are more than eighty million copies of her books in print worldwide, and her work has been translated into thirty-four languages. Four of her books have been made into films. In 2008, the International Thriller Writers named Brown its Thriller Master, the organization's highest honor. She has served as president of Mystery Writers of America and holds an honorary doctorate of humane letters from Texas Christian University. She lives in Texas.",
-    },
-    {
-      "name": "War of Lanka",
-      "categories": ["fiction"],
-      "author": "Amish Tripathi",
-      "bookImage": "book25.jpeg",
-      "bookPrize": 352.00,
-      "orginalBookPrize": 495.00,
-      "publisher": "HarperCollins India",
-      "relesedDate": " 3 October 2022  ",
-      "bookStockDetails": "Available",
-      "aboutbook": "Greed. Rage. Grief. Love. Smouldering Tinder, Waiting To Trigger A War.But This War Is Different. This One Is For Dharma. This War Is For The Greatest Goddess Of Them All.Sita Has Been Kidnapped. Defiantly, She Dares Raavan To Kill Her - She'd Rather Die Than Allow Ram To Surrender.Ram Is Beside Himself With Grief And Rage. He Prepares For War. Fury Is His Fuel. Calm Focus, His Guide.Raavan Thought He Was Invincible. He Thought He'd Negotiate And Force A Surrender. Little Did He Know ...The First Three Books Of The Second-fastest-selling Book Series In Indian Publishing History - The Ram Chandra Series - Explore The Individual Journeys Of Ram, Sita And Raavan. In This, The Epic Fourth Book Of The Series, Their Narrative Strands Crash Into Each Other, And Explode In A Slaughterous War.Will Ram Defeat The Ruthless And Fiendish Raavan, Constrained As He Is By The Laws Of Dharma Will Lanka Burn To A Cinder Or Fight Back Like A Cornered Tiger Will The Terrible Costs Of War Be Worth The Victory. ",
-      "aboutAuthor": "Amish is a 1974-born, IIM (Kolkata)-educated banker-turned-author. The success of his debut book, The Immortals of Meluha (Book 1 of the Shiva Trilogy), encouraged him to give up his career in financial services to focus on writing. Besides being an author, he is also an Indian-government diplomat, a host for TV documentaries, and a film producer. Amish is passionate about history, mythology and philosophy, finding beauty and meaning in all world religions. His books have sold more than 6 million copies and have been translated into over 20 languages. His Shiva Trilogy is the fastest selling and his Ram Chandra Series the second fastest selling book series in Indian publishing history. You can connect with Amish here: ",
     },
     {
       "name": "The Last Thing He Told Me",
@@ -1996,20 +1774,7 @@ export class BookService {
       "aboutbook": "When Deb, an author and publisher, survives the bomb blasts at Chandni Chowk, he knows his life is nothing short of a miracle. And though he escapes with minor injuries, he is haunted by that unfortunate day.His feet take him to where the blasts took place. From the burnt remains he discovers a diary. It seems to belong to a dead man who was deeply in love with a girl. As he reads the heartbreaking narrative, he knows that this story must never be left incomplete. Thus begins Deb’s journey with his girlfriend, Avantika and his best friend, Shrey, to hand over the diary to the man’s beloved.",
       "aboutAuthor": "Durjoy Datta’s first book—Of Course I Love You!—was published when he was twenty-one years old and was an instant bestseller. His successive novels—Now That You’re Rich!; She Broke Up, I Didn’t!; Ohh Yes, I Am Single!; You Were My Crush; If It’s Not Forever; Till the Last Breath; Someone Like You; Hold My Hand; When Only Love Remains; World’s Best Boyfriend; Our Impossible Love; and The Girl of My Dreams—have also found prominence on various bestseller lists, making him one of the highest-selling authors in India.",
     },
-    {
-      "name": "Wish I Could Tell You",
-      "categories": ["fiction"],
-      "isNewOffer": true,
-      "author": "Durjoy Datta ",
-      "bookImage": "book77.jpg",
-      "bookPrize": 176.00,
-      "orginalBookPrize": 199.00,
-      "publisher": " Penguin Metro Reads ",
-      "relesedDate": " 4 October 2019  ",
-      "bookStockDetails": "Available",
-      "aboutbook": "Can you find yourself after you have lost that special someone? A disillusioned and heartbroken Anusha finds herself in the small world of WeD. Struggling to cope with her feelings and the job of raising money for charity, she reluctantly searches for a worthwhile cause to support.For Ananth, who has been on the opposite side, no life is less worthy, no cause too small to support. Behind them are teams for whom going to extraordinary lengths to save lives is more than a full-time occupation. In front of them is the virtual world of social media-watching, interacting, judging, making choices, and sometimes, saving lives. From the virtual to the real, their lives and that of their families, entangle in a way that moving together is the only solution. They can't escape each other. In this world of complicated relationships, should love be such a difficult ride?",
-      "aboutAuthor": "Durjoy Datta was born in New Delhi, and completed a degree in engineering and business management before embarking on a writing career. His first book-Of Course I Love You . . .-was published when he was twenty-one years old and was an instant bestseller. His successive novels-Now That You're Rich . . .; She Broke Up, I Didn't! . . .; Oh Yes, I'm Single! . . .; You Were My Crush . . .; If It's Not Forever . . .; Till the Last Breath . . .; Someone Like You; Hold My Hand; When Only Love Remains; World's Best Boyfriend; The Girl of My Dreams; The Boy Who Loved; The Boy with the Broken Heart and The Perfect Us-have also found prominence on various bestseller lists, making him one of the highest-selling authors in India.Durjoy also has to his credit nine television shows and has written over a thousand episodes for television. He lives in Mumbai. For more updates, you can follow him on Facebook (www.facebook.com/durjoydatta1) or Twitter (@durjoydatta) or mail him at durjoydatta@gmail.com.",
-    },
+
     {
       "name": "A Son of Destiny",
       "isNewOffer": true,
@@ -2028,7 +1793,7 @@ export class BookService {
     {
       "name": "All I Ever Want Is You",
       "isNewOffer": true,
-      "categories": ["fiction"],
+      "categories": ["love_story"],
       "author": "Nikhil Raj",
       "bookImage": "book73.jpg",
       "bookPrize": 229.00,
@@ -2321,21 +2086,7 @@ export class BookService {
       "aboutbook": "From a critically acclaimed New York Times bestselling author and poet comes “a delightfully hybrid book: part anthology, part critical study, part autobiography” (Chicago Tribune) that is organized around fifty-one remarkable poems by poets such as Robert Frost, Emily Dickinson, Wallace Stevens, and Sylvia Plath.For Jill Bialosky, certain poems stand out like signposts at pivotal moments in a life: the death of a father, adolescence, first love, leaving home, the suicide of a sister, marriage, the birth of a child, the day in New York City the Twin Towers fell. As Bialosky narrates these moments, she illuminates the ways in which particular poems offered insight, compassion, and connection, and shows how poetry can be a blueprint for living. In Poetry Will Save Your Life, Bialosky recalls when she encountered each formative poem, and how its importance and meaning evolved over time, allowing new insights and perceptions to emerge.While Bialosky’s personal stories animate each poem, they touch on many universal experiences, from the awkwardness of girlhood, to crises of faith and identity, from braving a new life in a foreign city to enduring the loss of a loved one, from becoming a parent to growing creatively as a poet and artist. Each moment and poem illustrate “not only how to read poetry, but also how to love poetry” (Christian Science Monitor). ",
       "aboutAuthor": "Jill Bialosky is the author of four acclaimed collections of poetry. Her poems have appeared in The New Yorker, The New York Times, and The Atlantic, among others. She is the author of several books, including History of a Suicide, Asylum, and Poetry Will Save Your Life. In 2015, Jill was honored by the Poetry Society of America for her distinguished contribution to the field of poetry. She lives in New York City. Find out more at JillBialosky.com. “Poetry Will Save Your Life is one of the most moving memoirs I’ve ever read, but it’s so much more. Bialosky does something miraculous: as she shares stories from her life, she shows how specific poems can help all of us make sense of our own lives and the world. Here are classic and contemporary poems that help us see and hear one another more clearly; that speak to us in times of loss and grief; that guide us through our every days. If you’ve always loved poetry, this book will captivate you. And if you want to love poetry, then this book will open worlds. Poetry Will Save Your Life is itself a life-saving book.” -- Will Schwalbe, New York Times bestselling author of The End of Your Life Book Club and Books for Living",
     },
-    {
-      "name": "Whispers of Heartache ",
-      "categories": ["poetry"],
-      "isNewArrival": true,
-      "isRentable": true,
-      "author": "Kavya",
-      "bookImage": "book91.webp",
-      "bookPrize": 161.00,
-      "orginalBookPrize": 250.00,
-      "publisher": " Writer's Pocket ",
-      "relesedDate": "  15 January 2022 ",
-      "bookStockDetails": "Available",
-      "aboutbook": "A great poetry book for all those who want to experience the beautifully sad emotions that come along with a heartbreak. What letting go feels like, how broken a person can get, how it feels to fall in love with someone, and a lot more. Get this relatable poetry book for gift and the person will surely fall in love with the poems in it. Words are just whispers of the heartache we suffer from, we scream but our screams don't seem to reach others. So maybe, just maybe, if we whisper our holding, our letting go, our falling and our loving, some who listen to silence will hear what we are going through.",
-      "aboutAuthor": "A great poetry book for all those who want to experience the beautifully sad emotions that come along with a heartbreak. What letting go feels like, how broken a person can get, how it feels to fall in love with someone, and a lot more. Get this relatable poetry book for gift and the person will surely fall in love with the poems in it.",
-    },
+   
     {
       "name": "Tirukkural: The Book of Desire ",
       "categories": ["poetry"],
@@ -3298,19 +3049,7 @@ export class BookService {
       "aboutbook": "Karan and Shruti are a happily married couple. Until Karan's ex resurfaces into his life one day. Soon Karan finds himself getting nostalgic over matters of the heart and thinking fondly of his first romance. Will he put his steady and seemingly perfect marriage at stake for his ex-girlfriend?Meanwhile his best friend Aditya finds his own relationship with his wife Jasmine going through an emotional turmoil. Will both friends work towards keeping their marriage afloat, or make a decision they would later regret?",
       "aboutAuthor": "Sudeep Nagarkar has authored nine bestselling novels and is the recipient of Youth AchieversAward. He has been featured on the Forbes India longlist of themost influential celebrities for three consecutive years. His books have been translated into various languages, including Hindi, Marathi and Telugu.",
     },
-    {
-      "name": "Roses Are Blood Red",
-      "categories": ["love_story"],
-      "author": "  Novoneel Chakraborty ",
-      "bookImage": "book243.webp",
-      "bookPrize": 146.00,
-      "orginalBookPrize": 199.00,
-      "publisher": "Penguin Metro Reads  ",
-      "relesedDate": " 2 December 2019  ",
-      "bookStockDetails": "Available",
-      "aboutbook": "I'll gift you a love story that every girl desires, but few get to live. 'He'd told me once. And boy, did he stick to his words! Vanav Thakur is the perfect boyfriend that any girl can have. He ticks every box you can ever have for your Mr Right. Trust me on this. He cares for me, respects me, never objectifies me, never says no to me for anything, understands me, is progressive and has no shadow of any male chauvinism in him. Sometimes, I wonder if I really deserve him. My parents, like me, had no option but to accept him as my boyfriend. Everything was hunky dory and I thought I would be that one girl who would never have any relationship hiccup until I stumbled upon the reason behind his perfection. I'm Aarisha Shergill and my life is about to get ripped apart because I should have known some things should be left alone. Is love capable of healing the deep wounds which love itself creates within you? Mysteriously thrilling in its essence, Roses Are Blood Red is the haunting story of a passion and eternal love",
-      "aboutAuthor": "Novoneel Chakraborty is the bestselling author of fourteen bestselling thriller novels and one short story collection titled Cheaters. His novel, Forget Me Not, Stranger, debuted as the No. 1 bestseller across India. While All Yours, Stranger ranked in the top five thriller novels on Amazon, India-the only one to feature amid other international bestsellers. His novel Black Suits You was in top five thrillers category on Amazon for fifteen weeks. While his Forever series was in the bestseller list for ten weeks straight after its release with Forever Is a Lie featuring in the highest selling books on Flipkart for 2017. Forever Is True made it to Amazon's Memorable Books of 2017 and Times of India's Most Stunning Books of 2017.Known for his twists, dark plots and strong female protagonists, Novoneel Chakraborty is also called the Sidney Sheldon of India by his readers. His immensely popular thriller series, The Stranger Trilogy, has been translated into six Indian languages and has been adapted into a popular web series, titled Hello Mini, on MX Player produced by Applause Entertainment and Rose Movies. His erotic thriller novel, Black Suits You, has been adapted into the blockbuster hit Bekaaboo, while his exclusive digital novella, Red Suits You, is also being adapted into a web series by Alt Balaji. His short story collection, Cheaters, is now available in Hindi as well. Apart from novels, Novoneel has written and developed several TV and web shows for premiere channels and platforms. He lives and works in Mumbai.",
-    },
+
     {
       "name": "The Cocktail Of Love",
       "categories": ["love_story"],
@@ -3497,20 +3236,7 @@ export class BookService {
       "aboutbook": "In 1962, fresh out of business school, phil knight borrowed $50 from his father and created a company with a simple mission: import high-quality, athletic shoes from japan. Selling the shoes from the boot of his Plymouth, knight grossed $8000 in his first year. Today, nike's annual sales top $30 billion. In an age of start-ups, nike is the ne plus ultra of all start-ups, and the swoosh has become a revolutionary, globe-spanning icon, one of the most ubiquitous and recognisable symbols in the world today. But knight, the man behind the swoosh, has always remained a mystery. Now, for the first time, he tells his story. Candid, humble, wry and gutsy, he begins with his crossroads moment when he decided to start his own business. He details the many risks and daunting setbacks that stood between him and his dream - along with his early triumphs. Above all, he recalls how his first band of partners and employees soon became a tight-knit band of brothers. Together, harnessing the transcendent power of a shared mission, and a deep belief in the spirit of sport, they built a brand that changed everything. A memoir rich with insight, humour and hard-won wisdom, this book is also studded with lessons - about building something from scratch, overcoming adversity, and ultimately leaving your mark on the world.",
       "aboutAuthor": "One of the world’s most influential business executives, Phil Knight is the founder of Nike, Inc. He served as CEO of the company from 1964 to 2004, as board chairman through 2016, and he is currently Chairman Emertius. He lives in Oregon with his wife, Penny.",
     },
-    {
-      "name": "The Essential Kerala Cookbook",
-      "categories": ["cooking"],
-      "author": "Vijayan Kannampilly",
-      "bookImage": "book165.jpg",
-      "bookPrize": 238.00,
-      "orginalBookPrize": 360.00,
-      "publisher": "Penguin India  ",
-      "relesedDate": " 28 April 2003  ",
-      "bookStockDetails": "Available",
-      "aboutbook": "India is fortunate to have brilliant culinary traditions within each of its states, with each region providing its own take and twist on popular dishes. The Essential Kerala Cookbook is the a handbook for anyone looking to dwell in the culinary art form from Kerala.The cooking style is traditionally coconut-based, with a healthy dose of spices thrown into the cauldron. This volume includes dishes prepared using vegetable, meats, making pickles, seafood, sweets, and snacks. Specific popular dishes such as tapioca potage, stir-fried banana flower with coconut, deep-fried meat, spicy chicken curry, duck curry, prawns with potato and coconut, and stir-fried crab with coconut have been included.The Essential Kerala Cookbook offers a comprehensive guide to preparing all your favorite Malayali foods. This books was published by Penguin India in 2003 and is available in paperback. Key Features: This books is categorised into specific sections such as vegetarian, meat based dishes, sweets, snacks etc. for easy accessibility.",
-      "aboutAuthor": "Vijayan Kannampilly is a renowned journalist from India who has over three decades in the field. He is also an artist and an author who is highly respected for his work thus far. Born in Cochin in 1949, he brings his love for his motherland and his interest in the culinary field to his first book, The Essential Kerala Cookbook. ",
-
-    },
+  
     {
       "name": "Eleanor Oliphant is Completely Fine ",
       "categories": ["fiction"],
@@ -3536,19 +3262,6 @@ export class BookService {
       "bookStockDetails": "Available",
       "aboutbook": "A Girl That Had To Be Strong is a rollercoaster and adventurous journey of Advika who struggled her birth. She is unaware of her connection with Lord Ganesha and who is a girl with a different perspective to life. She has a unique personality and is an old school girl who wishes to face all her demons. Will Advika be able to climb the cliff of life with her originality or will change herself to be acceptable to society? Will Advika try or would stop trying by fearing failure? Will her broken trust make her strong or would break her into pieces. Will she believe in her invisible wings and her hidden powers to change the world? Will it be easy for her to climb the cliff of life with bleeding knees, ambiguous path, stormy winds and negative forces that surrounded her to make her fall and break down in life...Will Advika reach the cliff of life or will get inclined to change her original side? ",
       "aboutAuthor": "Garima Pradhan is an Author | Relationship and Personality Coach. She is born and brought up from the beautiful “city of lakes” Bhopal. And published her books- A Girl That Had to be Strong and Broken is the New Beautiful. Also. she is popularly known as the Pride of Bhopal and was awarded  Best Author Bhopal for her beautiful writing style. Moreover, she also got awarded with Best Student Award in 3rd std and won medals in DMS School for sports. She completed her entire schooling from St. Joseph’s Co-Ed School and opted for commerce with the optional subject as fine arts. And was Appreciated by Dr. APJ Abdul Kalam Sir, for her poem on the Topic- Mother when she was a kid. She has a keen interest in fine arts and was later awarded Best Artist Award in 12th STD at St. Joseph Co-Ed School. She did her graduation in B.Com from Chitransh College and prepared for CA simultaneously clearing CA-CPT and later went for next level CA-IPCC, where she cleared Group-2 of IPCC with an exemption in IT/SM. She then did her MBA in finance and retail management from Chakravarti Rajagopalachari Institute of Management (CRIM), Bhopal. She then worked as a corporate professional with IT industry for one year and later discovered her passion for writing and went for her first Debut novel- “A Girl That Had to Be Strong.” She wrote this book to bring about a change in the mindset of people and to inspire live a better life. She loves music, painting, writing blogs at blogger, writing quotes and is active in yourquotes.in the platform. Her quotes are Google searchable with her pen name- “Garima Pradhan Quotes”. She believes in making people smile, uplifting and motivating them with her vibes, her thoughts in person and via her FB page- Dream it to make it happen. She is a mix of positive aura with a strong personality!",
-    },
-    {
-      "name": " The Sun Is Also a Star",
-      "categories": ["fiction"],
-      "author": " Nicola Yoon ",
-      "bookImage": "book2.jpg",
-      "bookPrize": 245.12,
-      "orginalBookPrize": 275.07,
-      "publisher": " Delacorte Books ",
-      "relesedDate": " 1 November 2016 ",
-      "bookStockDetails": "Available",
-      "aboutbook": " The Sun Is Also a Star, is a touching story about two teenagers who deserve the chance to get to know each other, but risk having it ripped away from them before it's even really begun. The novel takes place in New York City, where Natasha is on a mission to save her family from being deported back to Jamaica.College-bound romantic Daniel Bae and Jamaica-born pragmatist Natasha Kingsley meet -- and fall for each other -- over one magical day amidst the fervor and flurry of New York City. Sparks immediately fly between these two strangers, who might never have met had fate not given them a little push. With just hours left on the clock in what looks to be her last day in the U.S., Natasha is fighting against her family's deportation just as fiercely as she's fighting her growing feelings for Daniel.   ",
-      "aboutAuthor": " Nicola Yoon is a Jamaican-American author. She is best known for writing the 2015 young adult novel Everything, Everything, a New York Times best seller and the basis of a 2017 film of the same name. In 2016, she released The Sun Is Also a Star, a novel that was adapted to a film of the same name. "
     },
     {
       "name": "Amaira ",
@@ -3602,19 +3315,7 @@ export class BookService {
       "aboutbook": "A spicy contemporary rom-com set in the town of Knockemout from bestselling author and TikTok sensation, Lucy Score",
       "aboutAuthor": "Lucy Score is a New York Times, USA Today and Wall Street Journal bestselling author. She grew up in a literary family who insisted that the dinner table was for reading and earned a degree in journalism.She writes full-time from the Pennsylvania home she and Mr. Lucy share with their obnoxious cat, Cleo. When not spending hours crafting heartbreaker heroes and kick-ass heroines, Lucy can be found on the couch, in the kitchen, or at the gym.",
     },
-    {
-      "name": "Where the Crawdads Sing",
-      "categories": ["adult_stroy"],
-      "author": "Delia Owens",
-      "bookImage": "book144.jpg",
-      "bookPrize": 344.00,
-      "orginalBookPrize": 499.00,
-      "publisher": "  Little, Brown Book Group ",
-      "relesedDate": " 12 Dec 2019  ",
-      "bookStockDetails": "Available",
-      "aboutbook": "Perfect for fans of Barbara Kingsolver and Celeste Ng, Where the Crawdads Sing is at once an exquisite ode to the natural world, a heartbreaking coming-of-age story, and a surprising tale of possible murder.For years, rumors of the “Marsh Girl” haunted Barkley Cove, a quiet fishing village. Kya Clark is barefoot and wild; unfit for polite society. So in late 1969, when the popular Chase Andrews is found dead, locals immediately suspect her.But Kya is not what they say. A born naturalist with just one day of school, she takes life's lessons from the land, learning the real ways of the world from the dishonest signals of fireflies. But while she has the skills to live in solitude forever, the time comes when she yearns to be touched and loved. Drawn to two young men from town, who are each intrigued by her wild beauty, Kya opens herself to a new and startling world—until the unthinkable happens.In Where the Crawdads Sing, Owens juxtaposes an exquisite ode to the natural world against a profound coming of age story and haunting mystery. Thought-provoking, wise, and deeply moving, Owens’s debut novel reminds us that we are forever shaped by the child within us, while also subject to the beautiful and violent secrets that nature keeps.The story asks how isolation influences the behavior of a young woman, who like all of us, has the genetic propensity to belong to a group. The clues to the mystery are brushed into the lush habitat and natural histories of its wild creatures.",
-      "aboutAuthor": "Delia Owens is the co-author of three internationally bestselling nonfiction books about her life as a wildlife scientist in Africa—Cry of the Kalahari, The Eye of the Elephant, and Secrets of the Savanna. She has won the John Burroughs Award for Nature Writing and has been published in Nature, The African Journal of Ecology, and International Wildlife, among many others. She currently lives in Idaho, where she continues her support for the people and wildlife of Zambia. Where the Crawdads Sing is her first novel.",
-    },
+    
     {
       "name": "Crimson Skies ",
       "categories": ["classic"],
@@ -3643,20 +3344,6 @@ export class BookService {
     },
 
     {
-      "name": "Will",
-      "categories": ["classic"],
-      "author": "Will Smith , Mark Manson",
-      "bookImage": "book117.webp",
-      "bookPrize": 300.00,
-      "orginalBookPrize": 790.00,
-      "publisher": "Century ",
-      "relesedDate": " 9 November 2021 ",
-      "bookStockDetails": "Available",
-      "aboutbook": "The Instant Sunday Times BestsellerThe Instant #1 New York Times BestsellerPRAISE FOR WILL'The best memoir I ever read' Oprah Winfrey'If you read one book this year, make it this one' Jay Shetty'Incredible' Idris Elba'The book is awesome. So candid and considered...fascinating' Chris Evans'A triumph...really inspiring, so well written, vulnerable and deep. I highly recommend it' Mindy Kaling'It's fantastic...very moving' Zoe Ball'Incredibly honest...inspiring' Greg James'A wild ride' New York Times'Raw, comedic, inspirational' GQOne of the most dynamic and globally recognized entertainment forces of our time opens up fully about his life, in a brave and inspiring book that traces his learning curve to a place where outer success, inner happiness, and human connection are aligned. Along the way, Will tells the story in full of one of the most amazing rides through the worlds of music and film that anyone has ever had.Will Smith's transformation from a fearful child in a tense West Philadelphia home to one of the biggest rap stars of his era and then one of the biggest movie stars in Hollywood history, with a string of box office successes that will likely never be broken, is an epic tale of inner transformation and outer triumph, and Will tells it astonishingly well. But it's only half the story.Will Smith thought, with good reason, that he had won at life: not only was his own success unparalleled, his whole family was at the pinnacle of the entertainment world. Only they didn't see it that way: they felt more like star performers in his circus, a seven-days-a-week job they hadn't signed up for. It turned out Will Smith's education wasn't nearly over.This memoir is the product of a profound journey of self-knowledge, a reckoning with all that your will can get you and all that it can leave behind. Written with the help of Mark Manson, author of the multi-million-copy bestseller The Subtle Art of Not Giving a F*ck, Will is the story of how one exceptional man mastered his own emotions, written in a way that can help everyone else do the same. Few of us will know the pressure of performing on the world's biggest stages for the highest of stakes, but we can all understand that the fuel that works for one stage of our journey might have to be changed if we want to make it all the way home. The combination of genuine wisdom of universal value and a life story that is preposterously entertaining, even astonishing, puts Will the book, like its author, in a category by itself.'Bracingly honest, vivid and compelling ... how an average talent became the biggest movie star in the world' The Times'The Hollywood star's autobiography is full of indiscretions, drug-fuelled escapades and terrible parenting. Who could ask for more?' Telegraph'It's not every day a Hollywood A-lister like Will Smith writes his life story - and there are certainly some eye-popping revelations' Sun'Candid ... digs into the life events which fine-tuned Smith's weapons-grade charisma and steely determination' Observer'I absolutely loved it...no holds barred...I felt as if Will Smith was talking to me. It's a testament to him and to his family' Lorraine Kelly",
-      "aboutAuthor": "Will Smith is an actor, producer and musician, two-time Academy Award nominee, Grammy Award and NAACP award winner who has enjoyed a diverse career encompassing films, television and multi-platinum records.Starting as a rapper in 1985, Smith is best known for his acting roles in The Fresh Prince of Bel-Air, I AM LEGEND, the BAD BOYS and MEN IN BLACK film series, HITCH and most recently, ALADDIN. His vast filmography also includes transformative portrayals of true-life icons in ALI and THE PURSUIT OF HAPPYNESS, both which garnered him Academy Award nominations, as well as his role in CONCUSSION. Smith recently produced and starred in 2020's biggest box office hit, BAD BOYS FOR LIFE, in addition to producing and appearing in HBO Max's emotional and most watched, The Fresh Prince of Bel-Air 30th Anniversary Reunion special.Next up, Smith will produce and star as Richard Williams, infamous father of American icons Venus and Serena Williams, in Warner Brothers' KING RICHARD, which will release on November 19th. This summer, Smith begins production on Apple's upcoming scripted action thriller EMANCIPATION, directed by Antoine Fuqua, and produced by his Westbrook Studios.In 2019, Smith launched his media company, Westbrook Inc. alongside Jada Pinkett Smith, Miguel Melendez and Kosaku Yada, which focuses on empowering artists to tell stories that connect with a global audience. Westbrook houses Westbrook Studios, Westbrook Media, the digital content studio, social media management, and creative brand incubator, and direct to consumer business, Good Goods. Westbrook Studios is home to the Emmy® nominated Facebook Watch series, Red Table Talk and is rapidly expanding its footprint in entertainment, serving as the studio home to all new premium TV and motion picture projects. Smith will serve as a producer through Westbrook on his upcoming projects including KING RICHARD, EMANCIPATION, and PLANES, TRAINS & AUTOMOBILES. Westbrook Media most recently produced KING RICHARD and EMANCIPATION. Additionally, they produced the 30th anniversary reunion special of The Fresh Prince of Bel-Air and the Snap series Will From Home. In response to the stay-at-home order Will From Home featured appearances by Smith's family, celebrity friends and everyday people who were also isolating indoors. The media company also recently announced Peacock's unprecedented two season order of Bel-Air,a dramatic reimagining of the Fresh Prince series. He and his wife also founded the Will and Jada Smith Family Foundation to benefit inner-city community development, youth educational projects and under-privileged children and their families.Mark Manson is the #1 New York Times bestselling author of Everything is F*cked: A Book About Hope and The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life, the mega-bestseller that reached #1 in fourteen different countries. Mark's books have been translated into more than 50 languages and have sold over 12 million copies worldwide.Mark runs one of the largest personal growth websites in the world, MarkManson.net, a blog with more than two million monthly readers and half a million subscribers. His writing is often described as 'self-help for people who hate self-help' -- a no-BS brand of life advice and cultural commentary that has struck a chord with people around the globe. His writing has appeared in The New York Times, Wall Street Journal, TIME Magazine, Forbes, Vice, CNN, and Vox, among many others. He currently lives in New York City. "
-
-    },
-    {
       "name": "Anxious People-Backman",
       "categories": ["classic"],
       "author": " Fredrik Backman",
@@ -3668,20 +3355,6 @@ export class BookService {
       "bookStockDetails": "Available",
       "aboutbook": "In a small town in Sweden it appears to be an ordinary day. But look more closely, and you'll see a masked figure approaching a bank...Two hours later, chaos has descended. An attempted robbery has developed into a hostage situation - with the offender refusing to voice their demands.Fear turns to irritation for the seven strangers trapped inside. If this is to be their last day on earth, shouldn't it be more dramatic?      ",
       "aboutAuthor": "Number 1 New York Times bestseller FREDRIK BACKMAN made his literary debut in 2012 with the global sensation A Man Called Ove - now in development as a major motion picture starring Tom Hanks. Wickedly funny, touching and wise, Fredrik Backman's novels are odysseys of the ordinary man and woman, and stunningly moving tales of everyday courage. Up to now, Fredrik Backman has written six highly acclaimed novels, two heartfelt novellas about life and love, and one non-fiction book about parenthood. His books have sold more than 15 million copies in 46 languages and the Swedish film adaption of A Man Called Ove was nominated for two Academy Awards. He lives in Stockholm, Sweden, with his wife and two children.",
-    },
-
-    {
-      "name": "Maybe Someday",
-      "categories": ["love_story"],
-      "author": "Colleen Hoover",
-      "bookImage": "book147.jpg",
-      "bookPrize": 329.00,
-      "orginalBookPrize": 521.00,
-      "publisher": " Atria Books ",
-      "relesedDate": "18 Mar 2014   ",
-      "bookStockDetails": "Available",
-      "aboutbook": "At twenty-two years old, Sydney is enjoying a great life: She's in college, working a steady job, in love with her wonderful boyfriend, Hunter, and rooming with her best friend, Tori. But everything changes when she discovers that Hunter is cheating on her--and she's forced to decide what her next move should be.Soon, Sydney finds herself captivated by her mysterious and attractive neighbor, Ridge. She can't take her eyes off him or stop listening to the passionate way he plays his guitar every evening out on his balcony. And there's something about Sydney that Ridge can't ignore, either. They soon find themselves needing each other in more ways than one.",
-      "aboutAuthor": " Colleen Hoover is the #1 New York Times bestselling author of more than twenty-three novels, including It Ends with Us, All Your Perfects, Ugly Love, and Verity. In 2015, Colleen and her family founded a nonprofit called The Bookworm Box, a bookstore and monthly book subscription service. Colleen lives in Texas with her husband and their three boys. For more information, please visit ColleenHoover.com.",
     },
     {
       "name": "Where the Sun Never Sets",
