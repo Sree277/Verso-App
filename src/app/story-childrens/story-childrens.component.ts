@@ -14,7 +14,7 @@ export class StoryChildrensComponent implements OnInit {
   ngOnInit(): void {
   }
   
- childrens_story: Array<any> = this.bookService.getBooksByCategory("childrens_story", true);
+ childrens_story: Array<any> = this.bookService.getBooksByCategory("childrens_story", false);
 
 
 }

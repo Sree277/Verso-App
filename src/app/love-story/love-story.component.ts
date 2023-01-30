@@ -13,7 +13,7 @@ export class LoveStoryComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  love_story: Array<any> = this.bookService.getBooksByCategory("love_story", true);
+  love_story: Array<any> = this.bookService.getBooksByCategory("love_story", false);
 
 
 }

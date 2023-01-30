@@ -21,50 +21,50 @@
                 <div class="row  p-3 mb-2 bg-white cart-box ">
                     <div class="row" style="border-bottom: 1px solid lightgrey;" *ngFor="let item of cartList">
                         <div class="col-3">
-                            <div class="row">
+                            <div class="row p-4">
                                 <img src="assets/images/{{item.productData.bookImage}}" alt="">
                             </div>
                             <div class="row d-flex my-3 ">
                                 <div class="col-4 ">
-                                    <button class="text-center" style="border: 1px solid grey; font-weight: bold;"
+                                    <button class=" btn-secondary text-center " style=" font-weight: bold;"
                                         (click)="decreaseQuantity(item.id)">-</button>
                                 </div>
                                 <div class="col-4">
-                                    <div class="text-center" style="border: 1px solid grey;">{{item.quantity}}</div>
+                                    <div class="text-center" style="font-weight: bold; ">{{item.quantity}}</div>
                                 </div>
 
                                 <div class="col-4">
-                                    <button class="text-center" style="border: 1px solid grey;font-weight: bold;"
+                                    <button class=" btn-secondary text-center" style="font-weight: bold;"
                                         (click)="increaseQuantity(item.id)">+</button>
                                 </div>
                             </div>
                         </div>
                         <div class="col-7">
-                            <div class="row">
+                            <div class="row p-3">
                                 <div class="py-1" style="font-size: 23px;">{{item.productData.name}}</div>
                                 <div class="py-1">
-                                    <h6>by {{item.productData.author}}</h6>
+                                    <h6 style="font-size: 15px;font-weight: bold;" >by {{item.productData.author}}</h6>
                                 </div>
                                 <div class="py-1">
-                                    <h6>{{item.productData.name}}</h6>
+                                    <h6 style="font-size: 15px;font-weight: bold;">{{item.productData.name}}</h6>
                                 </div>
                                 <div class="py-2 text-success">
                                     <h4 class="py-3"
                                         style="font-weight: bold;border-bottom: 1px solid lightgray; border-top: 1px solid lightgray ;">
                                         Available</h4>
                                 </div>
-                                <div class="py-1 text-danger">
+                                <div class="py-1 text-danger" style="font-size: 15px; font-weight: bold;">
                                     <h6>Delivery by sat jan 7</h6>
                                 </div>
-                                <div class="py-1">
-                                    <h6>Free Delivery</h6>
+                                <div class="pt-1">
+                                    <h6 style="font-size: 15px;font-weight: bold;">Free Delivery</h6>
                                 </div>
                             </div>
-                            <div class="row d-flex my-2">
+                            <div class="row d-flex mb-1">
                                 <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                                    <button class="btn btn-outline-warning me-md-2" type="button"
+                                    <button class="btn btn-warning me-md-2 text-white" type="button"
                                         (click)="delete(item.id)">Delete</button>
-                                    <button class="btn btn-outline-warning" type="button">Save for later</button>
+                                    <button class="btn btn-warning text-white" type="button">Save for later</button>
                                 </div>
                                 <!-- <div class="col-3">
                         <button class="btn">Delet</button>
@@ -98,25 +98,24 @@
                 </div>
                 <div class="row  p-3 mb-3 bg-white cart-box col-box">
                     <div class="row cart-h my-1 ">
-                        <div class="col-9">Prize(1 items)</div>
+                        <div class="col-9">Prize</div>
 
-                        <div class="col-3">$2,341</div>
+                        <div class="col-3">${{getTotal().toFixed(2)}}</div>
                     </div>
                     <div class="row my-1 cart-h">
-                        <div class="col-9">Discount</div>
+                        <div class="col-9">Tax</div>
 
-                        <div class="col-3">$ 371</div>
+                        <div class="col-3">$ {{getTax().toFixed(2)}}</div>
                     </div>
                     <div class="row my-1 cart-h">
-                        <div class="col-9">Delivery Charges</div>
+                        <div class="col-9">Delivery Charge</div>
 
-                        <div class="col-3">$ 27</div>
+                        <div class="col-3">{{deliveryCharge.toFixed(2)}}</div>
                     </div>
-                    <div class="row my-4 py-3 mx-1 prizehd "
-                        style="font-size: 18px; border-bottom: 1px solid lightgray;border-top: 1px solid lightgray;">
+                    <div class="row my-4 py-3 mx-1 prizehd "  style="font-size: 18px; border-bottom: 1px solid lightgray;border-top: 1px solid lightgray;">
                         <div class="col-8">Total Amount</div>
 
-                        <div class="col-4">$ 2,907</div>
+                        <div class="col-4"> {{getGrandTotal()}}</div>
                     </div>
                     <div class="row text-success" style="font-size: 17px;">You will save $371 on this order</div>
                 </div>

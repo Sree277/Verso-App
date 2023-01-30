@@ -14,7 +14,7 @@ export class FictionComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  fiction: Array<any> = this.bookService.getBooksByCategory("fiction", true);
+  fiction: Array<any> = this.bookService.getBooksByCategory("fiction", false);
 
 
 }

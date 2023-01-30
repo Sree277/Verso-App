@@ -13,7 +13,7 @@ export class PoetryComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  poetry: Array<any> = this.bookService.getBooksByCategory("poetry", true);
+  poetry: Array<any> = this.bookService.getBooksByCategory("poetry", false);
 
 
 }

@@ -75,7 +75,6 @@ export class BookService {
       "name": "The Value of a Whale",
       "isNewArrival": true,
       "isTopSelling": true,
-      "isFavorite": true,
       "categories": ["classic"],
       "author": "Adrienne Buller ",
       "bookImage": "book41.jpg",
@@ -143,7 +142,7 @@ export class BookService {
       "name": "A Court of Thorns and Roses",
       "isNewArrival": true,
       "isTopSelling": true,
-      "categories": ["love stories"],
+      "categories": ["love_stories"],
       "author": "Sarah J. Maas",
       "bookImage": "book8.jpg",
       "bookPrize": 386.00,
@@ -314,7 +313,7 @@ export class BookService {
       "author": "Matt Haig ",
       "bookImage": "book5.jpg",
       "isNewArrival": true,
-      "categories": ["love story"],
+      "categories": ["love_story"],
       "bookPrize": 165.92,
       "orginalBookPrize": 189.04,
       "publisher": " Canongate Books",
@@ -327,7 +326,7 @@ export class BookService {
       "bookId": "16",
       "name": "The Seven Husbands of Evelyn Hugo",
       "isNewArrival": true,
-      "categories": ["love story"],
+      "categories": ["love_story"],
       "author": "Taylor Jenkins Reid",
       "bookImage": "book6.jpg",
       "bookPrize": 250.65,
@@ -569,6 +568,7 @@ export class BookService {
       "bookId": "31",
       "name": "Believe in yourself ",
       "isRentable": true,
+      "isFavorite": true,
       "categories": ["classic"],
       "author": " Joseph Murphy ",
       "bookImage": "book83.webp",
@@ -871,7 +871,7 @@ export class BookService {
     {
       "bookId": "51",
       "name": "Ugly Love",
-      "categories": ["classic"],
+      "categories": ["love_story"],
       "isRentable": true,
       "isNewOffer": true,
       "author": "Colleen Hoover",
@@ -887,7 +887,7 @@ export class BookService {
     {
       "bookId": "52",
       "name": "Wish I Could Tell You",
-      "categories": ["classic"],
+      "categories": ["love_story"],
       "isTopSelling": true,
       "isRentable": true,
       "isNewOffer": true,
@@ -904,7 +904,7 @@ export class BookService {
     {
       "bookId": "53",
       "name": "Touch of Eternity",
-      "categories": ["classic"],
+      "categories": ["love_story"],
       "isRentable": true,
       "author": "Datta Durjoy",
       "bookImage": "book142.jpg",
@@ -919,7 +919,7 @@ export class BookService {
     {
       "bookId": "54",
       "name": "boThe Girl in the Glass Casek82",
-      "categories": ["fiction"],
+      "categories": ["love_story"],
       "author": "Devashish Sardana",
       "bookImage": "book143.jpg",
       "bookPrize": 150.00,
@@ -933,7 +933,7 @@ export class BookService {
     {
       "bookId": "55",
       "name": "Where the Crawdads Sing",
-      "categories": ["classic"],
+      "categories": ["love_story"],
       "isRentable": true,
       "author": "Delia Owens",
       "bookImage": "book144.jpg",
@@ -948,7 +948,7 @@ export class BookService {
     {
       "bookId": "56",
       "name": "A Girl to Remember",
-      "categories": ["classic"],
+      "categories": ["love_story"],
       "isRentable": true,
       "author": "Ajay.K. Pandey",
       "bookImage": "book146.jpg",
@@ -963,7 +963,7 @@ export class BookService {
     {
       "bookId": "57",
       "name": "Maybe Someday",
-      "categories": ["classic"],
+      "categories": ["love_story"],
       "isRentable": true,
       "author": "Colleen Hoover",
       "bookImage": "book147.jpg",
@@ -978,7 +978,7 @@ export class BookService {
     {
       "bookId": "58",
       "name": "Jaya",
-      "categories": ["classic"],
+      "categories": ["love_story"],
       "isRentable": true,
       "author": "Dr. Devdutt Pattanaik ",
       "bookImage": "book148.jpg",
@@ -993,7 +993,7 @@ export class BookService {
     {
       "bookId": "59",
       "name": "Harry Potter and the Prisoner of Azkaban",
-      "categories": ["classic"],
+      "categories": ["love_story"],
       "isRentable": true,
       "author": "J. K. Rowling",
       "bookImage": "book150.jpg",
@@ -1382,6 +1382,7 @@ export class BookService {
     {
       "bookId": "84",
       "name": "Upgrade",
+      "isTopSelling": true,
       "categories": ["classic"],
       "isFavorite": true,
       "isNewOffer": true,
@@ -1509,6 +1510,7 @@ export class BookService {
     // .............................cooking.......................................
     {
       "bookId": "92",
+      "isFavorite": true,
       "name": "Masala Dabba",
       "categories": ["cooking"],
       "author": " Michael Swamy ",
@@ -1696,6 +1698,8 @@ export class BookService {
     },
     {
       "bookId": "105",
+      "isFavorite": true,
+      "topSelling":true,
       "name": "The Essential Kerala Cookbook",
       "categories": ["cooking"],
       "author": "Vijayan Kannampilly",
@@ -2813,6 +2817,7 @@ export class BookService {
 
     {
       "bookId": "181",
+      "isFavorite": true,
       "name": "The Innocent Footsteps",
       "categories": ["nonfiction"],
       "isNewOffer": true,
@@ -3322,6 +3327,7 @@ export class BookService {
     },
     {
       "bookId": "216",
+      "isFavorite": true,
       "name": "Will You Still Love Me? ",
       "categories": ["love_story"],
       "author": "Ravinder Singh  ",
@@ -3439,6 +3445,7 @@ export class BookService {
     {
       "bookId": "224",
       "name": "Shoe Dog",
+      "isTopSelling": true,
       "categories": ["fiction"],
       "author": " Phil Knight  ",
       "bookImage": "book265.webp",
@@ -3689,6 +3696,7 @@ export class BookService {
       "bookId": "241",
       "name": "All Your Perfects",
       "isTopSelling": true,
+      "isFavorite": true,
       "categories": [""],
       "author": " Colleen Hoover",
       "bookImage": "book211.jpg",
@@ -3703,6 +3711,7 @@ export class BookService {
     {
       "bookId": "242",
       "name": "The Bhagwat Gita",
+      "isFavorite": true,
       "isTopSelling": true,
       "categories": [""],
       "author": "R.R. Varma ",
