@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { Subject } from 'rxjs';
 import { BookService } from './book.service';
 
 @Injectable({
@@ -6,8 +7,11 @@ import { BookService } from './book.service';
 })
 export class CartService {
 
-  constructor(private bookService: BookService) { }
+  constructor(private bookService: BookService) {
+  }
+
   cartList: Array<any> = [];
+  cartItemCount: Subject<number> = new Subject<number>();
 
   addToCart(id: number, quantity: number) {
     let cartItem = this.cartList.find((item) => item.id == id);
@@ -20,6 +24,8 @@ export class CartService {
     else {
       this.cartList.push({ id: id, quantity: quantity });
     }
+
+    this.cartItemCount.next(this.cartList.length);
   }
 
   removeFromCart(id: number) {
@@ -27,6 +33,8 @@ export class CartService {
     if (index > -1) {
       const x = this.cartList.splice(index, 1);
     }
+
+    this.cartItemCount.next(this.cartList.length);
   }
 
   getCartList() {
@@ -40,6 +48,6 @@ export class CartService {
     return cartListData;
   }
 
- 
+
 
 }

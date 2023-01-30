@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Subject } from 'rxjs';
+import { CartService } from '../cart.service';
 
 @Component({
   selector: 'app-main',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainComponent implements OnInit {
 
-  constructor() { }
+  constructor(private cartService: CartService) { }
 
   ngOnInit(): void {
+    this.cartService.cartItemCount.subscribe(count => this.cartItemCount = count);
   }
+
+  cartItemCount: number = 0;
 
 }

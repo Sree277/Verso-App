@@ -4,7 +4,8 @@
     /* font-family: Lato,sans-serif; */
     font-family: "Mier bold";
 }
-.bl{
+
+.bl {
     color: #FFC300;
     margin-top: 10px;
 }
@@ -129,6 +130,19 @@ nav a {
     color: white;
     font-size: 30px;
 
+}
+
+.badge {
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+
+    font-size: 15px;
+    background: #ff0000;
+    color: #fff;
+    padding: 0 5px;
+    vertical-align: top;
+    margin-left: -10px;
 }
 
 @media only screen and(max-width: 1000px) {
