@@ -14,16 +14,4 @@ export class PoetryComponent implements OnInit {
   ngOnInit(): void {
   }
   poetry: Array<any> = this.bookService.getBooksByCategory("poetry", false);
-  pageNumber: number = 1;
-  nextPage() {
-    this.pageNumber = this.pageNumber + 1;
-    this.poetry = this.bookService.getBookByPageNumber(this.poetry, this.pageNumber);
-
-  }
-  prevPage() {
-    this.pageNumber = this.pageNumber - 1
-  }
-
-
-
 }

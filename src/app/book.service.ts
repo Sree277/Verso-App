@@ -7,7 +7,7 @@ export class BookService {
 
   constructor() { }
 
-  numberOfItem: number = 6;
+  numberOfItem: number = 12;
 
   getNewArrivals(showOnlyTopSelling: boolean) {
     if (showOnlyTopSelling) {

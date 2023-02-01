@@ -12,13 +12,7 @@ export class NewArrivalComponent implements OnInit {
   constructor(private bookService: BookService) { }
 
   ngOnInit(): void {
-    this.newArrivals = this.bookService.getBookByPageNumber(this.newArrivalsFullData, 1);
   }
-  newArrivalsFullData: Array<any> = this.bookService.getNewArrivals(false);
-  newArrivals: Array<any> = [];
-  lastPageNumber: number = Math.ceil(this.newArrivalsFullData.length / this.bookService.numberOfItem);
 
-  handlePageChange(pageNumber: number) {
-    this.newArrivals = this.bookService.getBookByPageNumber(this.newArrivalsFullData, pageNumber);
-  }
+  newArrivals: Array<any> = this.bookService.getNewArrivals(false);
 }

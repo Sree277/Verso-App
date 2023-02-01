@@ -11,9 +11,15 @@ export class BookListComponent implements OnInit {
 
   ngOnInit(): void {
   }
-   
+
   @Input() books: Array<any> = [
-    
+
   ]
-  
+
+  filteredBooks: Array<any> = [];
+
+  handlePageChange(filteredBooks: Array<any>) {
+    this.filteredBooks = filteredBooks;
+  }
+
 }

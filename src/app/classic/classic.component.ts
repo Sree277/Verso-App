@@ -14,15 +14,4 @@ export class ClassicComponent implements OnInit {
   ngOnInit(): void {
   }
   classic: Array<any> = this.bookService.getBooksByCategory("classic", true);
-  pageNumber: number = 1;
-  nextPage() {
-    this.pageNumber = this.pageNumber + 1;
-    this.classic = this.bookService.getBookByPageNumber(this.classic, this.pageNumber);
-
-  }
-  prevPage() {
-    this.pageNumber = this.pageNumber - 1
-  }
-
-
 }
