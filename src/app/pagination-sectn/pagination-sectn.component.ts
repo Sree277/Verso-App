@@ -1,4 +1,4 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { BookService } from '../book.service';
 
 
@@ -15,6 +15,9 @@ export class PaginationSectnComponent implements OnInit {
   }
 
   pageNumber: number = 1;
+
+  @Input()
+  lastPageNumber: number = 1;
 
   @Output()
   onPageChange: EventEmitter<number> = new EventEmitter<number>();

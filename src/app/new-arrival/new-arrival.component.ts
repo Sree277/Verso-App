@@ -16,6 +16,7 @@ export class NewArrivalComponent implements OnInit {
   }
   newArrivalsFullData: Array<any> = this.bookService.getNewArrivals(false);
   newArrivals: Array<any> = [];
+  lastPageNumber: number = Math.ceil(this.newArrivalsFullData.length / this.bookService.numberOfItem);
 
   handlePageChange(pageNumber: number) {
     this.newArrivals = this.bookService.getBookByPageNumber(this.newArrivalsFullData, pageNumber);

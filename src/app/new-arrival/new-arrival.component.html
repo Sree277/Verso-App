@@ -81,7 +81,8 @@
                 <div class="col-md-9 mt-5 ml-1 bg-white">
 
                     <app-book-list [books]="newArrivals"></app-book-list>
-                    <app-pagination-sectn (onPageChange)="handlePageChange($event)"></app-pagination-sectn>
+                    <app-pagination-sectn (onPageChange)="handlePageChange($event)"
+                        [lastPageNumber]="lastPageNumber"></app-pagination-sectn>
                 </div>
             </div>
         </div>
