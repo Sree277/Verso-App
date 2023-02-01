@@ -81,24 +81,7 @@
                 <div class="col-md-9 mt-5 ml-1 bg-white">
 
                     <app-book-list [books]="newArrivals"></app-book-list>
-                    
-                    <nav aria-label="...">
-                        <ul class="pagination pagination-lg justify-content-center">
-                          <li class="page-item">
-                            <button  tabindex="-1" aria-disabled="true" (click)="prevPage()" *ngIf="pageNumber>1">Previous</button>
-                          </li>
-                          <!-- <li class="page-item"><a class="page-link" href="#"></a></li> -->
-                          <li class="page-item active" aria-current="page">
-                            <a class="page-link" href="#">{{pageNumber}}<span class="visually-hidden">(current)</span></a>
-                          </li>
-                          <!-- <li class="page-item"><a class="page-link" href="#">3</a></li>
-                          <li class="page-item"><a class="page-link" href="#">4</a></li> -->
-                    
-                          <li class="page-item">
-                            <button  (click)="nextPage()">Next</button>
-                          </li>
-                        </ul>
-                      </nav>
+                    <app-pagination-sectn (onPageChange)="handlePageChange($event)"></app-pagination-sectn>
                 </div>
             </div>
         </div>

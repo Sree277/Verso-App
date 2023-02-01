@@ -7,7 +7,7 @@ export class BookService {
 
   constructor() { }
 
-  numberOfItem:number=10;
+  numberOfItem: number = 6;
 
   getNewArrivals(showOnlyTopSelling: boolean) {
     if (showOnlyTopSelling) {
@@ -77,15 +77,15 @@ export class BookService {
     return this.books.find(b => b.bookId == id);
   }
 
-  getBookStartIndex(pageNumber:number){
-   return (pageNumber-1) * this.numberOfItem;
+  getBookStartIndex(pageNumber: number) {
+    return (pageNumber - 1) * this.numberOfItem;
   }
 
-  getBookByPageNumber(pageNumber:number){
+  getBookByPageNumber(books: Array<any>, pageNumber: number) {
     let bookStartIndex = this.getBookStartIndex(pageNumber);
-    return this.books.slice(bookStartIndex, bookStartIndex+this.numberOfItem);
+    return books.slice(bookStartIndex, bookStartIndex + this.numberOfItem);
   }
-  
+
   books: Array<any> = [
     {
       "bookId": "1",
@@ -1716,7 +1716,7 @@ export class BookService {
     {
       "bookId": "105",
       "isFavorite": true,
-      "topSelling":true,
+      "topSelling": true,
       "name": "The Essential Kerala Cookbook",
       "categories": ["cooking"],
       "author": "Vijayan Kannampilly",

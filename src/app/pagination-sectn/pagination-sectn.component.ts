@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { BookService } from '../book.service';
 
 
@@ -14,14 +14,20 @@ export class PaginationSectnComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  pageNumber:number=1;
-  nextPage(){
-    this.pageNumber=this.pageNumber+1;
+  pageNumber: number = 1;
 
+  @Output()
+  onPageChange: EventEmitter<number> = new EventEmitter<number>();
+
+  nextPage() {
+    this.pageNumber = this.pageNumber + 1;
+    this.onPageChange.emit(this.pageNumber);
   }
-  prevPage(){
-    this.pageNumber=this.pageNumber-1
+
+  prevPage() {
+    this.pageNumber = this.pageNumber - 1;
+    this.onPageChange.emit(this.pageNumber);
   }
-  
+
 
 }

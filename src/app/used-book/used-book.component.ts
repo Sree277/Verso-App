@@ -13,16 +13,16 @@ export class UsedBookComponent implements OnInit {
 
   ngOnInit(): void {
   }
-    
+
   usedBook: Array<any> = this.bookService.getUsedBook(false);
-  pageNumber:number=1;
-  nextPage(){
-    this.pageNumber=this.pageNumber+1;
-    this.usedBook= this.bookService.getBookByPageNumber(this.pageNumber);
+  pageNumber: number = 1;
+  nextPage() {
+    this.pageNumber = this.pageNumber + 1;
+    this.usedBook = this.bookService.getBookByPageNumber(this.usedBook, this.pageNumber);
 
   }
-  prevPage(){
-    this.pageNumber=this.pageNumber-1
+  prevPage() {
+    this.pageNumber = this.pageNumber - 1
   }
 
 
