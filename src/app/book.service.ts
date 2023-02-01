@@ -6,6 +6,9 @@ import { Injectable } from '@angular/core';
 export class BookService {
 
   constructor() { }
+
+  numberOfItem:number=10;
+
   getNewArrivals(showOnlyTopSelling: boolean) {
     if (showOnlyTopSelling) {
       return this.books.filter(b => b.isNewArrival == true && b.isTopSelling == true);
@@ -14,6 +17,7 @@ export class BookService {
       return this.books.filter(b => b.isNewArrival == true);
     }
   }
+
   getFavorite(showOnlyTopSelling: boolean) {
     if (showOnlyTopSelling) {
       return this.books.filter(b => b.isFavorite == true && b.isTopSelling == true);
@@ -22,6 +26,7 @@ export class BookService {
       return this.books.filter(b => b.isFavorite == true);
     }
   }
+
   getRentBook(showOnlyTopSelling: boolean) {
     if (showOnlyTopSelling) {
       return this.books.filter(b => b.isRentable == true && b.isTopSelling == true);
@@ -30,6 +35,7 @@ export class BookService {
       return this.books.filter(b => b.isRentable == true);
     }
   }
+
   getUsedBook(showOnlyTopSelling: boolean) {
     if (showOnlyTopSelling) {
       return this.books.filter(b => b.isUsed == true && b.isTopSelling == true);
@@ -47,6 +53,7 @@ export class BookService {
       return this.books.filter(b => b.categories.includes(category));
     }
   }
+
   getNewOffer(showOnlyTopSelling: boolean) {
     if (showOnlyTopSelling) {
       return this.books.filter(b => b.isNewOffer == true && b.isTopSelling == true);
@@ -55,6 +62,7 @@ export class BookService {
       return this.books.filter(b => b.isNewOffer == true);
     }
   }
+
   getBooksPriceBetween(minPrice: number, maxPrice: number, showOnlyTopSelling: boolean) {
     if (showOnlyTopSelling) {
       return this.books.filter(b => b.bookPrize >= minPrice && b.bookPrize < maxPrice && b.isTopSelling == true);
@@ -69,6 +77,15 @@ export class BookService {
     return this.books.find(b => b.bookId == id);
   }
 
+  getBookStartIndex(pageNumber:number){
+   return (pageNumber-1) * this.numberOfItem;
+  }
+
+  getBookByPageNumber(pageNumber:number){
+    let bookStartIndex = this.getBookStartIndex(pageNumber);
+    return this.books.slice(bookStartIndex, bookStartIndex+this.numberOfItem);
+  }
+  
   books: Array<any> = [
     {
       "bookId": "1",

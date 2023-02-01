@@ -15,6 +15,16 @@ export class UsedBookComponent implements OnInit {
   }
     
   usedBook: Array<any> = this.bookService.getUsedBook(false);
+  pageNumber:number=1;
+  nextPage(){
+    this.pageNumber=this.pageNumber+1;
+    this.usedBook= this.bookService.getBookByPageNumber(this.pageNumber);
+
+  }
+  prevPage(){
+    this.pageNumber=this.pageNumber-1
+  }
+
 
 
 }

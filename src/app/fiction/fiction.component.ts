@@ -15,6 +15,16 @@ export class FictionComponent implements OnInit {
   ngOnInit(): void {
   }
   fiction: Array<any> = this.bookService.getBooksByCategory("fiction", false);
+  pageNumber:number=1;
+  nextPage(){
+    this.pageNumber=this.pageNumber+1;
+    this.fiction= this.bookService.getBookByPageNumber(this.pageNumber);
+
+  }
+  prevPage(){
+    this.pageNumber=this.pageNumber-1
+  }
+
 
 
 }

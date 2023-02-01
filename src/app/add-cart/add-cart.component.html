@@ -19,22 +19,22 @@
                     </div>
                 </div>
                 <div class="row  p-3 mb-2 bg-white cart-box ">
-                    <div class="row" style="border-bottom: 1px solid lightgrey;" *ngFor="let item of cartList">
+                    <div class="row my-2"  style="border-bottom: 1px solid rgb(131, 128, 128);" *ngFor="let item of cartList">
                         <div class="col-3">
                             <div class="row p-4">
                                 <img src="assets/images/{{item.productData.bookImage}}" alt="">
                             </div>
-                            <div class="row d-flex my-3 ">
+                            <div class="row d-flex my-3 m-4">
                                 <div class="col-4 ">
-                                    <button class=" btn-secondary text-center " style=" font-weight: bold;"
+                                    <button class=" btn-secondary text-center" style=" font-weight: bold;"
                                         (click)="decreaseQuantity(item.id)">-</button>
                                 </div>
                                 <div class="col-4">
-                                    <div class="text-center" style="font-weight: bold; ">{{item.quantity}}</div>
+                                    <div class="text-center " style="font-weight: bold;">{{item.quantity}}</div>
                                 </div>
 
                                 <div class="col-4">
-                                    <button class=" btn-secondary text-center" style="font-weight: bold;"
+                                    <button class=" btn-secondary text-center " style="font-weight: bold;"
                                         (click)="increaseQuantity(item.id)">+</button>
                                 </div>
                             </div>
@@ -50,7 +50,7 @@
                                 </div>
                                 <div class="py-2 text-success">
                                     <h4 class="py-3"
-                                        style="font-weight: bold;border-bottom: 1px solid lightgray; border-top: 1px solid lightgray ;">
+                                        style="font-weight: bold;border-bottom: 1px solid rgb(190, 189, 189); border-top: 1px solid rgb(190, 189, 189) ;">
                                         Available</h4>
                                 </div>
                                 <div class="py-1 text-danger" style="font-size: 15px; font-weight: bold;">
@@ -60,11 +60,11 @@
                                     <h6 style="font-size: 15px;font-weight: bold;">Free Delivery</h6>
                                 </div>
                             </div>
-                            <div class="row d-flex mb-1">
-                                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                                    <button class="btn btn-warning me-md-2 text-white" type="button"
+                            <div class="row d-flex mb-1 ">
+                                <div class="d-grid gap-2 d-md-flex justify-content-md-start" style="font-size: 16px;">
+                                    <button class="btn btn-warning text-white px-5" type="button"
                                         (click)="delete(item.id)">Delete</button>
-                                    <button class="btn btn-warning text-white" type="button">Save for later</button>
+                                    <!-- <button class="btn btn-warning text-white" type="button">Save for later</button> -->
                                 </div>
                                 <!-- <div class="col-3">
                         <button class="btn">Delet</button>
@@ -115,7 +115,7 @@
                     <div class="row my-4 py-3 mx-1 prizehd "  style="font-size: 18px; border-bottom: 1px solid lightgray;border-top: 1px solid lightgray;">
                         <div class="col-8">Total Amount</div>
 
-                        <div class="col-4"> {{getGrandTotal()}}</div>
+                        <div class="col-4"> {{getGrandTotal().toFixed(2)}}</div>
                     </div>
                     <div class="row text-success" style="font-size: 17px;">You will save $371 on this order</div>
                 </div>

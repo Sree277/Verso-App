@@ -13,6 +13,15 @@ export class FavoriteComponent implements OnInit {
   ngOnInit(): void {
   }
   favorite: Array<any> = this.bookService.getFavorite(false);
+  pageNumber:number=1;
+  nextPage(){
+    this.pageNumber=this.pageNumber+1;
+    this.favorite= this.bookService.getBookByPageNumber(this.pageNumber);
+
+  }
+  prevPage(){
+    this.pageNumber=this.pageNumber-1
+  }
 
 
 }

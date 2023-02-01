@@ -35,6 +35,8 @@ import { DiscountofferSectionComponent } from './discountoffer-section/discounto
 import { MainComponent } from './main/main.component';
 import { BookService } from './book.service';
 import { CartService } from './cart.service';
+import { PaginationSectnComponent } from './pagination-sectn/pagination-sectn.component';
+
 
 
 
@@ -69,7 +71,8 @@ import { CartService } from './cart.service';
     ClassicComponent,
     BookListComponent,
     DiscountofferSectionComponent,
-    MainComponent
+    MainComponent,
+    PaginationSectnComponent
 
 
   ],
@@ -80,7 +83,7 @@ import { CartService } from './cart.service';
     CarouselModule,
     FormsModule
   ],
-  providers: [BookService, CartService],
+  providers: [BookService, CartService,],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

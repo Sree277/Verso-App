@@ -3,26 +3,25 @@ import { BookService } from '../book.service';
 
 
 @Component({
-  selector: 'app-classic',
-  templateUrl: './classic.component.html',
-  styleUrls: ['./classic.component.css']
+  selector: 'app-pagination-sectn',
+  templateUrl: './pagination-sectn.component.html',
+  styleUrls: ['./pagination-sectn.component.css']
 })
-export class ClassicComponent implements OnInit {
+export class PaginationSectnComponent implements OnInit {
 
   constructor(private bookService: BookService) { }
 
   ngOnInit(): void {
   }
-  classic: Array<any> = this.bookService.getBooksByCategory("classic", true);
+
   pageNumber:number=1;
   nextPage(){
     this.pageNumber=this.pageNumber+1;
-    this.classic= this.bookService.getBookByPageNumber(this.pageNumber);
 
   }
   prevPage(){
     this.pageNumber=this.pageNumber-1
   }
-
+  
 
 }
