@@ -1,4 +1,5 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit, ViewChild } from '@angular/core';
+import { BookSearchboxComponent } from '../book-searchbox/book-searchbox.component';
 
 @Component({
   selector: 'app-book-list',
@@ -11,6 +12,7 @@ export class BookListComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  @ViewChild(BookSearchboxComponent) bookSearchbox: BookSearchboxComponent | undefined;
 
   @Input() books: Array<any> = [
 
@@ -19,6 +21,11 @@ export class BookListComponent implements OnInit {
   filteredBooks: Array<any> = [];
 
   handlePageChange(filteredBooks: Array<any>) {
+    this.filteredBooks = filteredBooks;
+    this.bookSearchbox?.clearSearch();
+  }
+
+  handleSearch(filteredBooks: Array<any>) {
     this.filteredBooks = filteredBooks;
   }
 

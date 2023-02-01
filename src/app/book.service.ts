@@ -86,6 +86,10 @@ export class BookService {
     return books.slice(bookStartIndex, bookStartIndex + this.numberOfItem);
   }
 
+  getBookSearchResult(books: any[], searchText: string) {
+    return books.filter(b => b.name.toLowerCase().includes(searchText.toLowerCase()));
+  }
+
   books: Array<any> = [
     {
       "bookId": "1",

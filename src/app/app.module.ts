@@ -36,6 +36,7 @@ import { MainComponent } from './main/main.component';
 import { BookService } from './book.service';
 import { CartService } from './cart.service';
 import { PaginationSectnComponent } from './pagination-sectn/pagination-sectn.component';
+import { BookSearchboxComponent } from './book-searchbox/book-searchbox.component';
 
 
 
@@ -72,7 +73,8 @@ import { PaginationSectnComponent } from './pagination-sectn/pagination-sectn.co
     BookListComponent,
     DiscountofferSectionComponent,
     MainComponent,
-    PaginationSectnComponent
+    PaginationSectnComponent,
+    BookSearchboxComponent
 
 
   ],
