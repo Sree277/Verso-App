@@ -11,12 +11,16 @@ export class BookListComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    if (this.hidePaging) { this.filteredBooks = this.books; }
   }
   @ViewChild(BookSearchboxComponent) bookSearchbox: BookSearchboxComponent | undefined;
 
   @Input() books: Array<any> = [
 
   ]
+
+  @Input() hidePaging: boolean = false;
+
 
   filteredBooks: Array<any> = [];
 

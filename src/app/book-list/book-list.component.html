@@ -26,4 +26,5 @@
     </div>
   </div>
 </div>
-<app-pagination-sectn (onPageChange)="handlePageChange($event)" [books]="books"></app-pagination-sectn>
+<app-pagination-sectn *ngIf="!hidePaging" (onPageChange)="handlePageChange($event)"
+  [books]="books"></app-pagination-sectn>
