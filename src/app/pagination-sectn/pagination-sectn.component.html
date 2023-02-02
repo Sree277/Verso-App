@@ -1,17 +1,17 @@
-<nav aria-label="...">
-  <ul class="pagination pagination-lg justify-content-center">
+<nav aria-label="..." class="mt-5 page">
+  <ul class="pagination pagination-lg justify-content-center mt-5 ">
     <li class="page-item">
-      <button tabindex="-1" aria-disabled="true" (click)="prevPage()" *ngIf="pageNumber>1">Previous</button>
+      <button class="btn px-3 np mx-5 py-2"  (click)="prevPage()" *ngIf="pageNumber>1" style="background-color:#FFC300 ;"> <i class="bi bi-arrow-left-circle"></i></button>
     </li>
     <!-- <li class="page-item"><a class="page-link" href="#"></a></li> -->
     <li class="page-item active" aria-current="page">
-      <a class="page-link" href="#">{{pageNumber}}<span class="visually-hidden">(current)</span></a>
+      <a class="num p-4" >{{pageNumber}}<span class="visually-hidden">(current)</span></a>
     </li>
     <!-- <li class="page-item"><a class="page-link" href="#">3</a></li>
       <li class="page-item"><a class="page-link" href="#">4</a></li> -->
 
     <li class="page-item">
-      <button (click)="nextPage()" *ngIf="pageNumber<lastPageNumber">Next</button>
+      <button class="btn px-3 np mx-5 py-2" (click)="nextPage()"  *ngIf="pageNumber<lastPageNumber"   style="background-color: #C21807;"><i class="bi bi-arrow-right-circle"></i></button>
     </li>
   </ul>
 </nav>
