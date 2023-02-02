@@ -28,6 +28,9 @@ export class BookSearchboxComponent implements OnInit {
 
   clearSearch() {
     this.searchText = '';
+    let filteredBooks = this.bookService.getBookSearchResult(this.books, this.searchText);
+    this.onSearch.emit(filteredBooks);
+    
   }
 
 }
