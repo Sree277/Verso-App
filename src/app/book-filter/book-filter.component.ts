@@ -37,10 +37,14 @@ export class BookFilterComponent implements OnInit {
   }
 
   sortHighToLow() {
-    this.searchText = '';
+    this.books = this.bookService.sortBookHighToLow(this.books);
+    let filteredBooks = this.bookService.getBookByPageNumber(this.books, 1);
+    this.onSearch.emit(filteredBooks);
   }
 
   sortLowToHigh() {
-    this.searchText = '';
+    this.books = this.bookService.sortBookLowToHigh(this.books);
+    let filteredBooks = this.bookService.getBookByPageNumber(this.books, 1);
+    this.onSearch.emit(filteredBooks);
   }
 }

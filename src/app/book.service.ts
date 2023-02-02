@@ -90,6 +90,22 @@ export class BookService {
     return books.filter(b => b.name.toLowerCase().includes(searchText.toLowerCase()));
   }
 
+  sortBookHighToLow(books: any[]) {
+    return books.sort((a, b) => {
+      if (a.bookPrize < b.bookPrize) return 1;
+      if (a.bookPrize > b.bookPrize) return -1;
+      return 0;
+    });
+  }
+
+  sortBookLowToHigh(books: any[]) {
+    return books.sort((a, b) => {
+      if (a.bookPrize > b.bookPrize) return 1;
+      if (a.bookPrize < b.bookPrize) return -1;
+      return 0;
+    });
+  }
+
   books: Array<any> = [
     {
       "bookId": "1",
