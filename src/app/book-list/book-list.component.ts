@@ -26,7 +26,7 @@ export class BookListComponent implements OnInit {
 
   handlePageChange(filteredBooks: Array<any>) {
     this.filteredBooks = filteredBooks;
-    this.bookSearchbox?.clearSearch();
+    this.bookSearchbox?.clearSearchBox();
   }
 
   handleSearch(filteredBooks: Array<any>) {

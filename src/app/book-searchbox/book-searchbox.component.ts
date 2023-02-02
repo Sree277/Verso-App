@@ -26,11 +26,13 @@ export class BookSearchboxComponent implements OnInit {
     this.onSearch.emit(filteredBooks);
   }
 
-  clearSearch() {
+  clearSearchBox() {
     this.searchText = '';
-    let filteredBooks = this.bookService.getBookSearchResult(this.books, this.searchText);
-    this.onSearch.emit(filteredBooks);
-    
   }
 
+  clearSearch() {
+    this.clearSearchBox();
+    let filteredBooks = this.bookService.getBookByPageNumber(this.books, 1);
+    this.onSearch.emit(filteredBooks);
+  }
 }
