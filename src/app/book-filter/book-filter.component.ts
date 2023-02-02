@@ -2,11 +2,11 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { BookService } from '../book.service';
 
 @Component({
-  selector: 'app-book-searchbox',
-  templateUrl: './book-searchbox.component.html',
-  styleUrls: ['./book-searchbox.component.css']
+  selector: 'app-book-filter',
+  templateUrl: './book-filter.component.html',
+  styleUrls: ['./book-filter.component.css']
 })
-export class BookSearchboxComponent implements OnInit {
+export class BookFilterComponent implements OnInit {
 
   constructor(private bookService: BookService) { }
 
@@ -34,5 +34,13 @@ export class BookSearchboxComponent implements OnInit {
     this.clearSearchBox();
     let filteredBooks = this.bookService.getBookByPageNumber(this.books, 1);
     this.onSearch.emit(filteredBooks);
+  }
+
+  sortHighToLow() {
+    this.searchText = '';
+  }
+
+  sortLowToHigh() {
+    this.searchText = '';
   }
 }

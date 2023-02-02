@@ -36,7 +36,7 @@ import { MainComponent } from './main/main.component';
 import { BookService } from './book.service';
 import { CartService } from './cart.service';
 import { PaginationSectnComponent } from './pagination-sectn/pagination-sectn.component';
-import { BookSearchboxComponent } from './book-searchbox/book-searchbox.component';
+import { BookFilterComponent } from './book-filter/book-filter.component';
 
 
 
@@ -74,7 +74,7 @@ import { BookSearchboxComponent } from './book-searchbox/book-searchbox.componen
     DiscountofferSectionComponent,
     MainComponent,
     PaginationSectnComponent,
-    BookSearchboxComponent
+    BookFilterComponent
 
 
   ],

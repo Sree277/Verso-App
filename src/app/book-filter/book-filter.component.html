@@ -1,0 +1,6 @@
+<input type="text" class="my-3" placeholder="search here ..." (keyup)="searchBooks()" [(ngModel)]="searchText">
+<button type="button" (click)="clearSearch()" id="btnTopSearch"
+    class="btn pb-1 sprite btn11 search-btn  justify-content-center search_button">
+    <i class="bi bi-x-circle-fill"></i></button>
+<button type="button" (click)="sortHighToLow()" class="btn">High to low</button>
+<button type="button" (click)="sortLowToHigh()" class="btn">Low to high</button>
